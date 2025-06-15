@@ -1,0 +1,734 @@
+
+\cite{Enhancing human creativity}
+
+At this stage, it is useful to briefly discuss several key concepts from the literature on human creativity. I aim to outline five essential concepts relevant to designing co-creative systems, beginning with the definitions and measures of creativity.
+
+\subsection{Defining and measuring human creativity}
+
+Firstly, how do we define and measure creativity? The term creativity can refer to a person (e.g., "Frida Kahlo was very creative"), a process (e.g., "my creative process"), a product (e.g., "this story is very creative"), or an environment that fosters creativity (e.g., "a very creative city"). These four components were initially conceptualised by Rhodes \cite{Rhodes1961-od} as the influential 4Ps of creativity: Person, Process, Product, and Press (the environment in which creativity occurs). Rhodes argues that all four elements influence each other, thus highlighting their importance when designing co-creative systems. Designers should consider the individual’s personality and characteristics, the creative process they follow, the outcome of this process, and the environment in which they operate.
+
+However, measuring creativity is complex. Generally, the literature converges on the "Standard Definition of Creativity" when evaluating outputs from individuals or systems. This definition posits that an output is creative if it meets the dual criteria of being both \textit{novel} and \textit{valuable, appropriate, or useful} \cite{Amabile1983-lj, Sternberg1998-oz, Runco2012-mk, Boden2003-hk}. Additionally, \textit{surprise} is often considered a related yet distinct criterion. Surprise differs from novelty, as it is measured against observer expectations, whereas novelty assesses difference relative to existing artifacts \cite{Simonton2012-bv}, a distinction supported by empirical findings \cite{Grace2015-uc}. Nonetheless, novelty and usefulness remain central to the evaluation of creative outputs.
+
+For example, when asked for alternative uses for a tennis racket, proposing its use as a kayaking paddle may be novel and surprising but not particularly useful, thus not meeting the full criteria of creativity. In contrast, using it as a cheese cutter might be both novel and practical, fulfilling the creativity criteria.
+
+This definition implies that the design of co-creative systems should focus on helping users generate outputs that are both novel and contextually useful. The evaluation of these criteria—novelty and value—can vary significantly depending on context. For instance, artistic creativity might value beauty, artist satisfaction, or commercial success, whereas scientific creativity might focus on theoretical validity and unexpected combinations of ideas. Clearly defining the context, measures of novelty, and value, and clarifying the importance of process versus product is critical when designing and evaluating co-creative systems.
+
+\subsection{Creativity as moving through stages}
+
+The second concept from the literature on creativity relevant to the design of co-creative system I will discuss if creativity as a cognitive process that involves distinct stages. Early conceptualisations identified at least two stages—divergent and convergent phases \cite{Wallas1926-ky, Guilford1950-hs, Lubart2001-vl, Kaufman2009-vx}. In divergent stages, the creator ideates and explores various options. In convergent stages, they drill down on a few, and seek to carry it out to completion. Within these broader stages, various frameworks have been proposed. Wallas, for instance, outlined four stages: preparation, incubation, illumination, and verification. The more recent "Double Diamond" framework describes divergent and convergent phases with substages: Discover, Define, Develop, and Deliver \cite{Design-Council2004-fv}.
+
+While the sequence and emphasis of these stages can vary greatly among individuals and creative tasks \cite{Paul2023-cq}, designers of co-creative systems should consider the stage-based nature of creativity. Key questions include: Which creative stages does the system support? What interactions are most suitable at each stage? For example, ideation phases might emphasise exploration, whereas later stages might require more focused and convergent interaction. If the system supports many phases, it is worth considering how the system facilitates transitions between stages? Emerging empirical research provides some insights, as we will see later, though many questions remain open.
+
+\subsection{Creativity as enjoyable meaningful: conditions of flow}
+
+When designing co-creative AI systems, it is important to consider the nature of creativity as an activity often described as inherently rewarding, and the outputs of such processes as integral to human experience and meaning-making \cite{Csikszentmihalyi1988-pg, Csikszentmihalyi1996-qq, Eno2024-rj}. This is succinctly captured by various thinkers across history, such as Bernard Shaw's claim that "without art, the crudeness of reality would make the world unbearable," Nietzsche’s claim that "without music, life would be a mistake," and Stella Adler's observation that "Life beats down and crushes the soul and art reminds you that you have one." Csikszentmihalyi \cite{Csikszentmihalyi1988-pg, Csikszentmihalyi1996-qq} has extensively described how it is common for individuals to describe engaging in creative activities as some of the most rewarding and enjoyable experiences of their life. 
+
+Co-creative systems must therefore consider creativity’s intrinsic value. Resistance to AI in creative processes often arises from concerns about automation diminishing enjoyment. Brian Eno notes as a critique to generative AI systems that the pleasure of creativity lies largely in the process itself, and most tools today focus on the outputs rather than the process \cite{Eno2024-rj}. Hence, co-creative systems should prioritise enhancing rather than trivialising this experience, making interactions enjoyable and rewarding.
+
+Csikszentmihalyi’s theory of flow provides valuable insights into this aspect \cite{Csikszentmihalyi1988-pg, Csikszentmihalyi1996-qq}. Flow, characterised by effortless engagement and intrinsic enjoyment, is frequently described as one of life's most rewarding experiences. Csikszentmihalyi identified key conditions for flow, which co-creative systems can leverage:
+
+\begin{itemize}
+    \item Clear goals and immediate feedback: helping users clarify objectives and monitor progress.
+    \item Balance between challenge and skill: 
+    \item Sense of control: ensuring users feel in command during interactions.
+    \item Exclusion of distractions: maintaining focus and avoiding disruptions.
+    \item Autotelic experience: designing interactions to be inherently rewarding and enjoyable.
+\end{itemize}
+
+Currently, many generative AI systems fall short of fully enabling these conditions. A common issue is that AI systems often fail to provide users with meaningful control. However, contemporary generative AI holds considerable potential to address these shortcomings. For instance, AI can bridge skill gaps that might otherwise limit users' creative achievements, maintaining an optimal balance between challenge and skill to prevent boredom or frustration in technically demanding tasks such as writing, coding, or music composition.
+
+Furthermore, AI systems can deliver real-time feedback on performance, helping users stay motivated and focused. This aligns with Lubart’s concept of "computer-as-coach" \cite{Lubart2005-zi}, whereby the AI supports and guides users throughout the creative process. Additionally, enhancing the enjoyment of interactions through engaging and pleasurable system design can significantly improve user experience.
+
+While intrinsic rewards clearly hold significant value in creative processes, it is also important to understand the role of extrinsic rewards. The well-known marker study by Greene and Lepper (1974) demonstrated reduced creative output in children who were externally rewarded \cite{Greene1974-rf}. Initially, this led some researchers to broadly claim that extrinsic motivation hinders creativity, as initially concluded by Amabile \cite{Amabile1983-lj}. However, this perspective has been substantially revised, both by Amabile herself \cite{Amabile1996-pt} and by other scholars \cite{Paul2023-cq, Bown2021-os}, highlighting a more nuanced interplay between intrinsic and extrinsic motivations, at both individual and collective levels. This nuanced understanding emphasises the importance of carefully balancing intrinsic and extrinsic motivational elements when designing co-creative AI systems.
+
+
+
+\subsection{Collective Creativity and More-than-Human Creativity}
+
+The next concept relevant to the design of co-creative AI systems is creativity as a collective phenomenon. While early theories primarily considered creativity as emerging from individual agency, contemporary literature increasingly views it as arising from interactions \cite{Bown2012-gg, Schaffer1994-gy, Csikszentmihalyi2015-rq, Csikszentmihalyi2014-cq, Amabile1996-pt, Rhodes1961-od}. Creativity is recognised not only in individuals but also in other complex systems such as natural selection (producing adaptive survival strategies), societies, and non-human systems like neural networks.
+
+This broader conceptualisation is crucial for co-creativity in two respects. First, co-creativity inherently presupposes that creativity is not exclusively human and that, under certain conditions, machines can demonstrate a degree of creativity. Secondly, creativity is seen as an emergent property of interactions, involving not just the individual creator but also the tools they use, the creators of those tools, and the broader environment \cite{Malafouris2008-xn}. In human-AI co-creativity, the tool (AI system) can significantly influence both the creative process and outcomes \cite{Davis2016-te}.
+
+Moreover, literature on human-human and group creativity provides valuable insights into conditions that foster effective collaboration. Mamykina \cite{Mamykina2002-lm} identified essential factors for successful creative collaboration, including shared concepts, knowledge bases, collaborative spaces, and goals. Building upon Csikszentmihalyi’s theory of flow, Sawyer \cite{Sawyer2007-rw} proposed ten conditions for group flow, summarised as shared goals, mutual familiarity with each other's strengths and roles, effective communication, and openness to failure. Shared goals and mutual understanding thus emerge as central to effective creative collaboration.
+
+In human-machine interactions, Dafoe \cite{Dafoe2021-in} argues similarly, emphasising the necessity for machines to establish common ground through shared understanding. Dialogue, characterised by iterative exchanges intended for mutual influence, is identified as a particularly effective mechanism for fostering mutual understanding among humans \cite{Bohm1996-fo}. In Human-Computer Interaction (HCI), several scholars have explored modelling dialogue to enhance interactions \cite{Allen1999-sr, Suchman2006-bs, Hayes1983-ca}. Historically, however, limitations in computational capability have hindered fluent natural language dialogues. Recent advancements, such as ChatGPT, illustrate that conversational interfaces significantly enhance perceived usability and adoption of language models \cite{Brockman, the others}.
+
+Nonetheless, conversational interfaces alone are insufficient for fully enabling dialogic interactions as defined here—those involving reciprocal exchanges that facilitate alignment of goals and the mutual building of internal models. Current language models typically do not reveal their internal states, functioning, or biases explicitly through interaction \cite{Templeton2024-ej, Turpin2023-ow}. Consequently, true dialogic interaction requires additional mechanisms, potentially involving visual communication and explicit disclosures about the AI's internal processes, enabling users to form accurate mental models of the system.
+
+In the subsequent sections, I will examine empirical studies on human-AI co-creativity to identify factors influencing effective collaboration.
+
+
+
+
+
+
+- One of the core 
+
+
+
+- Often the models claim they can do something, or make up false information about their own behavior. Not as a malign action, but simply because they are not trained for, and indeed can't know and communicate their own internal state \cite{Templeton2024-ej, Turpin2023-ow} 
+
+
+- Dynamically form this mutual understanding. 
+
+
+- New mechanism are needed to enable this mutual understanding. User's benefit from knowing the internal model of the system. 
+
+- As such, creative agency is shared between different agents. Humans 
+- 
+- \cite{mihaly} considers that creativity cannot be isolated, and creativity needs to e 
+\cite{Aragon2011-mv}: creativity as a group concept, collaborative
+- Mihaly group flow
+\cite{Mamykina2002-lm}, candy is a coauthor here: they say that collaborative creativity required a shared language, sharing knowledge and resources and sharing a goal. 
+
+According to Brown \cite{Brown2016-tc} a co-creative interaction can be understood as a network of agency. This network of agency perspective echos my previous discussion of creativity as a systematic, distributed superindividual phenomenon \cite{Bown2012-gg, Schaffer1994-gy, Csikszentmihalyi2015-rq, Csikszentmihalyi2014-cq, Amabile1996-pt, Rhodes1961-od}. Even if there is a lone individual creator, part of the agency can be attributed to its environment, the tools it uses, cultural norms and external motivations. In the case of human-machine co-creativity, this agency is more equally shared between human and computer. 
+The final concept in creativity literature is the more-than-human idea of creativity. Initially viewed as an individual trait, it is now seen as emerging from networks and found in non-human systems.
+
+Creativity arises from interactions among human and non-human elements, including tools, environments, and rewards.
+
+The perspective of more-than-human distributed creativity includes non-human creativity, such as the novel solutions generated by natural selection and machines. This view is critical in designing co-creative systems, highlighting that creativity arises from interaction, with agency more equally shared between humans and machines, despite the lesser role of machines. In co-creativity, human and machine agency blends within a broader context involving environments, datasets, programmers, and sociocultural factors. Ethical questions arise over agency attribution among humans, programmers, and data creators, a contentious issue as artists claim unfair use of their work. This complex problem of attribution is outside this thesis's primary focus, yet acknowledging this distributed creative perspective is vital in system design. Understanding how text from data distributions reflects training data is part of this. The core goal is to view co-creative interactions between humans and machines within a broad context of human and non-human elements across time and space to design ethical co-creative systems.
+
+
+- 
+
+
+
+
+\subsection{What is co-creativity}
+
+- So the first question that we might address is what is and what entails human-AI co-creativity, and how is it different from other types of human-AI and human-computer interaction more broadly.
+
+- Co-creativity can be understood as existing in between creativity support tools and autonomoud computational creative systems \cite{Kantosalo2019-pz, Deterding2017-wh}, both which exist at opposite ends of a spectrum of creative agency. 
+
+- Creativity support tools lie on one end of the spectrum, where the agency lies primarily on the human, and the tool is designed to support human creative process by enabling certain operations. This involves things like text editors and photo editing software. Extensive research has focused on the design of effective creativity support tools \cite{Shneiderman2006-di, Shneiderman2007-yh, Cherry2014-ty, Chung2021-kc, Resnick2005-fs}. 
+ 
+ - On the other hand of the agency spectrum, is computational creativity, in which a computational system is designed to act as a creative agent autonomously, and be taken as a creator or artist in its own right. These are things like AARON \cite{Cohen1995-wt} and the Painting Fool \cite{Colton2015-qr}. In this case, the agency or at least the creative attribution primarily lies on the system. 
+
+- Human-computer co-creativity combines elements of both of these fields, and seeks to address how to combine algorithms that may exhibit creative behavior, such that they support human creativity \cite{Kantosalo2019-pz, Deterding2017-wh}. 
+
+Compared to the fields of computational creativity and creativity support tools, human-computer co-creativity is a relatively new field, that often intersects with research on human-computer collaboration, within and outside creative activities, and is more broadly situated within the field of human-computer interaction. As such, several open questions remain, and to date, there are no consistent interaction design principles that can guide the design of effective co-creative systems. This is the primary focus of my thesis. 
+
+ How is co-creativity different from other modes of human-computer interaction, and how do we know that a human and a computer are being \textit{co-creative}. For example, is a person prompting a language model to write an essay co-creating with the AI, or are they merely automating or outsourcing the process? Is there an objective way in which we can look at an interaction and determine if it's co-creative? As we will see in the literature there is not a hard measure. Below I will describe some of the perspectives. 
+
+Davis first introduced the concept of human-machine co-creativity \cite{Davis2013-jy} to refer to a scenario where "creativity emerges through the interaction of both the human and the computer", by drawing from Candy's \cite{Candy2002-ra} work on human-human co-creativity. Davis argues that co-creativity is different to other modes of interaction primarily because tasks are not divided, and their outputs added together. Instead, in co-creativity, the total is more than the sum of the parts. A new form of creativity emerges from the interaction, as a result of mutual human-computer influence. Importantly, Davis notes that co-creativity can happen between unequal elements, and indeed the computer may be considered a lesser participant in terms of creative authorship, while still meaningfully influencing and engaging in co-creativity. 
+
+The crucial aspect here is that there is a blending of agencies. According to Brown \cite{Brown2016-tc} a co-creative interaction can be understood as a network of agency. This network of agency perspective echos my previous discussion of creativity as a systematic, distributed superindividual phenomenon \cite{Bown2012-gg, Schaffer1994-gy, Csikszentmihalyi2015-rq, Csikszentmihalyi2014-cq, Amabile1996-pt, Rhodes1961-od}. Even if there is a lone individual creator, part of the agency can be attributed to its environment, the tools it uses, cultural norms and external motivations. In the case of human-machine co-creativity, this agency is more equally shared between human and computer. 
+
+So how can we design systems that enable this blending of creative agencies? How can we design systems that effectively enable the emergence of co-creativity?
+
+Having defined what human-machine co-creativity is, the next question that requires addressing is how to measure effectiveness. 
+
+There are several metrics used across the literature, which can be measured from the first-person self-reported perspective of user, and from a third-person observer perspective. Within each, these can pertain to the process or to the product. 
+
+With regards to first-person, some of the common measures involve satisfaction and enjoyment during the process, perception of collaboration of the system, frustration, feelings of creative self-efficacy, and sense of agency and involvement and satisfaction with the final creation \cite{Rezwana2022-ui, Rezwana2023-gj, Lawton2023-tb}. 
+
+Third person perspectives measurements involve measures such as time to complete of task \cite{Noy2023-ao}, as well as performance, quality, or quantity produced. These can be measured through a combination of objective measurements (such as time, or correctness of a solution), or subjective third party measurements which may involve expert ratings or crowdsourcing or evaluations. 
+
+One key gap in the literature is that different systems use different metrics, and these are not stadarsdised, making claims of the co-creative effectiveness of a system difficult to truly asses. This may also be why recent research shows often contradictory results about the value of co-creative systems. For example, \cite{Noy2023-ao} showed that professionals writing with an LLM decreased time by 40\% while the quality increased by 18\%. On the other hand, recent research by \cite{Wu2025-or} showed that in production of humor (through memes), those produces by the AI alone were rated as higher than those produced by humans alone or humans working with AI. 
+
+While these contradictory results on one hand signal a lack of standardised evaluation, inheriting and reinforcing a methodological malaise observed by Jordanous in the field of computational creativity, they also provide an opportunity to understand which factors lead to certain outcomes, which is useful to understand which design principles may guide the development of effective co-creativ systems. Moreover, these results may help understand in which roles AI may be work better, and understand the value of dialogic design. 
+
+
+\section{What leads to effective co-creativity? What are the interaction design principles?}
+
+As I established in the introduction, the value of human-machine co-creativity mainly resides in it helping mitigate the potential impact of displacement. But more importantly, it may lead to scenarios where the creativity of humans is enhanced and achieves things it wouldn't alone. A co-creation between humans and machines may lead to greater outcomes than either working alone. 
+
+However, as it is observed in the literature, this is not always the case. 
+
+Lee et al \cite{Lee2024-hd} in a study published in Nature, found that using ChatGPT to ideate led to higher creativity of ideas, when compared to humans ideating alone, or humans using Web-search as an aid for ideation, which has led to the claim that using ChatGPT and other language models can increase creativity. Several interesting specifics to note from this study. The study involves five different experiments testing different conditions. Participants had to ideate uses for an object, such as an old racket. Then they used a panel of experts who measured the responses according to novelty and value, or originality and appropriateness. They found interesting things. First, they found that ideas generated by humans and ChatGPT were rated as higher in creativity by the experts than those using only Web-search or those just working alone. One of the experiments tested if human modification of the generated idea led to higher creativity, and they found it didn't, which led the authors to assert that human intervention led to higher creativity, and that the responses of ChatGPT were sufficient. 
+
+However, it is not clear how humans generated the ideas in the first place, before submission. Did they generate multiple ideas and then curated the best one for submission? Did they engage in some rounds of iteration and back and forth dialogue with the model before arriving to the final submitted idea, even if after the fact the idea did not undergo a manual modification? These things are not clear. 
+
+However, this study illuminates that language models, and AI more broadly is a useful tool for ideation. The study also found that ChatGPt was useful in the generation of incremental creativity ideas rather than radically new ideas, which they used as a core distinction, arguing that this is to be expected as they are trained in data. They argue the LLM was good at combining and exploring concepts, but not at radical generation of new ones, echoeing Boden's distinction of combinatorial creativity versus transformational creativity. 
+
+This results are consistent with previous research explorin the potential of LLMs in performing at ideation tasks, such as the Alternative Uses Test \cite{Hubert2024-kv, Haase2023-vz, Guzik2023-cl}, at a level comparable or higher to that of humans. This may signal a unique opportunity of AI to be used as an ideation aid in divergent and initial stages of the creative process. However as Lee \cite{Lee2024-hd} notes, particularly based on the finding that human modification did not lead to higher creativity, it may also suggest that AI can act as a creative agent on its own, and thus co-creativity hinders the true creative potential of AI. 
+
+Other research studies offer further insight on this possibility. A study by \cite{DellAcqua2023-og} looked at the performance of consultants within Boston Consulting Group, using an LLM in the completion of a more complex task that partly involves creativity. Which involves crafting a commercial strategy from start to finish, including ideation at the beggining, and presentation at the end. This involves multiple stages rather than simply an ideation stage. They found that usage of an LLM led to higher performance. Interestingly they found that consultants who the higher skilled consultants benefits less than the lower skilled ones, with usage of AI serving as an equaliser. Higher skilled benefited 17\% from using ChatGPT, while, those who were underperformers improved 43\%. 
+
+The authors introduced the concept of a jagged technological frontier. Inside the frontier, are tasks that the AI can easily perform, which may involve ideation, drafting. Outside the frontier, are tasks that AI struggles with, which may involve factual accuracy and mathematical thinking. 
+
+The research designed experiments to test performance in both scenarios. They found that inside the frontier, consultants benefit from using AI, the quality improves and time is reduced. When working outside the frontier performance actually decreases compared to the human-only condition. This may be expected, however, the authors note than in the case of increasingly complex AI systems it is difficult to know where the frontier is. Many capabilities are emergent, and often nor the users and the creators of the AI know where frontier of capabilities lie. Still, particularly as AI is perceived as more capable, users tend to exhibit automation bias and "fall asleep at the wheel" \cite{Dell-Acqua2022-dy}. 
+
+Previous research has show that an effective way to address this and thus to increase the performance of human-AI collaborative ensembles is transparency, clarity and explainability of the AI's capabilities \cite{Jia2024-vp}. Indeed, this aligns with Norman's principles of visibility and perceived affordances, which help the user know what is possible to do with the object \cite{Norman1988-uq, Bray2016-ff}. This involves not only explaining what the AI can do, but also explaining what it \textit{can't} do. 
+
+This is contrast to another study which found that performance improvements of AI benefited higher skilled workers more than lower skilled ones. 
+
+\cite{Jia2024-vp}
+
+
+
+
+\section{Creativity in humans}
+
+- Towards designing effective human-AI co-creativity. 
+- A useful place to start is to define what human creativity may entail, and how it can be enhanced. 
+- I will cover the literature 
+
+- Creativity is a very broad and elusive concept in the literature. 
+- It is an umbrella term that may encompass many things. 
+- One may refer to 
+- Some authors chose to instead use the term creative behavior \cite{Wiggins2006-zd} to avoid nominal ambiguity. 
+
+Creativity is an elusive concept, one that has never been fully resolved and which scientific literature often avoids altogether, favouring less problematic terms such as \emph{creative behaviour} \cite{Wiggins2006-zd}. Moreover, creativity is a term that has considerably evolved throughout history, not always placing humans as the sole locus of creative agency. For example, Pope \cite{Pope2005-za} notes that in early Judeo-Christian doctrine, creation was viewed as an act performed only by God, associated with “creatio ex nihili” (creation from nothing), while in Australian Aboriginal creation myths, creativity is seen as a continuous, symbiotic act of re-creation \cite{Pope2005-za}. In contrast, Pope argues, in modern societues the concept of creativity has acquired a more secular meaning, positioning humans as the central source of creative action, although often aided by “divine inspiration” \cite{Pope2005-za}.
+
+It is in this more secular and human centered view of creativity that in the 20th century, creativity began emerging as a subject of scientific inquiry, primarily focused on how humans produce art and ideas. Wallas \cite{Wallas1926-ky}, in \emph{The Art of Thought}, provided an influential early account, describing creativity as a four-stage process within human cognition: preparation, incubation, illumination, and verification, moving across both exploratory (divergent) and evaluative (convergent) stages.
+
+By the 1950s, Guilford—often regarded as the “father of modern creativity research”—laid the groundwork for much of the research on creativity done today. Importantly, Guilford conceptualised it largely as a component of general intelligence \cite{Guilford1961-rf, Guilford1967-sj, Guilford1956-kt} and thus has influenced artificial intelligence research, in which creativity remains a key vector of investigation. Since then other accounts such as Finke's on Creative Cognition \cite{Finke1992-kh}, further examined creativity as a process inside human minds. 
+
+\subsubsection{Systemic Approaches to Creativity}
+
+As research progressed, analytical frameworks broadened beyond individual cognition to systemic approaches, which view creativity as a contextual process involving interacting agents—human or otherwise. Rhodes \cite{Rhodes1961-od} made one of the earliest contributions in this direction with his “Four P’s of creativity”: Person, Process, Product, and Press, the last referring to the distribution channels and audiences that receive the creation. This perspective expanded the analysis of creativity beyond the individual into a systemic process, examining how individuals or groups perform processes to produce products in specific environments.
+
+Csikszentmihalyi \cite{Csikszentmihalyi1996-qq} later developed a prominent systems view of creativity within his broader theory of Flow as an “optimal experience,” shaped by internal and external factors such as individual motivations and the goals of the domain and field. His Systems Model emphasises the dynamic interaction among the individual (person), the cultural domain (symbolic rules and knowledge), and the social field (gatekeepers and evaluators of creativity). Similarly, Amabile’s work examining \emph{Creativity in Context} views creativity as a social phenomenon \cite{Amabile1983-lj, Amabile1996-pt}, arguing that it emerges from the interplay of domain-relevant skills, creativity-relevant processes, and task motivation.
+
+Schaffer \cite{Schaffer1994-gy} argued that innovation is less of a product of an individual mind and more of a product of being situated in a particular environment, at the right time. As such, discovery is as much a process of culture, as it is the property of an isolated mind. These views do not discount the fact that individual creative abilities, but rather bring into the picture other factors that this individual interact with when executing their creativity. 
+
+Amabile extrinsic motivation as detrimental to creative achievement. 
+
+All of these are important because when we are designing a system that aims to be co-creative with a person, we are defining a tool external to them, which will become part of their environment.The ultimate goal of co-creative systems is to enable human creativity. Beyond the mystification of creativity as a divine given thing beyond reach to most people, creativity can be seen as a process that undergoes a number of stages, and that involves external factors. These include cultural conventions and motivations. All of this needs to be taken into account when designing a co-creative tool. I will develop this further in the third section of this review. 
+
+\subsubsection{Defining Creativity}
+
+The definition of creativity has remained elusive across the literature, with different authors offering varied perspectives. However, the literature has generally converged to using the “Standard Definition of Creativity”, at least when evaluating outputs of an agent or system. The Standard Definition of Creativity holds that an output can be considered creative if it meets a dual criteria of being both \textit{novel} and \textit{valuable} \cite{Amabile1983-lj, Sternberg1998-oz, Runco2012-mk, Boden2003-hk}.
+
+Beyond these core criteria, \textit{surprise} is frequently considered distinct from novelty, and is used alongside novelty. Surprise differs from novelty in that it measures output relative to expectations, while novelty measures statistical rarity \cite{Simonton2012-bv}—a distinction supported by research showing these qualities are rated differently \cite{Grace2015-uc}.
+
+Throughout my research, my working definition of creative outputs refers primarily to the Standard Definition with the dual constraint of novelty and value. Two considerations are worth noting regarding the Standard Definition. On one hand, value judgements are inherently subjective, particularly regarding artistic creativity. Moreover, as Bown \cite{Bown2021-os, Bown2012-gg} notes, judging value when talking about the creative outputs of collective systems is particularly problematic, such as evolution (the trunk of an elephant, or an adaption of a flower, for example) since there is no intentional agent behind the selection process that produced such "innovations".
+
+Novelty is, to a degree, also context dependent . When comparing similarity (or dissimilarity), metrics depend on both measurement methods and comparison sets. However, as \cite{Bown2021-os} notes, novelty at least provides the objective assumption that exact similarity is mutually exclusive with it being novelty. To further distinguish how we may talk about the novelty of outputs, Boden proposed the concepts of P-creativity (psychological novelty, new to the individual) and H-creativity (historical novelty, new to humanity) \cite{Boden2003-hk}.
+
+Based on the Standard Definition of Creativity, tests have been devised to measure creative output and capacities in humans. The Torrance Test \cite{Torrance1972-br} offer widely used measures across fluency (quantity of ideas), flexibility (variety of categories), originality (statistical uniqueness), and elaboration (detail). The Alternative Uses Test similarly examines creativity by prompting subjects to propose diverse uses for common objects \cite{Runco2012-np, Guilford1967-py}, seeking to measure how many uses can be proposed, and how original, different from each other and useful the proposed uses are. 
+
+\section{Creativity in machines}
+
+So far, I have examined the literature of creativity in humans. In this section, I turn to he literature considering the possibility of creativity in computers. Computational creativity is an established research field concerned with this question, and it is considered a subfield of artificial intelligence \cite{Colton2021-bt}. 
+Turing offered one of the earliest discussions for the possibility of machine intelligence and introduced the Turing Test that posits that a machine is intelligent if it can reliably pass a human to a blind human interlocutor. Addressing the Lovelace Objection, which argues that computers could never produce something truly new, he proposed reframing this objection as asking whether computers to which he replied that computer outputs took him by surprise quite frequently \cite{Turing1950-aq}. 
+
+While Turing is often considered a founding figure in artificial intelligence, it is worth noting that he did not use the term \emph{artificial intelligence} himself. The term was coined after his death, in a 1955 proposal for the Dartmouth Summer Research Project on Artificial Intelligence, often seen as the birth of AI research \cite{McCarthy1955-ls}. Of the seven aspects of AI the proposal targeted, one was explicitly “Randomness and Creativity.” 
+
+Early AI pioneers were indeed drawn to the idea of machines exhibiting creative behaviour, particularly focused on mimicking human creativity. Herbert Simon, with Allen Newell, developed the Logic Theorist—often regarded as the first AI program \cite{Russell2016-oe}. In “Understanding Creativity” (1967), Simon hypothesised that creative thinking involves processes indistinguishable from ordinary problem-solving, and that it is the novelty and utility of the outcome that marks creativity \cite{Simon1967-nr}. Perhaps more contentiously, he suggested that the same fundamental mechanisms underlie creative thinking in both art and science. In his view, “problem-solving involves selective trial-and-error search in a vast space of possibilities,” and creativity simply pinpoints the most valuable, novel solutions. Marvin Minsky similarly argued in his 1961 paper “Steps Toward Artificial Intelligence” that creativity and intelligence seem uniquely human only because their mechanisms remain poorly understood. These early works showed confidence in the possibility of creativity being computational and mathematically formalisable. 
+
+Against that backdrop, Boden’s \emph{The Creative Mind} offered one of the first comprehensive frameworks for computational creativity. Boden proposed that creativity involves traversing conceptual spaces. A creative agent might explore the space, make combinations of elements within it, or transform the conceptual spae altogether. This account has remained largely influential, and provides a useful model to understand modern generative systems in the conctext of latent spaces \cite{Boden2003-hk}. However, Boden did not formalise the notions of conceptual spaces, such that they could be implemented computationally. Addressing this, Wiggins formalised Boden’s account mathematically in his Creative Systems Framework (CSF) \cite{Wiggins2006-zd}, enabling comparison of artificial, natural, and hybrid systems exhibiting creative behaviour. Wiggins approach has been used to implement computational systems that explore conceptual spaces explicitly, such as Riedl's work on narrative generation systems \cite{Riedl2006-dm}.
+
+A key question that has been a focus of interest to the computational creativity community has been how to attribute creativity to a program or computer. In 2007, Ritchie proposed empirical criteria for the attribution of creativity in computers \cite{Ritchie2007-jy}, focusing on quantifying novelty, value and typicality of outputs, thus following the Standard Definition and drawing from work on human creativity and psychology. Similarly, Colton, drawing on his experience with an autonomous painter and a theorem‑proving system, argued that assessing creativity must consider not only the outputs, and their novely and usefulness, but also the process that led to them. His Creative Tripod posits that a creative system should demonstrate \textit{skill}, \textit{appreciation} and \textit{imagination} \cite{Colton2008-fh}. He later introduced the FACE and IDEA descriptive models, arguing that the impact of a creative output within an environment is an crucial locus of analysis when discussing and attributing creativity to a computer \cite{Colton2011-uy}. Expanding the lens of analysis Maher, posed the question of "who is being creative" when talking about computational creativity systems, arguing that creativity can be ascribed to computational agents, individual humans, collectives, and importantly, to their interactions. That is creativity can perhaps be better understood as emergent between interacting agents \cite{Maher2012-oj}. 
+
+Jordanous observes that despite these efforts, evaluation remains inconsistent: what she termed a "methodological malaise" stemming from non-standard metrics across the literature. She proposed the SPECS framework as a three‑step procedure to evaluate creativity in computers: define creativity for the target system, derive appropriate tests, and report results, supported by a taxonomy of 14 creativity elements \cite{Jordanous2012-kw}.
+
+In 2021, Colton and Wiggins provided a now widely used and interdisciplinary definition for computational creativity as “the philosophy, science and engineering of computational systems which, by taking on particular responsibilities, exhibit behaviours that unbiased observers would deem creative”. Moreover, they proposed computational creativity may be the final frontier in artificial intelligence \cite{Colton2021-bt}. 
+
+\subsection{Computational Creativity in Practice}
+
+Research in computational creativity has largely been advanced not only by theory but also by practice, both artistic and technical. Beyond and alongside theory, practice-led researchers began experimenting with the potential of computers to be creative tools and agents in their own right. The 1968 \emph{Cybernetic Serendipity} exhibition, curated by Jasia Reichardt, offered one of the earliest displays of these explorations, showcasing experiments across practices such computer-generated poetry, visual art (such as Figure~\ref{fig:returntosquare}), and interactive installations (Figure~\ref{fig:coloquy}).
+
+\begin{figure}
+  \centering
+  \includegraphics[width=1\linewidth}{returntosquare.png}
+  \caption{"Return to Square" by the Computer Technique Group, 1967/68, exhibited at the \emph{Cybernetic Serendipity} exhibition, shows a computer-generated plot by the Computer Technique Group that draws a face starting from a square and returns to it by implementing line-drawing equations}
+  \label{fig:returntosquare}
+\end{figure}
+
+Notably, \emph{Cybernetic Serendipity} presented a viewpoint on computing that diverged from mainstream AI which mostly focused on autonomous independent agents. Cybernetics, a separate tradition from the Dartmouth Summer Research Project, conceived of computers in terms of feedback systems, integrating people, computers, and environments in a dynamic loop. As the Cybernetic Serendipity exhibition stated: exhibition: 
+
+\begin{quote}
+A cybernetic device responds to stimuli from outside and in turn affects the external environment [...}. This process is called feedback. Exhibits in the show are either produced with a cybernetic device (computer) or are cybernetic devices in themselves. They react to something in the environment, either human or machine, and in response produce sound, light or movement.
+\end{quote}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=1\linewidth}{coloquy.png}
+  \caption{Colloquy of Mobiles: an installation by Gordon Pask consisting of five figures that move and interact through light and sound, with each other and with the audience.}
+  \label{fig:coloquy}
+\end{figure}
+
+
+A few years later, Harold Cohen, beginning in 1973, created AARON, one of the earliest influential generative computational systems intended to produce art autonomously \cite{Cohen1995-nt}. Cohen conceptualised AARON as an “autonomous computational artist.” As Cohen explained, “All its decisions about how to proceed with a drawing, from the lowest level of constructing a single line to higher-level issues of composition, were made by considering what it wanted to do in relation to what it had done already.” This emphasises the ongoing evaluation of work as a key aspect of creativity. Some researchers have argued that AARON does not \emph{truly} evaluate its own work \cite{Colton2008-fh, Hofstadter1995-sn}, yet Cohen's overall practice can be understood as a decades-long co-creative partnership with the system. While AARON itself may not have learned in the way modern deep learning models do, Cohen continuously modified its programming, creating a feedback loop that effectively allowed the Cohen–AARON ensemble to learn.
+
+Cohen’s practice parallels other artist–researchers who have similarly employed computational systems to explore creative processes. David Cope, for instance, once considered one of America’s most promising young composers \cite{Adams2010-dk}, pioneered \emph{Experiments in Musical Intelligence (EMI)}. After suffering composer’s block while writing an opera in 1980, he created EMI to analyse existing musical works and generate new compositions \cite{Cope1992-pq, Cope2000-cq, Cope1992-rl}. Over the years, Cope built an extensive body of practice-based research on AI and music, posing, in my view, similar questions that AARON elicited: to what degree can these systems be considered autonomous creators and to what degree are they instead a collaborative ensemble of human-machine co-creation? 
+
+More recently, practice-led researchers have developed systems across other modalities and with a particular focus on systems that can evaluate their own output. For example, Rafael Pérez y Pérez’s has developed \emph{MEXICA} for two decades. Launched first in 1999, MEXICA is a computer model for storytelling that generates narrative frameworks based on interactions between characters and contexts. Grounded in the engagement–reflection model of the writing process, it first “engages” by producing material and then “reflects,” evaluating the novelty and coherence of the narrative \cite{PErez2001-vz, Perez-y-Perez2004-cm, Montfort2023-pb, Perez-y-Perez2023-ws, Sharples2022-hq}.
+
+Simon Colton’s \emph{Painting Fool} \cite{Colton2012-jc, Colton2015-qr} initiated in the early 2000s, is an effort at developing an computational artist, with a particular focus on moving beyond artifact generation to incorporate higher-level cultural and critical processes (e.g., self-critique, context-awareness, framing). Colton has argued that these higher-level activities, rather than mere image creation, represent the core artistic challenge in computational creativity. Similarly, Colton’s HR program for mathematical theorem generation \cite{Colton2002-nx} explores creativity in other domains.
+
+Meanwhile, in 1995, Brian Eno coined the term “generative music.” His approach diverged from attempts to replicate human composition processes. Instead, it explored novel forms of machine creativity by layering simple rule systems to produce continuously evolving music \cite{Eno2020-ip, Brian1996-tj}. Instead of exploring the possibility of creativity arising from computational agents thatp pursue goals and evaluate, Eno's work explores creative outputs arising from complex systems, continuously evolving unpredictable outputs based on simple initial conditions. Eno emphasises the role of the human here, and considers that in the case of his art-procuding machines, his role as an artist is more of that of a "gardener", plating seeds and providing constraints and conditions for the outputs to arise.
+
+\section{The Neural Turn and Generative AI}
+
+A significant shift in computational creativity is underway, as a larger shift takes place in the field of artificial intelligence. Generative algorithms that seek to produce text, music and images have moved from rule‑based systems to deep learning‑based approaches for content generation. Earlier methods relied on carefully distilling aesthetic and artistic rules, while deep learning‑based approaches instead leverage large datasets to induce the underlying distributions from which new artefacts can be sampled \cite{Goodfellow2016-su, M2023-ia, LeCun2015-cv}. Deep learning algorithms were originally developed for classification tasks—learning a distribution and then determining whether a new sample belonged to it. Researchers soon repurposed these models to synthesise new content.
+
+\subsection{Early Deep Learning Approaches}
+
+In the visual domain, the introduction of Generative Adversarial Networks (GANs) by Goodfellow et al. in 2014 \cite{Goodfellow2014-ub} marked a turning‑point. A GAN comprises a discriminator, trained to classify images as belonging or not to a training set, and a generator, trained to produce samples that fool the discriminator. During training, the generator evolves from producing random pixel arrangements to generating images the discriminator cannot reliably distinguish from real data, while the discriminator simultaneously becomes more adept at detection. At convergence, GANs generate images that plausibly belong to the target distribution. They have been used to create portraits, animals, and even artworks that observers increasingly struggle to differentiate from human‑made pieces. Consequently, GANs rekindled debate on machine creativity.
+
+Two caveats are worth noting. First, GANs inherit the long‑standing tradition of judging AI systems by their ability to pass as human. Second, the canonical GAN objective does not seek to maximise novelty or value, nor does it encode explicit aesthetic principles; it merely aims to replicate an existing distribution. This limitation underlies much of the criticism levelled at claims of AI creativity, although it is arguably a consequence of the chosen training objective rather than an inherent property of the technique.
+
+Alternative architectures have sought to encode creative objectives explicitly. Elgammal’s Creative Adversarial Network (CAN) extends the GAN framework by adding a pressure towards stylistic novelty. While still producing images that appear human‑made, the generator is simultaneously rewarded for creating outputs the discriminator cannot classify into known artistic styles, thereby optimising for novelty \cite{Elgammal2017-ra}. The contrast between GANs and CANs illustrates how the definition of the training objective strongly shapes the creative potential of the resulting system. Radford et al.’s Deep Convolutional GANs (DCGANs) further enabled operations in the latent space—such as interpolation and attribute manipulation—opening new creative affordances.
+
+Mordvintsev’s 2015 \emph{DeepDream} experiments demonstrated a different avenue for generative imagery. By inverting the objective of a convolutional neural network trained for face detection, DeepDream amplified features detected in an input image, producing the now‑iconic surreal “hallucinations” \cite{Miller2020-dq}. These transformations captured the public imagination \cite{Rayner2016-wx} and highlighted how creative potential can emerge from playful repurposing of discriminative models. As Miller notes, giving the network “a little freedom to dream” can yield compelling artistic results. DeepDream images were among the first deep‑learning artworks to be auctioned and exhibited, catalysing broader interest in AI‑generated art \cite{Campbell-Dollaghan2016-wd}.
+
+Building on the idea of transforming existing images, Gatys, Ecker and Bethge introduced neural style transfer \cite{Gatys2016-qm}, which separates the representation of content from style and recombines them, allowing, for example, the application of Van Gogh’s painterly texture to a personal photograph. The capacity to capture and reapply style remains central to contemporary generative‑AI research.
+
+\subsection{Representation learning, attention and scaling laws}
+
+Progress in novel deep learning techniques around representation learning marked a step change increase in the generative capabilities of models \cite{Bengio2012-lt}. In such approaches, often relying on self-supervised learning, a model learns to predict or reconstruct parts of its own input, thereby uncovering statistical structure without labelled examples \cite{LeCun2015-zb}. For example, approaches like word2vec allowed models to learn semantic relationships between words merely by looking at the dataset \cite{Mikolov2013-ii}. Approaches like Autoeconders allow models to learn efficient compressions for inputs such as images and sound, and then learn to reconstruct them again. To achieve this, they produce reduced representation in the form of vectors that contain the most fundamental elements of an artifact. These core building blocks, such as word embeddings and image embeddings, become crucial for further progress in generative AI that is behind the current wave of capabilities. 
+
+Prior to 2017, state‑of‑the‑art language generators relied on \textbf{Recurrent Neural Networks (RNNs)} and \textbf{Long Short‑Term Memory (LSTM)} models \cite{Sutskever2011-ne, Pascanu2012-tl, Graves2013-yv, Hochreiter1997-eu} that learned to statistically predict the next word in a sequence. While these autoregressive models often produced convincing short passages, they exhibited difficulty in maintaining coherence over extended contexts, required task‑specific retraining and were generally considered of much less quality than human produced text. The introduction of the \textbf{Transformer} architecture leveraged word embeddings, and replaced recurrence with stacked \textbf{self‑attention} layers that leveraged word embeddings to more effectively predict and generate sequences, considering much longer contexts and "paying attention" to the most relevant words in a given sequence \cite{Vaswani2017-pb, Devlin2019-zt}. 
+
+Performance improvements since then have arisen primarily through \textbf{scaling}: increasing parameter counts, data volumes, and compute budgets. Fine‑tuning with \textbf{reinforcement learning from human feedback (RLHF)} further aligns outputs with human preferences, reducing undesired behaviour and improving usefulness \cite{Ouyang2022-af}. As a result, large language models (LLMs) now produce extended texts that approach human‑level fluency and can be adapted to a wide array of tasks without explicit retraining.
+
+In the field of image generation, approaches have also leveraged representation learning to enable the production of images that align with a given description, or prompt, bridging language and image. \textbf{Diffusion probabilistic models} learn to invert a gradual noising process, beginning with random pixels and iteratively denoising until an image consistent with the training distribution emerges \cite{Sohl-Dickstein2015-sm}. Early diffusion models were unconditioned and generated generic samples. Conditioning is achieved by introducing \textbf{cross‑attention} to external embeddings, most commonly text embeddings derived from encoders such as \textbf{CLIP} \cite{Radford2021-hb}. During generation, the text embedding guides each denoising step, yielding images that correspond to a natural‑language prompt. Systems such as \textbf{DALL-E 2} \cite{Ramesh2021-xb} and \textbf{Stable Diffusion} \cite{Rombach2021-wf} exemplify this approach and demonstrate the feasibility of high‑fidelity visual generation from textual input.
+
+\subection{Creativity in machines?}
+
+Bringing in the Standard Definition of creativity to the new developments in generative AI regarding value and novelty, a natural question arises: if AI systems train on existing content and generate outputs that conform closely to training distributions, can they truly create anything new? At first glance, the answer might be a straightforward no. Yet, combining existing elements in novel ways is a crucial component of creativity, as Boden argues \cite{Boden2003-hk}. Many of the generative systems today build latent spaces, akin to conceptual spaces, that encode both existing artifacts but also new artifacts that are not in the training distribution \cite{Goodfellow2014-jz}. Moreover, when utilising tests of creativity for humans, such as the Torrance Test or the Alternative Uses Test, recent studies show computational systems can perform at the level of humans or in some cases outperform them \cite{Hubert2024-kv, Guzik2023-cl, Koivisto2023-lw}.
+
+Runco, a leading figure in creativity research, has objected that this is sufficient to claim creativity in these systems \cite{Runco2023-qi}. While he contributed defining the Standard Definition, his objection is centered of arguing for the necessity of adding two constraints to ascribing creativity. While acknowledging that “AI can be original, and its output is often useful,” thus satisfying novelty and value, he proposes that \emph{authenticity} and \emph{intentionality} must also be present \cite{Runco2025-bu}, qualities he deems computational agents incapable of possessing.
+
+Runco identifies authenticity as self-expression: “The authentic individual expresses ideas and feelings without manipulating them for the sake of others. It may be that AI can avoid filters, but there is no self to express, so no possibility of authenticity.” Intentionality refers to subjective motivation. He further contends that machines do not follow the human creative process, which involves problem-finding, solution exploration, and convergence toward resolution. Crucially, Runco’s notion of authenticity does not concern intellectual property but rather an authentic self revealed through creativity—a significant point since creativity, especially in art, often involves self-expression and “a way of being” \cite{Rubin2023-lw}.
+
+Runco's requirement for intentionality is at odds with views of creativity as a process that may involve non-intentonal agents such as complex distributed systems of organisms, people and technologies. For example, Bown \cite{Bown2012-gg} distinguishes between adaptive and generative creativity. Adaptive creativity produces outputs with an intention to satisfy a goal, whereas generative creativity arises in natural ecosystems, evolution, economies, and other complex self-organising systems. Indeed, as some authors note, it is difficult to observe the Earth’s biodiversity, each organism a “solution” to survival problems, without attributing creativity to evolutionary processes, even though no intentional subject drives these transformations \cite{Wagner2015-oj}.
+
+Many theoretical frameworks also dispense with a requirement for an intentional subject. Simonton’s “Creativity as Blind Variation” \cite{Simonton1999-yc} and Wagner’s argument that natural selection as a creative process \cite{Wagner2015-oj} exemplify this perspective, as does Malafouris’s concept of material agency \cite{Malafouris2013-by, Malafouris2008-xn} and Latour’s Actor Network Theory \cite{Latour2007-ep}, which view agency as distributed across networks of actants. These ideas have influenced contemporary creativity studies.
+
+Recognising the possibility of non-human creativity, Runco proposes that we create separate definitions for creativity observed in humans versus that potentially observed in machines, and simply proposes using the term “artificial creativity” rather than plain "creativity", suggesting a similar distinction to that between artificial and human intelligence. Ultimately, he proposes differentiating human creativity, involving motivation and intention, from artificial creativity, which may generate novelty and value algorithmically \cite{Runco2023-qi}.
+
+
+\section{Human-AI co-creativity}
+
+My thesis focuses on the question of how to design effective co-creative AI from the perspective of interaction design.
+And specifically, I subdivide this question in three subsquestions: 
+\begin{itemize}
+  \item What is the potential of dialogic interaction
+  \begin{itemize}
+    \item Partly but not exclusively involves conversational dialogue
+    \item More broadly, it involves an interaction where there is back and forth. 
+    \item The literature on HCI has mentioned this, but never fully formalised it. A lot authors talk about dialogue. 
+    \item What does it mean to have a dialogue with a computer. 
+  \end{itemize}
+  \item What roles can a co-creative AI play? 
+  \begin{itemize}
+    \item Which essentially means: what responsibilities does it assume within the creative process
+  \end{itemize}
+And lastly, 
+  \item What are interaction design principles that can contribute to effective human-AI co-creativity
+\end{itemize}
+
+
+- So in this section of the literature review I will cover the literature on human AI co-creativity primarily focused on these three lenses. 
+
+\subsection{What is co-creativity}
+
+- So the first question that we might address is what is and what entails human-AI co-creativity, and how is it different from other types of human-AI and human-computer interaction more broadly.
+
+- Co-creativity can be understood as existing in between creativity support tools and autonomoud computational creative systems \cite{Kantosalo2019-pz, Deterding2017-wh}, both which exist at opposite ends of a spectrum of creative agency. 
+
+Creativity support tools lie on one end of the spectrum, where the agency lies primarily on the human, and the tool is designed to support human creative process by enabling certain operations. This involves things like text editors and photo editing software. Extensive research has focused on the design of effective creativity support tools \cite{Shneiderman2006-di, Shneiderman2007-yh, Cherry2014-ty, Chung2021-kc, Resnick2005-fs}. 
+ 
+ On the other hand of the agency spectrum, is computational creativity, in which a computational system is designed to act as a creative agent autonomously, and be taken as a creator or artist in its own right. These are things like AARON \cite{Cohen1995-wt} and the Painting Fool \cite{Colton2015-qr}. In this case, the agency or at least the creative attribution primarily lies on the system. 
+
+Human-computer co-creativity combines elements of both of these fields, and seeks to address how to combine algorithms that may exhibit creative behavior, such that they support human creativity \cite{Kantosalo2019-pz, Deterding2017-wh}. 
+
+Compared to the fields of computational creativity and creativity support tools, human-computer co-creativity is a relatively new field, that often intersects with research on human-computer collaboration, within and outside creative activities, and is more broadly situated within the field of human-computer interaction. As such, several open questions remain, and to date, there are no consistent interaction design principles that can guide the design of effective co-creative systems. This is the primary focus of my thesis. 
+
+ How is co-creativity different from other modes of human-computer interaction, and how do we know that a human and a computer are being \textit{co-creative}. For example, is a person prompting a language model to write an essay co-creating with the AI, or are they merely automating or outsourcing the process? Is there an objective way in which we can look at an interaction and determine if it's co-creative? As we will see in the literature there is not a hard measure. Below I will describe some of the perspectives. 
+
+Davis first introduced the concept of human-machine co-creativity \cite{Davis2013-jy} to refer to a scenario where "creativity emerges through the interaction of both the human and the computer", by drawing from Candy's \cite{Candy2002-ra} work on human-human co-creativity. Davis argues that co-creativity is different to other modes of interaction primarily because tasks are not divided, and their outputs added together. Instead, in co-creativity, the total is more than the sum of the parts. A new form of creativity emerges from the interaction, as a result of mutual human-computer influence. Importantly, Davis notes that co-creativity can happen between unequal elements, and indeed the computer may be considered a lesser participant in terms of creative authorship, while still meaningfully influencing and engaging in co-creativity. 
+
+The crucial aspect here is that there is a blending of agencies. According to Brown \cite{Brown2016-tc} a co-creative interaction can be understood as a network of agency. This network of agency perspective echos my previous discussion of creativity as a systematic, distributed superindividual phenomenon \cite{Bown2012-gg, Schaffer1994-gy, Csikszentmihalyi2015-rq, Csikszentmihalyi2014-cq, Amabile1996-pt, Rhodes1961-od}. Even if there is a lone individual creator, part of the agency can be attributed to its environment, the tools it uses, cultural norms and external motivations. In the case of human-machine co-creativity, this agency is more equally shared between human and computer. 
+
+So how can we design systems that enable this blending of creative agencies? How can we design systems that effectively enable the emergence of co-creativity?
+
+Having defined what human-machine co-creativity is, the next question that requires addressing is how to measure effectiveness. 
+
+There are several metrics used across the literature, which can be measured from the first-person self-reported perspective of user, and from a third-person observer perspective. Within each, these can pertain to the process or to the product. 
+
+With regards to first-person, some of the common measures involve satisfaction and enjoyment during the process, perception of collaboration of the system, frustration, feelings of creative self-efficacy, and sense of agency and involvement and satisfaction with the final creation \cite{Rezwana2022-ui, Rezwana2023-gj, Lawton2023-tb}. 
+
+Third person perspectives measurements involve measures such as time to complete of task \cite{Noy2023-ao}, as well as performance, quality, or quantity produced. These can be measured through a combination of objective measurements (such as time, or correctness of a solution), or subjective third party measurements which may involve expert ratings or crowdsourcing or evaluations. 
+
+One key gap in the literature is that different systems use different metrics, and these are not stadarsdised, making claims of the co-creative effectiveness of a system difficult to truly asses. This may also be why recent research shows often contradictory results about the value of co-creative systems. For example, \cite{Noy2023-ao} showed that professionals writing with an LLM decreased time by 40\% while the quality increased by 18\%. On the other hand, recent research by \cite{Wu2025-or} showed that in production of humor (through memes), those produces by the AI alone were rated as higher than those produced by humans alone or humans working with AI. 
+
+While these contradictory results on one hand signal a lack of standardised evaluation, inheriting and reinforcing a methodological malaise observed by Jordanous in the field of computational creativity, they also provide an opportunity to understand which factors lead to certain outcomes, which is useful to understand which design principles may guide the development of effective co-creativ systems. Moreover, these results may help understand in which roles AI may be work better, and understand the value of dialogic design. 
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\linewidth}{measures.png}
+  \caption{Co-creativity metrics}
+  \label{fig:enter-label}
+\end{figure}
+
+
+\section{What leads to effective co-creativity? What are the interaction design principles?}
+
+As I established in the introduction, the value of human-machine co-creativity mainly resides in it helping mitigate the potential impact of displacement. But more importantly, it may lead to scenarios where the creativity of humans is enhanced and achieves things it wouldn't alone. A co-creation between humans and machines may lead to greater outcomes than either working alone. 
+
+However, as it is observed in the literature, this is not always the case. 
+
+Lee et al \cite{Lee2024-hd} in a study published in Nature, found that using ChatGPT to ideate led to higher creativity of ideas, when compared to humans ideating alone, or humans using Web-search as an aid for ideation, which has led to the claim that using ChatGPT and other language models can increase creativity. Several interesting specifics to note from this study. The study involves five different experiments testing different conditions. Participants had to ideate uses for an object, such as an old racket. Then they used a panel of experts who measured the responses according to novelty and value, or originality and appropriateness. They found interesting things. First, they found that ideas generated by humans and ChatGPT were rated as higher in creativity by the experts than those using only Web-search or those just working alone. One of the experiments tested if human modification of the generated idea led to higher creativity, and they found it didn't, which led the authors to assert that human intervention led to higher creativity, and that the responses of ChatGPT were sufficient. 
+
+However, it is not clear how humans generated the ideas in the first place, before submission. Did they generate multiple ideas and then curated the best one for submission? Did they engage in some rounds of iteration and back and forth dialogue with the model before arriving to the final submitted idea, even if after the fact the idea did not undergo a manual modification? These things are not clear. 
+
+However, this study illuminates that language models, and AI more broadly is a useful tool for ideation. The study also found that ChatGPt was useful in the generation of incremental creativity ideas rather than radically new ideas, which they used as a core distinction, arguing that this is to be expected as they are trained in data. They argue the LLM was good at combining and exploring concepts, but not at radical generation of new ones, echoeing Boden's distinction of combinatorial creativity versus transformational creativity. 
+
+This results are consistent with previous research explorin the potential of LLMs in performing at ideation tasks, such as the Alternative Uses Test \cite{Hubert2024-kv, Haase2023-vz, Guzik2023-cl}, at a level comparable or higher to that of humans. This may signal a unique opportunity of AI to be used as an ideation aid in divergent and initial stages of the creative process. However as Lee \cite{Lee2024-hd} notes, particularly based on the finding that human modification did not lead to higher creativity, it may also suggest that AI can act as a creative agent on its own, and thus co-creativity hinders the true creative potential of AI. 
+
+Other research studies offer further insight on this possibility. A study by \cite{DellAcqua2023-og} looked at the performance of consultants within Boston Consulting Group, using an LLM in the completion of a more complex task that partly involves creativity. Which involves crafting a commercial strategy from start to finish, including ideation at the beggining, and presentation at the end. This involves multiple stages rather than simply an ideation stage. They found that usage of an LLM led to higher performance. Interestingly they found that consultants who the higher skilled consultants benefits less than the lower skilled ones, with usage of AI serving as an equaliser. Higher skilled benefited 17\% from using ChatGPT, while, those who were underperformers improved 43\%. 
+
+The authors introduced the concept of a jagged technological frontier. Inside the frontier, are tasks that the AI can easily perform, which may involve ideation, drafting. Outside the frontier, are tasks that AI struggles with, which may involve factual accuracy and mathematical thinking. 
+
+The research designed experiments to test performance in both scenarios. They found that inside the frontier, consultants benefit from using AI, the quality improves and time is reduced. When working outside the frontier performance actually decreases compared to the human-only condition. This may be expected, however, the authors note than in the case of increasingly complex AI systems it is difficult to know where the frontier is. Many capabilities are emergent, and often nor the users and the creators of the AI know where frontier of capabilities lie. Still, particularly as AI is perceived as more capable, users tend to exhibit automation bias and "fall asleep at the wheel" \cite{Dell-Acqua2022-dy}. 
+
+Previous research has show that an effective way to address this and thus to increase the performance of human-AI collaborative ensembles is transparency, clarity and explainability of the AI's capabilities \cite{Jia2024-vp}. Indeed, this aligns with Norman's principles of visibility and perceived affordances, which help the user know what is possible to do with the object \cite{Norman1988-uq, Bray2016-ff}. This involves not only explaining what the AI can do, but also explaining what it \textit{can't} do. 
+
+This is contrast to another study which found that performance improvements of AI benefited higher skilled workers more than lower skilled ones. 
+
+\cite{Jia2024-vp}
+
+
+First, why co-creativity? 
+In some cases, not al, leads to better outcomes. 
+Less automation and displacement. 
+
+We have both ends of the spectrum. Both present risks. 
+On one end, human does everything. This is fine, but may not leverage the full potential of generative tool. 
+On the other, the Ai does everything. 
+
+So first, on the human side. 
+
+Mantain involvement (Del Aqua).
+
+Context length
+
+
+
+1. Perception of agency in the machine 
+
+- Lawton et al \cite{Lawton2023-tb} found that when users perceive the system to have agency, it is perceived as a collaborator rather than a tool.
+
+A natural question is: what leads to higher perception of agency? 
+
+\begin{itemize}
+  \item System is proactive and contributes in real-time: mixed initiative \cite{Lawton2023-tb}
+  \item Dialogic interaction \cite{Lawton2023-tb}
+  \item Facilitates shifts in perspective \cite{Lawton2023-tb}
+
+\end{itemize}
+
+- Moruzzi \cite{Moruzzi2022-gp} found, a greater perception of agency is correlated with greater perception of creativity. 
+  \item Explains itself \cite{Moruzzi2022-gp}
+  \item Autonomy, Intentionality, and Goal-directedness \cite{Moruzzi2022-gp}
+
+2. Mixed-initiative
+
+A system can have agency but this does not make it a co-creator. For example, an agent that does things on behalf of the user. 
+It involves a collaboration, where both contribute to the outcome. This is captured in the concept of mixed-initiative interaction.
+
+One of the first proposals from the perspective of human-computer interaction and interaction design to enable co-creativity is that of mixed-initiative interaction \cite{Allen1999-sr, Horvitz1999-wh Yannakakis2014-zs, Liapis2016-zt, Zhu2018-zd}. 
+- Mixed initiative: both computer and human proactively make contributions. 
+- Mixed-initiative was conceptualised as a form of dialogue, as there is a back and forth. 
+- Deterding \cite{Deterding2017-wh} proposed Mixed-Initiative Creative Interfaces that put human and computer in a tight interactive loop where each suggests, produces, evaluates, modifies, and selects creative outputs in response to the other. 
+- He likened it to a dialogue, both sides take turns constraining, suggesting, producing, evaluating, modifying, or selecting creative outputs in response to the other, such that creative agency and initiative cannot be easily ascribed to one side alone. 
+
+- Mixed initiative is not clear what initiative means. Proactive making. But how and when? Such that it doesn't interrupt? With what tasks? 
+
+3. Dialogue
+
+- Interestingly, multiple authors within mixed-initiative likened this interaction to that of a dialogue, and other authors in human-computer interaction \cite{Hayes1983-ca, Suchman1987-ab}. 
+
+- What does dialogue mean? This is not clear in the literature. This is what I address in the next chapter and throughout this thesis. 
+- Dialogue as a means of mutual influencing \cite{Bown2020-zn}, and a way to form a shared understanding \cite
+- Dialogue as an iterative loop of action, in contrast with a one-way, one-off execution. 
+- It involves interaction both through and about the interaction \cite{Bown2020-zn}
+
+- Align meaning, form mutual understanding. 
+
+- Of course, dialogue may also involve conversation and bidirectional communication. 
+
+- Indeed aspects of dialogue has been found useful. 
+- Indeed, bidirectional communication has been found to foster perception of collaboration \cite{Rezwana2022-ui}. 
+
+4. Iteration 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Early visions and the emergence of mixed-initiative co-creativity}
+
+I have covered both literature on human creativity and computational creativity, in this section, I cover the emerging literature of human-machine and human-AI co-creativity that brings these together. 
+
+Modern generative AI systems have sparked renewed interest in the concept of human-machine co-creativity, however visions of humans and computers working together to achieve more than either alone dates back at least to the work of Licklider on man computer symbiosis in 1960. For Licklider, "the symbiotic partnership will perform intellectual operations much more effectively than man (sic) alone can perform them", and he envisioned humans and machines working as a cognitive ensemble. It contrasts with the notion of the mechanically extended human. Fot Licklider, a man computer symbisoises involves the ensemble being able to address complex and dynamic problems, in contrast with relying on linear predefined routines \cite{Licklider1960-md}. 
+
+In 1962, Engelbart proposed a framework for augmenting human intellect with computers under a similar premise that a cognitively augmented human would be able to solve increasingly complex problems \cite{Engelbart1962-ir}. In a similar but unique view, Suchman, in her human-machine reconfigurations, proposes machines and computers as social objects, particularly as they become more complex. As machines become intelligent, Suchman proposes the concept of situated actions, where a computer and a human act adapting to a complex content, engaging in circular dynamics of feedback and dialogue \cite{Suchman1987-fs}. These views contrast with the dominant paradigm of artificial intelligence that envisions autonomous agents. Instead, humans and machines working together to solve more complex problems than either could alone. 
+
+In 1999, Allen \cite{Allen1999-sr} introduced the concept of mixed initiative interaction to refer to a scenario where two or more agents, computational or human, work together to solve a problem or create something. For Allen, mixed-initiative refers to a flexible interaction strategy, where each agent can contribute to the task what it does best. Furthermore, in the most general cases, the agents’ roles are not determined in advance, but opportunistically negotiated as the problem is being solved. Allen argues that mixed-initiative interaction is a human-computer interaction framework partly based on the properties of human dialogue. 
+
+Horvitz translated this principle into concrete design guidelines, emphasising valuable automation, respect for user attention, probabilistic reasoning about user goals, and dialogue to resolve uncertainty \cite{Horvitz1999-wh}.
+
+In 2005, Lubart \cite{Lubart2005-zi} examined how computers can be partners in the creative process and outlined four roles that computers, particularly intelligent systems, can assume in the creative process: nanny, pen-pal, coach, and colleague. These roles range from offering support and encouragement (nanny), to stimulating reflection through dialogue (pen-pal), providing guidance and feedback (coach), and finally, actively contributing ideas and collaborating on creative outcomes (colleague).
+
+Work by Linda Candy provided one of the early definitions of co-creativity, framing it as multiple parties contributing to the creative process in a way that the creativity emerges from the interaction \cite{Candy2002-ra}. Building on that work, Davis \cite{Davis2013-jy} introduced the concept of human-computer co-creativity, exploring how humans and computers can "engage as equals in the art making process". Davis proposes co-creativity as an alternative to creativity support tools, which involve designing tools to support humans, while not engaging as partners, and to computational creativity, where the computer acts as an autonomous creative agent. Davis proposes co-creativity as a middle ground, between creativity support tools and autonomous computational creativity. Echoing similar proposals, Davis also considers co-creativity as a scenario the "computer does not follow a predefined script to guide the interaction."
+
+Combining the concepts of mixed-initiative interaction by Allen and co-creativity by Candy and Davis, Yannakakis, Liapis and Alexopoulus colleagues proposed mixed-initiative co-creativity \cite{Yannakakis2014-zs, Liapis2016-bv} as an HCI framework where the concepts of mixed-initiative are employed to foster co-creativity between humans and machines, with a particular focus on augmenting human creativity.
+
+In a later paper, Liapis, Yannakakis, Alexopoulus and Lopes \cite{Liapis2016-zt} focused instead on boosting computational creativity with human interaction in mixed-initiative co-creation tasks. They argue that research on computational creativity has focused on systems that act autonomously while ignoring the human and proposed that mixed-initiative can not only enhance the creativity of the human but also of the computational system. Zhu Liapis and colleges have also done work on the explainability of mixed-initiative co-creative systems \cite{Zhu2018-zd}. They highlight the value of dialogue based interaction as a means for more explainable co-creativity. 
+
+
+Further work has sought to operationalise in concrete designs the ideas of mixed-initiative co-creativity. Deterding et al. \cite{Deterding2017-wh} proposed Mixed-Initiative Creative Interfaces that put human and computer in a tight interactive loop where each suggests, produces, evaluates, modifies, and selects creative outputs in response to the other. As in human-human creative dialogue, both sides take turns constraining, suggesting, producing, evaluating, modifying, or selecting creative outputs in response to the other, such that creative agency and initiative cannot be easily ascribed to one side alone. While all creative practice is to some extent a ‘dialogue’ between creator and material Deterding and colleages argue that Mixed-Initiative Creative Interfaces literalise this metaphor by giving the computer the status of creative agency and initiative.
+
+\subsection{How can computers be partners and co-creators?}
+
+While the above approaches focused on interaction design approaches, more recent work has focused on expanding on the roles that computers and AI can play in co-creative scenarios \cite{Kantosalo2021-mp, Guzdial2019-pf}. More recent work has revealed how these roles, emerge at interaction time, and are usually contingent on users preferences. Generalist models such as modern LLMs afford such an interaction paradigm. It has been observed that users tend to take more abstract and directive roles, while using the AI to perform more execution-level tasks \cite{Palani2024-on}
+
+Considerable work has been done providing frameworks and interaction for co-creative systems across a number of fields including design, poetry, drawing and game design \cite{Guzdial2019-gr, Kim2021-zg, Rezwana2023-gj, Kim2021-fh}. However, a lot of this work was developed before the current wave of highly capable generative systems which pose new unique challenges \cite{Weisz2023-ee}. One of the Weisz describes as generative variability: the same input can lead to two different results. Some approaches have been focused on more recent generations of generative AI applications. generative AI applications have To that end Michael Muller, Weisz and Geyer developed a framework for Mixed Initiative Generative AI Interfaces \cite{Weisz2024-io, Muller2020-nv} that describes different actions humans or AI might take, including Learning, Ideating, Constraining, Producing, Suggesting, Selecting, Curating, Assessing, Adapting, Assembling, and Waiting and Iterating. These actions provide a comprehensive space for possible mixed-initiative actions that can help guide the design of co-creative systems. 
+
+More recent work increasingly focuses on the possibility not only of mixed-initiative, but in agents that act and are framed as partners, such as Rezwana and Maher's COFI framework \cite{Rezwana2022-gg}. Kantosalo proposed An Interaction Framework for Human–Computer Co-Creativity consisting of Modalities, Styles and Strategies Interaction. Modalities consider the channels through which information is exchanged, whether uni or multimodal. Interaction styles describe the structural and behavioural patterns of collaboration—such as ambient, request-based, or operation-based models—that shape how users and systems contribute and refine creative work. Interaction strategies encompass the evaluative metrics, goals, and meta-reasoning processes that drive the system’s creative decisions. 
+
+READ UNTIL HERE
+
+Maher has done work on human-AI co-creativity in the context of design \cite{Kim2021-zg, Rezwana2023-gj, Kim2021-fh} showing that...
+
+In 2024, Moruzzi developed a User-centered framework for human-AI co-creativity arguing that computers are going beyond being a tool to becoming social agents. This is helpful for arguing for integration focusing "to continue reaping the benefts of increased efciency resulting from the automatization of repetitive and burdensome tasks, preserving at the same time the sense of agency, control, and responsibility of users [20}.
+
+She argues there is a trade-off between agency and automation. 
+She provides "a comprehensive list of the key dimensions in H-AI co-creativity processes that can be modulated by users to adjust the degree of control they have over the process and to match their style and creative approaches." She talks about how there are two end of the agency spectrum. On one end Creativity Support Tools. In the other Computational Creativity Systems. Kantosalo also talks about this. On one end: CST and in the other CC. 
+She provides dimensions the user can modulate before starting the interaction with an agent. In contrast, my dimensions are dimensions \textit{for the designer to consider} when designing a co-creative system. However, both are important. 
+
+Also in 2024, Haase proposed levels of creative collaboration in the context of current generative AI systems, including PenPal, AI Tasks Specialist, Assistant and Co-Creator. They argue that the level of true co-creator has not been achieved yet. In my research, I outline what dimensions would be needed for this. 
+
+While the field of Human-Ai Co-Creativity has ostly focused on the concept of Ai partners, it is important to note the risks of anthropormisation. Particularly, converging to modes of interaction that are primarily human, which may limit the true potential of an AI co-creator. For example \cite{Park2024-gw} notes that designers are mostly visual thinkers, and stuggle with expressing a creative vision in language. \cite{Lin2023-jd}
+					- This is very related to my paper and the concept of through and about interaction. 
+			- 
+			- Rezwana2023-rt: Jeba Rezwana. 2023. Towards designing engaging and ethical human-centered AI partners for human-AI co-creativity. (2023)
+			- \cite{Guzdial2019-tz} An Interaction Framework for Studying Co-Creative AI.
+				- Matthew J. Guzdial and Mark O. Riedl. 2019. A
+		- Principles and empirical research
+			- Kantosalo2015-pk: interaction evaluation in human-AI co-creativity
+			- \cite{Wu2025-or}: One Does Not Simply Meme Alone: Evaluating Co-Creativity Between LLMs and Humans in the Generation of Humor - AI generated memes performed better in evaluations that humans alone or humans and AI. 
+				- Why? Other examples show the opposite. 
+				- They may be more unexpected
+			- \cite{Abel2025-ty}: "People say they prefer stories written by humans over AI-generated works, yet new study suggests that’s not quite true"
+			- Guzdial2019-pf: Friend, Collaborator, Student, Manager: How Design of an AI-Driven Game Level Editor Affects Creators.
+				- A crucial consideration is the role that it will play, as this effects the perception. Different users and use cases prefer the AI to play different roles. 
+			- It felt like having a second mind
+				- Qian Wan, Siying Hu, Yu Zhang, Piaohong Wang, Bo Wen, and Zhicong Lu. 2023. “it felt like having a second mind”: Investigating human-AI co-creativity in prewriting with large language models. _arXiv [cs.HC}_. https://doi.org/10.1145/3637361
+				- Wan2023-he
+			- When is a tool a tool
+				- \cite{Lawton2023-tb}
+				- Tomas Lawton, Kazjon Grace, and Francisco J. Ibarrola. 2023. When is a tool a tool? User perceptions of system agency in human–AI co-creative drawing. In _Proceedings of the 2023 ACM Designing Interactive Systems Conference_, July 10, 2023. ACM, New York, NY, USA. https://doi.org/10.1145/3563657.3595977
+			- Emergence and control in co-creative AI \cite{Lawton2023-gd}
+			- Michael Gerlich. 2025. AI tools in society: Impacts on cognitive offloading and the future of critical thinking. \cite{Gerlich2025-as}
+				
+			- \cite{Clark2018-yf} Creative writing with a machine in the loop
+				- 
+				- Elizabeth Clark, Anne Spencer Ross, Chenhao Tan, Yangfeng Ji, and Noah A. Smith. 2018. Creative writing with a machine in the loop. In _23rd International Conference on Intelligent User Interfaces_, March 05, 2018. ACM, New York, NY, USA. https://doi.org/10.1145/3172944.3172983
+			- \cite{Lehmann2022-kr}Florian Lehmann, Niklas Markert, Hai Dang, and Daniel Buschek. 2022. Suggestion lists vs. Continuous generation: Interaction design for writing with generative models on mobile devices affect text length, wording and perceived authorship. In _Mensch und Computer 2022_, September 04, 2022. ACM, New York, NY, USA. https://doi.org/10.1145/3543758.3543947
+			- **Evolving roles and workflows of creative practitioners in the age of generative AI.** \cite{Palani2024-on}
+				- This is one really good and important
+			- When and how Ai augments employee creativity
+				- Jia2024-vp
+			- \cite{Oh2018-mu} I lead, you help but only with enough details. In _Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems_,
+
+
+
+
+
+
+
+
+\subsection{Human-AI Co-Creativity}
+
+Early visions of humans and machines working in close partnership go as early as the work by Licklider on Man-Computer Symbiosis \cite{Licklider1960-md}. More recently, in 2005, Lubart \cite{Lubart2005-zi} outlined an early classification of how computers can be partners in a creative process, providing one of the first typologies for collaborative roles of computers. In 2013, Davis \cite{Davis2013-jy} introduced the term human-computer co-creativity, providing an early interaction design model. 
+
+In 2014 Yannanakis et al. \cite{Yannakakis2014-zs} introduced the idea of mixed-initiative co-creativity, rooted in Allen et al.'s \cite{Allen1999-sr} mixed-initiative interaction as an approach where both the human and the machine proactively make contributions to solve a problem. 
+
+Kantosalo \cite{Kantosalo2015-pk} 's work overview. 
+
+Rezwana and Maher proposed COFI, a framework for conceptualising the types of Human Ai Co-Creativity, providing an important foundation for conceptualising the state space. 
+
+An important distinction made by them, and derived from Kellas work is that of the capacity to interact both through and about the artifact. 
+
+My own research builds upon this literature to provide a new model of human-AI co-creativity, termed dialogic co-creativity, which draws on this previous research to suggest a mode of interaction in which humans and AI engage in an iterative, dialogic, cyclical and fluid co-creation. Moreover, I provide a set of design principles for effective co-creativity, grounded on this model. And a conceptualisation of roles grounded on this model as well. 
+
+
+
+Kantosalo for example, there is a spectrum for AI’s role in creativity, ranging from:
+
+	Tool <–––––> Partner
+
+Creativity Support Tools <–––––> Computational Creativity 
+
+With Human-AI co-creativity sitting somewhere within that spectrum. 
+
+
+
+On the left side of the spectrum, we have greater human initiative, while on the right side greater computer agency. In the middle, human-AI co-creativity is a model for shared agency. 
+
+Are these classifications enough?
+
+However, I argue that a more useful classification given the new capabilities in generative AI systems and computers may involve defining various roles rather than a one-dimensional scale of tool vs partner.
+
+We can assume that, in the current era, we are entering a period of generative capabilities and increased computational creative agency. As such, all AI systems must now be viewed as “co-creators.”
+
+Instead of merely classifying tools as partners, we should uncover the specific roles they play within the creative process. For example, in some cases AI can be seen as taking an ideator role while the human takes an evaluator role. Or the human takes the role of director and the AI as the executer. 
+
+Previous work by Candy and by Lubart have proposed some role classification, however, it is worth noting that the classifications proposed by previous researchers were created before this current wave of AI capabilities. Lubart proposed a set of three roles, while Candy, for example, proposed a set of four roles, but this was also done before today’s generative AI advancements. While these roles are useful to encapsulate broadly, the roles AI will play are likely to become more nuanced, especially considering that LLM are now viewed as general purpose technologies, capable of assuming a variety of roles. 
+
+Given the new advances in computational creativity, there is space in the literature to identify new roles. 
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\linewidth}{image.png}
+  \caption{Enter Caption}
+  \label{fig:enter-label}
+\end{figure}
+
+Therefore, key questions include:
+
+	1.	Which roles are most desirable? From an ethical and creative perspective, which roles are useful and enhance human agency?
+	2.	How does the interface influence the emergence of these roles? The roles are mediated by how information flows through the interface.
+
+
+The question of the interface is incredibly important, as it is the point where computational algorithms intersect with human intentions. 
+
+According to Bratton, interfaces are more than simple GUIs rather, “an interface is any point of contact between two complex systems that governs the conditions of exchange between those systems”. Therefore, the interface mediates structures of power, modes of collaboration and ultimately contributes to the formation of roles. 
+
+For example, a chat interface defines very different roles from an instruction text box. Previous versions of language models such as GPT3 worked in that manner, enabling the user to provide an instruction, or a starting string to be completed. The introduction of the chat interface contributes to these large language models assuming more varied roles, and act more as iterative partners. And within these, assume roles such as ideator, tutor, brainstrming partner, feedback, information provider and so on. 
+
+The 4Ps is one of the initial frameworks for creativity. It describes person, process, press and product. However, when we talk about co-creativity, we need to include something new: interface and roles. Candy and Edmonds 2002 did initial work in this in their paper modelling co-creativity between technologists and artists, and they identified the emergence of distinct roles. 
+
+Also, in that paper, Candy and Edmonds recognised the need for control expressed by artists. 
+
+An important human-computer interaction (HCI) approach dealing with the machine’s role has focused on the development of Creativity Support Tools (CSTs) which include systems like word processors, photo editing and digital audio workstations. Early ideas exploring this role of computers includes the work of Douglas Engelbart on Augmenting Human Intellect \cite{Engelbart1962-ir}. An alternative approach proposes instead a role where computers engage more as collaborators, sharing more agency and participating in a tight loop of collaborative interaction. More recently, this has led to the emerging field of human-AI co-creativity. 
+
+Early visions of humans and machines working in close partnership go as early as the work by Licklider on Man-Computer Symbiosis \cite{Licklider1960-md}. More recently, in 2005, Lubart \cite{Lubart2005-zi} outlined an early classification of how computers can be partners in a creative process, providing one of the first typologies for collaborative roles of computers. In 2013, Davis \cite{Davis2013-jy} introduced the term human-computer co-creativity, providing an early interaction design model. In 2014 Yannanakis et al. \cite{Yannakakis2014-zs} introduced the idea of mixed-initiative co-creativity, rooted in Allen et al.'s \cite{Allen1999-sr} mixed-initiative interaction as an approach where both the human and the machine proactively make contributions to solve a problem. More recently, Kantosalo \cite{Kantosalo2015-pk} provided foundational work for the characterisation of human-AI creative collaboration as a model for interaction design and outlined different types of interactions and evaluation methods. Amongst this growing literature, a number of key challenges for the effectiveness of human-AI co-creativity have been identified. I group these in two categories: 1) explainability, or the ability for humans to understand the AI co-creator and 2) steerability, adaptability and control, or the ability of the AI co-creator to understand human users and act accordingly. In essence: mutual understanding. 
+
+\subsection{Explainability, or users understanding AI co-creators}
+
+Explainability, in the context of AI, is a broad term encapsulating the extent to which users can understand and interpret the outputs and inner workings of AI systems. This area has gained increased relevance with the introduction of deep-learning algorithms, which are notable for their low interpretability \cite{Linardatos2020-uq}. In the field of human-AI co-creativity explainability has been identified as a key challenge for the design of effective co-creative systems, particularly with regard to appropriately explaining why a suggestion was made, why it is relevant, how the system works and how the system can be steered to produce a desired outcome \cite{Zhu2018-yc}. Users’ ability to understand co-creative AI systems has been linked to a higher engagement and higher effectiveness of the collaboration. Weisz et al \cite{Weisz2021-iu} found that systems that provide an appropriate signal for their level of proficiency can be considered useful by users even if their contributions are imperfect. In a similar finding, Bansal et al. \cite{Bansal2019-mp} showed that for a collaborative AI system with the same technical capabilities, users preferred and performed better when they were able to form accurate mental models of it. This is consistent with interaction design principles that emphasise making available actions visible to the user \cite{Resnick2005-fs}. However, Eiband et al. \cite{Eiband2021-vj} note this is particularly difficult for AI systems since the available actions are in many cases not even known by the designers due to the ‘black-box’ nature of AI systems. Moreover, providing explainability from an interaction design perspective is not trivial. For example, Oh et al. found that users preferred systems where the AI was able to explain itself, but only in certain cases, otherwise explanations were perceived as disruptive. 
+
+\subsection{Steerability, control and adaptability, or AI co-creators understanding human users and acting accordingly}
+
+On the other hand, not only humans need to be able to understand an AI collaborator, but AI collaborators need to be able to ‘understand’ human goals, intentions and feedback, and act accordingly. However, the implementation of this principle is again not trivial, and indeed has been the key concern for the research area of AI alignment \cite{Yudkowsky2016-wf}. In co-creativity, being able to steer and control generations has been linked to higher effectiveness of co-creative AI systems. In a study of thirteen teams participating in the AI Song contest, Huang et al. \cite{Huang2020-fh} identified that a common need across teams was that of interfaces that made systems more steerable, interpretable and adaptive. Indeed, it has been shown that steerability in music co-creation systems can impact users' feelings of creative self-efficacy, control and ownership Furthermore Louie et al. \cite{Louie2020-aq} showed that co-creative systems with more steerable interfaces produced output that was preferred by listeners. This is consistent with previous research showing that creative self-efficacy and feelings of control are positively correlated to engagement with a creative activity and the creative outcome \cite{Tierney2002-xp, Louie2020-aq}. Addressing these challenges involves mechanisms for communication, feedback and control \cite{Wang2020-cw}. A number of approaches to design more steerable systems that can understand the user's intentions better have been proposed. Louie et al. developed a hybrid approach that addressed it both from a machine learning and an HCI perspective in the field of music co-creation. However, while this approach allows the user to steer the generation using semantically relevant controls, it is limited in its ability to enable a back-and-forth interaction and facilitate the communication of goals and feedback. Muller et al.'s \cite{Muller2020-nv} framework for Mixed Initiative Generative AI Interface details an iterative interaction workflow, outlining 11 actions that allow the system to learn from the user, adapt based on feedback, suggest, iterate, among others. I believe this framework holds potential for addressing co-creative workflows that better understand and adapt to human users, and it partly serves as a theoretical grounding for my proposed approach. 
+
+\section{The potential of dialogue}
+
+ Current generative AI systems are capable of producing content at a level similar to humans, faster, and often rated as of higher quality. Large language models (LLMs) have outperformed humans in some tests of creative thinking and ideation, generating a higher quantity and quality of ideas \cite{Guzik2023-cl, Haase2023-vz}. 
+
+However, recent research suggests that humans working closely with AI often achieve better creative outcomes than either humans or AI alone \cite{Hitsuwari2023-tw, DellAcqua2023-og}. In particular, research suggests that a core component of effective co-creativity lies in iterative interactions, where humans and AI engage in close, continuous feedback loops \cite{Jia2024-vp}.
+
+In this thesis, I formalize these iterative loops as an interaction design model termed dialogic interaction, offering design principles for generative AI-powered co-creative tools. 
+
+I define dialogue as as an interaction model where the user and the AI engage in an interative loop communicating both through and about the creation. In this iterative loop they create a common understanding, explain decisions, ideate, produce, refine and transform creative artefacts. 
+
+Early work on the theory of dialogue includes that of David who described dialogue as a key mechanism for human collaboration as it allows for the formation of common meanings and common understanding \cite{Bohm2013-ol}. In the case of human-AI collaboration, the idea of dialogue as a model for effective cooperation goes back to the introduction of mixed-initiative interaction \cite{Allen1999-sr}. In the paper that introduced the term, described mixed-initiative interaction as part of a dialogue: "The best way to view interaction between agents is as a dialogue, and thus mixed-initiative becomes a key property of effective dialogue. We all have intuitions about how human dialogue works, which can be exploited in developing new models of interaction. While natural-language interaction is the typical form of human dialogue, dialogue models can be characterized in terms of any communication protocol among agents."
+
+Later, Yannanakis et al. \cite{Yannakakis2014-zs} elaborated on Allen et al. \cite{Allen1999-sr} to develop their mixed-initiative co-creativity model but their approach does not explicitly provide a mechanism for collaborators to communicate about the process, exchange feedback, concepts and intentions. Introducing mixed-initiative creative interfaces, Deterding et al. \cite{Deterding2017-wh} also described co-creativity as a creative dialog, but did not explore further what enabling a dialogue means from an interaction design perspective. Moreover, the mixed-initiative model does not account for a distinction between communicating through and about the artefact. Indeed, the idea of dialogue in co-creativity is prevalent, but there are few examples of approaches that formalise dialog. I believe there is promising potential in formalising dialogue into an interaction design framework, studying what it means to establish a dialogue, how to achieve it from an interface and interaction design perspective, and its impact on the effectiveness of the co-creative systems.
+
+\subsection{Design Principles}
+
+Some of these principles are not applicable. For example Modeleness, which considers that the same user's actions should always yield the same result. \cite{Weisz2024-io} argue that with applications, there is the introducgion of generative variability, where the same action can lead very different results. Managing this can be challenging, but can also provide unique advantages to generative AI co-creatve systems as opposed to tools for creative support. 
+
+\cite{Weisz2024-io} Generative AI Principles for Generative AI
+Generative AI technologies have introduced a new paradigm of human-computer interaction, what Nielsen refers to as “intent- based outcome specifcation” [127}. In this paradigm, users specify what they want,often using natural language9
+,but nothow it should be produced. One challenge of this paradigm stems from the distin- guishing characteristic of generative AI: it generates artifacts as outputs and those outputs may vary in character or quality, even when auser’s input does not change. This characteristic has been described by Weisz et al. [182} as generative variability, and it pro- vides what Alvarado and Waern [6} describe as an “algorithmic experience,” raising questions on appropriate types of user control, levels of algorithmic transparency, and user awareness of how the algorithms work and how to efectively interact with them.
+
+
+
+\cite{Horvitz1999-wh} Principles for Mixed-Initiative Interfaces
+\cite{Resnick2005-fs} Design Principles for Tools to Support Creative Thinking
+\cite{Weisz2024-io} Generative AI Principles for Generative AI
+\cite{Nielsen1994-df} 10 usability heuristics
+\cite{Norman2013-hs} The Design of Everyday Things
+\cite{Norman1994-kz} Things that makes us smart. 
+\cite{Amershi2019-vy} Design Guidelines for Human-AI Interaction
+
+
+Design Priorities from \cite{Palani2024-on}
+
+[D1} Help define creative goals and processes
+D2 Preserve practitioners’ focus and flow.
+[D3} Facilitate the alignment of GenAI’s outputs to the prac- titioners’ goals.
+[D4} Add richer ways to express and verify intent. The cur- rent interaction languages for most end-users to express personal preferences or exert agency over GenAIs mainly consist of verbose prompts [C1}
+[D5} Provide augmented support for creative operations.
+Critical operations during a creative workflow include di- vergence, transformation, reflection, convergence, and cri- tique. CSTs should take advantage of this opportunity by helping generate a diverse set of alternatives, curating, combining, and refining them into polished artifacts. Similarly, CSTs should provide semantically aware shortcuts for novice and seasoned creatives, help them be unstuck, and highlight efficient process paths to achieve desired outcomes
+[D6} Interact Empathetically With Creative Practitione
+[D7} Consider technical limitations as design constraints.
+
+\subsection{Related approaches}
+
+Llano et al. \cite{Llano2022-ti} argue that two-way communication can improve co-creative interactions with AI systems. Through a two-way channel, human-AI collaborators can discuss ideas, comparisons to other works, make incremental improvements and revisions, and more. They argued this entails giving a voice to co-creative AI systems so they can better explain their processes and decisions, provide support to their ideas and learn from discussion about the goal and preferences of the human. Hence, they proposed a set of design principles that integrates dialogue as the main mechanism of interaction. Similarly, Muller et al. \cite{Muller2020-nv} offered an analytic framework for generative AI where the human and AI co-creators engage in an interaction that resembles our idea of dialogue. In their COFI framework, Rezwana and Maher \cite{Rezwana2022-gg} offer a wide ontology of co-creative systems, some of which include interaction patterns resembling dialogic interaction, including a distinction between interaction through and about the artefact. My work is closely related to these contributions, and intends to contribute further to the consolidation of this emerging approach. Lastly, a key question to evaluate the potential of dialogic interaction is the use of relevant metrics. The literature of creativity support tools and human-computer interaction is rich in metrics and methods to evaluate effectiveness. These methods offer useful groundings for evaluating co-creative systems, however, co-creative systems might require the development of new metrics and methods. Rezwana and Maher adapted an established metric to evaluate creativity support systems for the case of co-creativity \cite{Rezwana2022-ui}. I believe exploring this direction and developing relevant metrics and evaluation methods can make useful contributions to the literature, and aid in the development of my research question. 
+
+\section{Conclusion}
+
+I began by reviewing the state-of-the-art in generative AI, and how new developments have led to a reconsideration of the computer's role in the creative process, from that of tool to that of college. I reviewed approaches from the interaction design literature that integrate this view as part of different interaction design frameworks, contributing to the emerging field of human-AI co-creativity. I reviewed challenges and design principles for effective human-AI creative co-creativity divided into: users ability to understand AI co-creators and AI co-creators' ability to understand human users and act accordingly. I identified dialogue as a potential avenue to address these challenges, and reviewed related approaches that consider dialogue as a mechanism to enable effective interaction. Lastly, I identified the need for new evaluation metrics that allow researchers, including myself, to test the potential of dialogic interaction in human-AI co-creative systems. 
+
+
+
+
