@@ -148,13 +148,29 @@ In a recent preliminary study by Kosmyna et al. \cite{Kosmyna2025-cm} conducted 
 Involvement and immersion are crucial aspects of the creative process \cite{Amabile1996-pt, Csikszentmihalyi1997-ui} and are important dimensions for analysis and design in co-creative systems \cite{Davis2016-te, Cherry2014-ty, Rezwana2022-ui, Clark2018-yf, Lawton2023-gd, Yuan2022-kb, Li2024-yh, Kantosalo2015-pk, Resnick2005-fs}. While generative AI offers new possibilities for creating more powerful and useful co-creative systems, paradoxically, their capability can lead them to automate most aspects of the process by providing a path of least resistance.
 However, research also demonstrates that these effects are largely mediated by interaction design \cite{Kim2023-wt, Essel2024-qc}.
 
+Balancing this is what I suggest is the \textbf{fundamental tension in human-AI co-creativity}.
+
+Generative AI, as discussed above, has the potential to speed up workflows, serve as a safety net, and lead into new creative directions. On the other side, it can lead to users becoming less involved, losing valuable skills, and a sense of satisfaction, individuality, and authenticity in their work.
+
+Others have discussed the need to balance automation and human agency \cite{Moruzzi2024-cq}:
+\begin{quote}
+    "In this scenario, there is a pressing need to examine the terms of the balance between automation and agency in H-AI interaction to continue reaping the benefits of increased efficiency resulting from the automatization of repetitive and burdensome tasks, preserving at the same time the sense of agency, control, and responsibility of users."
+\end{quote}
+
+Others have discussed the need to balance automation and human agency \cite{Moruzzi2024-cq}:
+\begin{quote}
+    "In this scenario, there is a pressing need to examine the terms of the balance between automation and agency in H-AI interaction to continue reaping the benefits of increased efficiency resulting from the automatization of repetitive and burdensome tasks, preserving at the same time the sense of agency, control, and responsibility of users."
+\end{quote}
+At the same time, the balance goes beyond automation versus agency. Generative AI, as discussed above, has the potential to speed up workflows, serve as a safety net, and lead into new creative directions. On the other side, it can lead to users becoming less involved, losing valuable skills, and a sense of satisfaction, individuality, and authenticity in their work.
+
+
 Having discussed how a role distribution with users at the intentional level and AI at the action level severs creative agency by making it difficult to steer the creation and limiting user involvement, the following sections will outline interaction design principles aimed at addressing these challenges.
 
 \section{Interaction Design Principles for Human-AI Co-Creativity}
 
 While not claiming to be absolute or comprehensive, these design principles are derived from my research, relevant literature, and practical experience. They serve as an initial framework for establishing principles specifically aimed at fostering human-AI co-creativity from the perspective of dialogic interaction.
 
-\subsection{Principle: Leverage Generative Variability as a Feature for Serendipity and New Creative Directions}
+\subsection{Principle 1: Leverage Generative Variability as a Feature for Serendipity and New Creative Directions}
 
 While \cite{Weisz2024-io} propose that users need to develop skills to work with generative variability, they also offer interaction design guidelines to help users manage it, such as leveraging multiple outputs, visualizing the user journey, enabling annotation, and drawing attention to differences between outputs. While useful, these strategies primarily focus on \textit{mitigating} generative variability, as their guidelines are aimed at general uses of generative AI across multiple fields. I argue that in the context of co-creativity, generative AI variability does not always need to be mitigated; instead, it can be strategically leveraged as a feature rather than a bug.
 
@@ -182,7 +198,7 @@ This aligns with broader understandings of creativity as a process of exploratio
 
 However, while generative AI systems can be highly useful for inducing serendipity in ideation stages, studies also show they can become frustrating when attempting to move into convergent stages. This dual need—for both divergent exploration and convergent control—and the effective transition between these stages, is a crucial consideration that warrants further discussion.
 
-\subsubsection{Leveraging the Unique Characteristics of Generative AI}
+\subsubsection{Principle 2: Leveraging the Unique Characteristics of Generative AI}
 
 Another way to address the challenge of generative variability, particularly in divergent creative stages, is by \textbf{leaning into the unique characteristics of the generative AI medium itself}. As Brian Eno aptly puts it:
 
@@ -216,7 +232,7 @@ While leveraging generative AI for serendipity and embracing its unique outputs 
 
 This suggests that some co-creative tools might best serve as catalysts for ideation and divergent thinking, like the "Narrative Device" example which stimulates creative beginnings. However, for tools aimed at supporting a more complete creative process—from ideation to convergence—or those primarily framed as convergence tools, precise control and steering become paramount. In the following section, I will discuss specific strategies to address this need for control, including \textbf{multimodal inputs, allowing users to train their own models, iterative refinement, clear communication, and providing spaces for direct artifact-level contributions.}
 
-\subsubsection{Principle: Enable users to train and finetune the models in their own style}
+\subsubsection{Principle 3: Enable users to train and finetune the models in their own style}
 
 While the previous section highlighted the role of generative variability and its potential to introduce serendipity, effective co-creative systems must also provide users with a complementary degree of control. This tension between unpredictability and control is a central challenge in designing generative AI tools, and varying levels of user-determined control are observed across existing applications.
 
@@ -238,7 +254,7 @@ From the perspective of dialogic interaction, this process of curating and train
 This process of user-driven model training and fine-tuning embodies mutual influence. While leveraging generative variability to induce surprise and serendipity represents a form of AI-to-human creative influence, allowing users to shape the model's outputs through training can be understood form of human-to-AI influence, closing the bidirectionality of influence in human-AI co-creativity.
 
 
-\subsection{Enable multimodal expressive inputs beond text}
+\subsection{Principle 4: Enable multimodal expressive inputs beyond text}
 
 Another way to provide controls beyond text is by allowing users to express intentions by showing, not telling. Earlier I discussed how it is difficult to articulate tacit knowledge such as style and expertise, and convey nuanced things in text-only interfaces. This is often recognized as a limitation of generative AI. It is often very difficult to express certain creative intent or control expressively using limited request-based or command-based interfaces. For example, a study by Park et al. \cite{Park2024-gw} titled "We are visual thinkers, not verbal thinkers!" analyzing how designers use generative AI tools found their main struggles was to express visual things verbally.
 
@@ -283,7 +299,7 @@ This approach may not be practical when a very specific musical need, such as ge
 
 The point here is that generative artificial intelligence may open possibilities for different creative operations, and novel semantically rich translations between modes, rather than drier mappings. From a dialogic perspective, this process can be understood, to some degree, as facilitating the translation of intention into action when the intention is difficult to put into words. To what degree this is achieved is to be seen, and ultimately, it may be the case that the most dialogic interfaces, allowing for the most alignment between intention and action, are hybrid interfaces that combine text and conversation with rich modalities, allowing the user to shift back and forth between expressing things in language and pointing at things, much like humans in creative activities do. When two musicians working together cannot express something in language, they simply just play.
 
-\subsection{Principle: enable iteration that preserves the user's journey}
+\subsection{Principle 5: enable iteration that preserves the user's journey}
 
 One of the most significant challenges in effectively using generative AI tools, especially for creative tasks, is the inherent difficulty of iteration. While the idea of refining outputs through multiple generations to achieve a desired outcome is appealing, the reality of generative variability and a lack of precise control often makes this process notably difficult \cite{Park2024-gw}. This limitation is widely recognized as a key barrier to the creative usability of these tools.
 
@@ -330,10 +346,13 @@ A third participant articulated their frustration, stating:
 "I’ve felt frustrated because it’s gone in the wrong direction and then requires a lot of input from me to put it on the track that I have in my head."
 \end{quote}
 
-These consistent complaints highlight a clear need for interaction designs that better support iterative refinement of content rather than a series of disconnected generations. This specific feedback directly motivated the prototype described in Chapter 4, where I provided a collaborative space separate from the chat window. This space maintained the state of a piece of writing, allowing both the user and the AI to iterate on it. I will discuss this specific interaction design strategy in more detail in a subsequent section, exploring its implications for other aspects of co-creativity, such as user involvement and potential conflicts of territory.
+These consistent complaints highlight a clear need for interaction designs that better support iterative refinement of content rather than a series of disconnected generations. 
 
 
-\subsection{Principle: provide collaborative spaces separate from the conversational spaces to enable collaboration both through and about the creation}
+This specific feedback directly motivated the prototype described in Chapter 4, where I provided a collaborative space separate from the chat window. This space maintained the state of a piece of writing, allowing both the user and the AI to iterate on it. I will discuss this specific interaction design strategy in more detail in a subsequent section, exploring its implications for other aspects of co-creativity, such as user involvement and potential conflicts of territory.
+
+
+\subsection{Principle 6: provide collaborative spaces separate from the conversational spaces to enable collaboration both through and about the creation}
 
 - conversational dialogic interfaces are now the main form of interaction with LLMs
 - this highlighted the value of dialogic interaction in practice, but it has also highlighted its challenges related to co-creativity
@@ -343,7 +362,6 @@ These consistent complaints highlight a clear need for interaction designs that 
 - particularly when they engage with them via chat only interface without a space for stateful collaboration through the writing
 
 - One participant statement provides an illustration
-
 
 
 In order to address the above challenges, this thesis found that some promise in separating space to the conversational space where users and AI can both collaborate in the action space, interacting *through* the creation and not only *about* the creation. As discussed in Chapter 4, this led to users reporting the AI did most of the work less often and reporting higher levels of involvement and agency. 
@@ -399,7 +417,7 @@ To implement this vision, Sloan implemented a text editor that autocompleted his
 
 - While a shared editor is useful at enabling interaction both through and about the artifact, effectively managing contributions in this shared spaces is crucial for effective co-creative interaction. 
 
-\subsection{Principle: manage conflicts of territory in shared collaborative spaces}
+\subsection{Principle 7: manage conflicts of territory in shared collaborative spaces}
 
 while participants generally expressed more involvement using a shared colllaborative space, a common theme that emerged was that they need better visibility of edits and changes made by the AI, and how this affects their own work. 
 \begin{quote}
@@ -433,18 +451,7 @@ It is important to clarify that even if the value I highlight regarding shared s
 A similar phenomenon occurs with Cursor; even if it's integrated within a shared space and is the main coding editor, carefully managing conflicts of territory through diffs, accepts, and rejects. By having the AI capable of doing the coding, it leads users to outsource most of the coding. In fact, the "vibe coding" reference I used earlier with Andrej Karpathy referred to using Cursor, indicating he was still primarily assuming a role at the intentional level and not at the action level while using Cursor.
 
 
-\subsection{The fundamental tension in human-AI co-creativity}
-
-This leads to what I describe as a fundamental tension in designing generative AI-powered co-creative systems. It is the fact that when a generative AI is capable of doing work at the level of a human and more, it provides a path of least resistance that users may rely on to do the work for them. While these tools are incredibly capable, and in theory they can lead to creativity and to users engaging their own creativity and supporting their own skills, they also provide a path of least resistance that leads to automation. This is what I describe as a fundamental tension that interaction design needs to address when designing generative AI-powered co-creative systems.
-
-Others have discussed the need to balance automation and human agency \cite{Moruzzi2024-cq}:
-\begin{quote}
-    "In this scenario, there is a pressing need to examine the terms of the balance between automation and agency in H-AI interaction to continue reaping the benefits of increased efficiency resulting from the automatization of repetitive and burdensome tasks, preserving at the same time the sense of agency, control, and responsibility of users."
-\end{quote}
-At the same time, the balance goes beyond automation versus agency. Generative AI, as discussed above, has the potential to speed up workflows, serve as a safety net, and lead into new creative directions. On the other side, it can lead to users becoming less involved, losing valuable skills, and a sense of satisfaction, individuality, and authenticity in their work.
-
-
-\subsection{Being involved at a higher level of abstraction}
+\subsection{Principle 8: design for process and involement, not only outcome by enabling tight feedback loops of iteration}
 
 A lack of involvement at the action space is not necessarily negative. Assuming roles at the intentional level does not necessarily mean being less involved in the creative process; it may allow users to focus on higher-level aspects. As one participant in my writing study described about interacting with Vorges, the AI co-writer: "I like it a lot. I think that it allowed me to focus on the ideas, the plot and the characters even more because Vorges focused on the writing."
 
@@ -459,7 +466,7 @@ How does this influence my discussion on levels of involvement? I argue the answ
 From this perspective, for example, our process described in Chapter 6 for producing visuals for a magazine was highly dialogic: we engaged in multiple rounds of iterating, curating data, training the system, generating alternatives, changing, and composing the tools available to us, even if we did not engage in any form of verbal two-way conversation with the system. In contrast, some participants in my Chapter 4 co-writing study who engaged with a conversational system, and who described it as doing "everything" and "all of the work," may be understood as engaging in a less dialogic process, even if that process is seemingly more dialogic by virtue of having engaged a conversational interface. The core element for dialogue here is that the iterative building of mutual influence and understanding towards the production of something imbued with a strong intention is the key to dialogic interaction, whatever the means. Interfaces that facilitate this can take many different forms, and conversational interfaces are only one of them, which, depending on the conversational design and how people engage with it, may be more or less dialogic than other interfaces.
 
 
-\subsection{Creative primitives and humans acting as orchestrators of generative workflows}
+\subsection{Principle 9: Make creative primitives visible and allow users to act as workflow orchestrators}
 
 With this framing, let's revisit the discussion on roles, and what it means for humans to assume roles at the intentional space. As I argued in the previous section, engaging in intentional roles does not necessarily, by itself, mean that humans are less involved creatively; the process matters. What does it mean for a person to be deeply involved in the intentional space? My case studies in Chapters 5 and 6 provide illustrative examples.
 
@@ -475,8 +482,3 @@ This illuminates a final principle: that of providing visibility to the user abo
 \section{Contribution and Future Directions}
 This thesis argued that the current paradigm of human-AI interaction often leads to \textit{severed agency}. The primary contribution is the development of \textit{dialogic design} as a framework to counteract this by more closely aligning intention and action through the principles organised under the dimensions of \textbf{Iteration}, \textbf{Communication}, \textbf{Collaboration}, and \textbf{Integration}. The design principles derived from this research offer concrete guidance for building effective co-creative tools that maintain human agency and allow people to leverage the potential of generative AI.
 
-
-
-
-
-However, training or fine-tuning models is not the only way control can be exercised by the user. Another way is providing the elements that they can work with. For example, in my Chapter 7, the soundscapes were produced from a library of human-curated and recorded sounds. The role of the LLM was to drive how these were combined. So while we did not train a system (beyond conditioning with prompt engineering), we still curated its outputs. This was a task primarily undertaken by the lead composer and the Uncanny Valley team. They field-recorded sounds from the surrounding environment where the installation would appear (recall the intention was to turn this environment, or the Opera House building, into music). They also composed and recorded sounds in the studio, as well as curated some existing samples and stems to be used. This process of curation, or meta-creation, was a deliberate decision to maintain compositional agency, to maintain involvement, and ultimately to control how the final soundscape would sound. As Justin Shave shared, illustrating the balance between leaning into the generative power of a system and maintaining authorship over it through the selection of sounds (and definition of the bounds within which it operated), the lead composer of the project claimed: "We don't know how the Opera House is going to sound. It's going to be a surprise!" but "I'm going to make it sound good!" This example suggests further inquiry into how we can provide users with control over the output, to maintain their involvement, and help them navigate the challenge of generative variability through an adaptive process.
