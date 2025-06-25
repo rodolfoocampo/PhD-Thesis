@@ -7,6 +7,9 @@
 \usepackage{epigraph}
 \usepackage{hyperref}
 \usepackage{float}
+\usepackage{tcolorbox}
+
+
 
 
 \makeatletter
@@ -32,6 +35,36 @@
         \addtocounter{page}{-1}
         \newpage
 }
+
+% Custom maketitle to exclude dissertation sheet
+\renewcommand{\maketitle}%
+    {\begin{titlepage}%
+        \vspace*{-20mm}%
+        \enlargethispage{\footskip}% no footer on cover
+	\begin{center}%
+          \coverpagefont
+          {\largeboldcoverpagefont \ThesisTitle \par}%
+          \vskip 0pt plus 8fill
+          {\largecoverpagefont \ThesisAuthor \par}%
+          \vskip 0pt plus 8fill
+          { A thesis in fulfilment of the requirements for the degree of \\[2ex]
+              \ThesisDegreeName \par}%
+          \vskip 0pt plus 8fill
+          \includegraphics{unswlogo}
+	  \vskip 0pt plus 4fill
+          \ThesisSchoolName\par
+          \ThesisFacultyName\par
+          The University of New South Wales\par
+	  \vskip 0pt plus 4fill
+          \ThesisDate \par%
+	\end{center}\par
+    \end{titlepage}
+    \clearemptydoublepage
+    %\ThesisDissertationSheet  % Commented out to remove dissertation sheet
+    %\ThesisOriginalityDeclaration  % Commented out to remove originality declaration
+    %\CopyrightAndAuthenticity  % Commented out to remove copyright and authenticity statements
+    \setcounter{footnote}{0}
+    \let\maketitle\relax}
 
 \begin{document}
     
