@@ -62,8 +62,8 @@
 % Change these for customisation.  To change them in a LaTeX document,
 % simply use \thesisfaculty{xxx} and \thesisschool{xxx}.
 
-\gdef\ThesisFacultyName{Faculty of Engineering}
-\gdef\ThesisSchoolName{Name of School}
+\gdef\ThesisFacultyName{Faculty of Arts, Design \& Architecture}
+\gdef\ThesisSchoolName{School of Art \& Design}
 
 % Customise for foreign languages.
 
