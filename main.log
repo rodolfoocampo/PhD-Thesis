@@ -1,0 +1,5332 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.18)  25 NOV 2025 15:49
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/rodolfoocampo/Documents/PhD/PhD-Thesis/main.tex
+(/Users/rodolfoocampo/Documents/PhD/PhD-Thesis/main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(./unswthesis.cls
+Document Class: unswthesis 2015/04/30 v2.0.1 Faculty of Engineering, University of NSW Thesis Class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip49
+\f@nch@offset@elh=\skip50
+\f@nch@offset@erh=\skip51
+\f@nch@offset@olh=\skip52
+\f@nch@offset@orh=\skip53
+\f@nch@offset@elf=\skip54
+\f@nch@offset@erf=\skip55
+\f@nch@offset@olf=\skip56
+\f@nch@offset@orf=\skip57
+\f@nch@height=\skip58
+\f@nch@footalignment=\skip59
+\f@nch@widthL=\skip60
+\f@nch@widthC=\skip61
+\f@nch@widthR=\skip62
+\@temptokenb=\toks17
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip63
+\L@UnitsRaiseTextstyle=\skip64
+\L@UnitsRaiseScriptstyle=\skip65
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@chapter=\count197
+\c@section=\count198
+\c@subsection=\count199
+\c@subsubsection=\count266
+\c@paragraph=\count267
+\c@subparagraph=\count268
+\c@figure=\count269
+\c@table=\count270
+\abovecaptionskip=\skip66
+\belowcaptionskip=\skip67
+\bibindent=\dimen141
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/sauerj/collect.sty
+Package: collect 2004/09/12 v0.9 collect the contents of an environment
+\CE@tmp@out=\write3
+)
+\CE@@@bstract@out=\write4
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count271
+\Gm@cntv=\count272
+\c@Gm@tempcnt=\count273
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks19
+)
+\botmargin=\skip68
+) (./mystyle.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count274
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count275
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen150
+\Hy@linkcounter=\count276
+\Hy@pagecounter=\count277
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count278
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `final' set `true' on input line 4040.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count279
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen151
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count280
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count281
+\c@Item=\count282
+\c@Hfootnote=\count283
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count284
+\c@bookmark@seq@number=\count285
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip69
+)
+Package hyperref Info: Option `hypertexnames' set `false' on input line 2.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip70
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen154
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen155
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count286
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count287
+\leftroot@=\count288
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count289
+\DOTSCASE@=\count290
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen156
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count291
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count292
+\dotsspace@=\muskip18
+\c@parentequation=\count293
+\dspbrk@lvl=\count294
+\tag@help=\toks21
+\row@=\count295
+\column@=\count296
+\maxfields@=\count297
+\andhelp@=\toks22
+\eqnshift@=\dimen157
+\alignsep@=\dimen158
+\tagshift@=\dimen159
+\tagwidth@=\dimen160
+\totwidth@=\dimen161
+\lineht@=\dimen162
+\@envbody=\toks23
+\multlinegap=\skip71
+\multlinetaggap=\skip72
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen163
+\captionmargin=\dimen164
+\caption@leftmargin=\dimen165
+\caption@rightmargin=\dimen166
+\caption@width=\dimen167
+\caption@indent=\dimen168
+\caption@parindent=\dimen169
+\caption@hangindent=\dimen170
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count298
+\c@continuedfloat=\count299
+Package caption Info: hyperref package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count300
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count301
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen171
+\ar@mcellbox=\box54
+\extrarowheight=\dimen172
+\NC@list=\toks25
+\extratabsurround=\skip73
+\backup@length=\skip74
+\ar@cellbox=\box55
+)
+\TX@col@width=\dimen173
+\TX@old@table=\dimen174
+\TX@old@col=\dimen175
+\TX@target=\dimen176
+\TX@delta=\dimen177
+\TX@cols=\count302
+\TX@ftn=\toks26
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip75
+\multirow@cntb=\count303
+\multirow@dima=\skip76
+\bigstrutjot=\dimen178
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen179
+\lightrulewidth=\dimen180
+\cmidrulewidth=\dimen181
+\belowrulesep=\dimen182
+\belowbottomsep=\dimen183
+\aboverulesep=\dimen184
+\abovetopsep=\dimen185
+\cmidrulesep=\dimen186
+\cmidrulekern=\dimen187
+\defaultaddspace=\dimen188
+\@cmidla=\count304
+\@cmidlb=\count305
+\@aboverulesep=\dimen189
+\@belowrulesep=\dimen190
+\@thisruleclass=\count306
+\@lastruleclass=\count307
+\@thisrulewidth=\dimen191
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/bigstrut.sty
+Package: bigstrut 2024/11/12 v2.9 Provide larger struts in tabulars
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen192
+\Gin@req@width=\dimen193
+)
+\c@r@tfl@t=\count308
+\rotFPtop=\skip77
+\rotFPbot=\skip78
+\rot@float@box=\box56
+\rot@mess@toks=\toks27
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/natbib/bibentry.sty
+Package: bibentry 2007/10/30 1.5 (PWD)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks28
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
+\BKM@id=\count309
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/tabto-ltx/tabto.sty
+Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
+\CurrentLineWidth=\dimen194
+\TabPrevPos=\dimen195
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box57
+\UL@hyphenbox=\box58
+\UL@skip=\skip79
+\UL@hook=\toks29
+\UL@height=\dimen196
+\UL@pe=\count310
+\UL@pixel=\dimen197
+\ULC@box=\box59
+Package: ulem 2019/11/18
+\ULdepth=\dimen198
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks30
+\AP@partial=\box60
+\AP@footins=\box61
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epigraph/epigraph.sty
+Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/nextpage/nextpage.sty
+Package: nextpage 2009/09/03 v1.1a additional page commands
+)
+\beforeepigraphskip=\skip80
+\afterepigraphskip=\skip81
+\epigraphwidth=\skip82
+\epigraphrule=\skip83
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count311
+\c@ALG@rem=\count312
+\c@ALG@nested=\count313
+\ALG@tlm=\skip84
+\ALG@thistlm=\skip85
+\c@ALG@Lnr=\count314
+\c@ALG@blocknr=\count315
+\c@ALG@storecount=\count316
+\c@ALG@tmpcounter=\count317
+\ALG@tmplength=\skip86
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count318
+\float@exts=\toks31
+\float@box=\box62
+\@float@everytoks=\toks32
+\@floatcapt=\box63
+)
+\@float@every@algorithm=\toks33
+\c@algorithm=\count319
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks34
+\inpenc@posthook=\toks35
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2023/11/09 UCS: Input encoding UTF-8
+
+
+Package ucs Info: utf8x disabled, assuming standard utf8 processing
+(ucs)             load ucs package to force utf8x processing.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2022/06/07 v1.3c UTF-8 support
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+)
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01C4 (decimal 452)
+   defining Unicode char U+01C5 (decimal 453)
+   defining Unicode char U+01C6 (decimal 454)
+   defining Unicode char U+01C7 (decimal 455)
+   defining Unicode char U+01C8 (decimal 456)
+   defining Unicode char U+01C9 (decimal 457)
+   defining Unicode char U+01CA (decimal 458)
+   defining Unicode char U+01CB (decimal 459)
+   defining Unicode char U+01CC (decimal 460)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+02D9 (decimal 729)
+   defining Unicode char U+02DB (decimal 731)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+1E0D (decimal 7693)
+   defining Unicode char U+1E1E (decimal 7710)
+   defining Unicode char U+1E1F (decimal 7711)
+   defining Unicode char U+1E25 (decimal 7717)
+   defining Unicode char U+1E30 (decimal 7728)
+   defining Unicode char U+1E31 (decimal 7729)
+   defining Unicode char U+1E37 (decimal 7735)
+   defining Unicode char U+1E8E (decimal 7822)
+   defining Unicode char U+1E8F (decimal 7823)
+   defining Unicode char U+1E43 (decimal 7747)
+   defining Unicode char U+1E45 (decimal 7749)
+   defining Unicode char U+1E47 (decimal 7751)
+   defining Unicode char U+1E5B (decimal 7771)
+   defining Unicode char U+1E63 (decimal 7779)
+   defining Unicode char U+1E6D (decimal 7789)
+   defining Unicode char U+1E90 (decimal 7824)
+   defining Unicode char U+1E91 (decimal 7825)
+   defining Unicode char U+1E9E (decimal 7838)
+   defining Unicode char U+1EF2 (decimal 7922)
+   defining Unicode char U+1EF3 (decimal 7923)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+)
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+3008 (decimal 12296)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+3009 (decimal 12297)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FEFF (decimal 65279)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+FEFF (decimal 65279)
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip87
+\enit@outerparindent=\dimen199
+\enit@toks=\toks36
+\enit@inbox=\box64
+\enit@count@id=\count320
+\enitdp@description=\count321
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+\everycr=\toks37
+\minrowclearance=\skip88
+\rownum=\count322
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count323
+\lst@gtempboxa=\box65
+\lst@token=\toks38
+\lst@length=\count324
+\lst@currlwidth=\dimen256
+\lst@column=\count325
+\lst@pos=\count326
+\lst@lostspace=\dimen257
+\lst@width=\dimen258
+\lst@newlines=\count327
+\lst@lineno=\count328
+\lst@maxwidth=\dimen259
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count329
+\lst@skipnumbers=\count330
+\lst@framebox=\box66
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2021/11/10 v5.6 Nomenclature package
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks39
+\XKV@tempa@toks=\toks40
+)
+\XKV@depth=\count331
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2024/10/24 v3.43 KOMA-Script package (handling toc-files)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2024/10/24 v3.43 KOMA-Script package (file load hooks)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2024/10/24 v3.43 KOMA-Script package (using LaTeX hooks)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2024/10/24 v3.43 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
+)
+\scr@dte@tocline@numberwidth=\skip89
+\scr@dte@tocline@numbox=\box67
+)
+Package tocbasic Info: omitting babel extension for `nlo'
+(tocbasic)             because of missing \bbl@set@language on input line 187.
+Package tocbasic Info: omitting babel extension for `nls'
+(tocbasic)             because of missing \bbl@set@language on input line 188.
+\nomlabelwidth=\dimen260
+\nom@tempdim=\dimen261
+\nomitemsep=\skip90
+)
+\@nomenclaturefile=\write5
+\openout5 = `main.nlo'.
+
+Package nomencl Info: Writing nomenclature file main.nlo on input line 77.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2025/01/30 v0.6e Insert pages of external PDF documents (AM)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count332
+\calc@Bcount=\count333
+\calc@Adimen=\dimen262
+\calc@Bdimen=\dimen263
+\calc@Askip=\skip91
+\calc@Bskip=\skip92
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count334
+\calc@Cskip=\skip93
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen264
+\ESO@tempdimb=\dimen265
+)
+\AM@pagewidth=\dimen266
+\AM@pageheight=\dimen267
+\AM@fboxrule=\dimen268
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2025/01/30 v0.6e Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count335
+\AM@pagebox=\box68
+\AM@global@opts=\toks41
+\AM@pagecnt=\count336
+\AM@toc@title=\toks42
+\AM@lof@heading=\toks43
+\c@AM@survey=\count337
+\AM@templatesizebox=\box69
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks44
+\pgfutil@tempdima=\dimen269
+\pgfutil@tempdimb=\dimen270
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box70
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks45
+\pgfkeys@temptoks=\toks46
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks47
+))
+\pgf@x=\dimen271
+\pgf@y=\dimen272
+\pgf@xa=\dimen273
+\pgf@ya=\dimen274
+\pgf@xb=\dimen275
+\pgf@yb=\dimen276
+\pgf@xc=\dimen277
+\pgf@yc=\dimen278
+\pgf@xd=\dimen279
+\pgf@yd=\dimen280
+\w@pgf@writea=\write6
+\r@pgf@reada=\read2
+\c@pgf@counta=\count338
+\c@pgf@countb=\count339
+\c@pgf@countc=\count340
+\c@pgf@countd=\count341
+\t@pgf@toka=\toks48
+\t@pgf@tokb=\toks49
+\t@pgf@tokc=\toks50
+\pgf@sys@id@count=\count342
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count343
+\pgfsyssoftpath@bigbuffer@items=\count344
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen281
+\pgfmath@count=\count345
+\pgfmath@box=\box71
+\pgfmath@toks=\toks51
+\pgfmath@stack@operand=\toks52
+\pgfmath@stack@operation=\toks53
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count346
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen282
+\pgf@picmaxx=\dimen283
+\pgf@picminy=\dimen284
+\pgf@picmaxy=\dimen285
+\pgf@pathminx=\dimen286
+\pgf@pathmaxx=\dimen287
+\pgf@pathminy=\dimen288
+\pgf@pathmaxy=\dimen289
+\pgf@xx=\dimen290
+\pgf@xy=\dimen291
+\pgf@yx=\dimen292
+\pgf@yy=\dimen293
+\pgf@zx=\dimen294
+\pgf@zy=\dimen295
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen296
+\pgf@path@lasty=\dimen297
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen298
+\pgf@shorten@start@additional=\dimen299
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box72
+\pgf@hbox=\box73
+\pgf@layerbox@main=\box74
+\pgf@picture@serial@count=\count347
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen300
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen301
+\pgf@pt@y=\dimen302
+\pgf@pt@temp=\dimen303
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen304
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen305
+\pgf@sys@shading@range@num=\count348
+\pgf@shadingcount=\count349
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box75
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box76
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen306
+\pgf@nodesepend=\dimen307
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen308
+\pgffor@skip=\dimen309
+\pgffor@stack=\toks54
+\pgffor@toks=\toks55
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count350
+\pgfplotmarksize=\dimen310
+)
+\tikz@lastx=\dimen311
+\tikz@lasty=\dimen312
+\tikz@lastxsaved=\dimen313
+\tikz@lastysaved=\dimen314
+\tikz@lastmovetox=\dimen315
+\tikz@lastmovetoy=\dimen316
+\tikzleveldistance=\dimen317
+\tikzsiblingdistance=\dimen318
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count351
+\tikznumberofchildren=\count352
+\tikznumberofcurrentchild=\count353
+\tikz@fig@count=\count354
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count355
+\pgfmatrixcurrentcolumn=\count356
+\pgf@matrix@numberofcolumns=\count357
+)
+\tikz@expandcount=\count358
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks56
+\verbatim@line=\toks57
+\verbatim@in@stream=\read3
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box81
+\tcb@upperbox=\box82
+\tcb@lowerbox=\box83
+\tcb@phantombox=\box84
+\c@tcbbreakpart=\count359
+\c@tcblayer=\count360
+\c@tcolorbox@number=\count361
+\l__tcobox_tmpa_box=\box85
+\l__tcobox_tmpa_dim=\dimen319
+\tcb@temp=\box86
+\tcb@temp=\box87
+\tcb@temp=\box88
+\tcb@temp=\box89
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/soul/soul-ori.sty
+Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
+\SOUL@word=\toks58
+\SOUL@lasttoken=\toks59
+\SOUL@syllable=\toks60
+\SOUL@cmds=\toks61
+\SOUL@buffer=\toks62
+\SOUL@token=\toks63
+\SOUL@syllgoal=\dimen320
+\SOUL@syllwidth=\dimen321
+\SOUL@charkern=\dimen322
+\SOUL@hyphkern=\dimen323
+\SOUL@dimen=\dimen324
+\SOUL@dimeni=\dimen325
+\SOUL@minus=\count362
+\SOUL@comma=\count363
+\SOUL@apo=\count364
+\SOUL@grave=\count365
+\SOUL@spaceskip=\skip94
+\SOUL@ttwidth=\dimen326
+\SOUL@uldp=\dimen327
+\SOUL@ulht=\dimen328
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+
+LaTeX Warning: \include should only be used after \begin{document} on input line 24.
+
+(./mythesisDetails.tex)
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 71.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count366
+\l__pdf_internal_box=\box90
+)
+
+LaTeX Warning: Unused global option(s):
+    [memoir].
+
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count367
+\scratchdimen=\dimen329
+\scratchbox=\box91
+\nofMPsegments=\count368
+\nofMParguments=\count369
+\everyMPshowfont=\toks64
+\MPscratchCnt=\count370
+\MPscratchDim=\dimen330
+\MPnumerator=\count371
+\makeMPintoPDFobject=\count372
+\everyMPtoPDFconversion=\toks65
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=615.10396pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=-15.36449pt
+* \topmargin=13.08827pt
+* \headheight=25.0pt
+* \headsep=20.0pt
+* \topskip=11.0pt
+* \footskip=42.67912pt
+* \marginparwidth=71.13188pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring OFF on input line 71.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count373
+Package tocbasic Info: omitting babel extension for `lol'
+(tocbasic)             because of missing \bbl@set@language on input line 71.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 76.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+Package epstopdf Info: Source file: <unswlogo.eps>
+(epstopdf)                    date: 2025-06-24 14:42:36
+(epstopdf)                    size: 1453322 bytes
+(epstopdf)             Output file: <unswlogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-11-17 14:15:49
+(epstopdf)                    size: 64757 bytes
+(epstopdf)             Command: <repstopdf --outfile=unswlogo-eps-converted-to.pdf unswlogo.eps>
+(epstopdf)             \includegraphics on input line 76.
+Package epstopdf Info: Output file is already uptodate.
+<unswlogo-eps-converted-to.pdf, id=7, 148.555pt x 154.5775pt>
+File: unswlogo-eps-converted-to.pdf Graphic file (type pdf)
+<use unswlogo-eps-converted-to.pdf>
+Package pdftex.def Info: unswlogo-eps-converted-to.pdf  used on input line 76.
+(pdftex.def)             Requested size: 148.55463pt x 154.5771pt.
+
+
+[1
+
+
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc} <./unswlogo-eps-converted-to.pdf>]
+
+[2
+
+]
+\openout2 = `1-pre/abstract.aux'.
+
+ (./1-pre/abstract.tex
+
+[3
+
+
+{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}])
+
+[4]
+\openout2 = `1-pre/ack.aux'.
+
+ (./1-pre/ack.tex)
+
+[5
+
+
+
+
+]
+\openout2 = `1-pre/publications.aux'.
+
+ (./1-pre/publications.tex
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (20.26625pt too wide) in paragraph at lines 9--10
+[]\T1/lmr/bx/n/10.95 A Frame-work for Dialogue-Based Human-AI Cre-ative Col-lab-o-ra-tion. \T1/lmr/m/n/10.95 Ocampo,
+ []
+
+
+
+[6
+
+
+
+
+{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 30.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 30.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 30.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 30.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 30.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+
+[7]
+No file main.toc.
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+
+
+[8
+
+
+
+]
+No file main.lof.
+\tf@lof=\write8
+\openout8 = `main.lof'.
+
+
+
+[9
+
+]
+No file main.lot.
+\tf@lot=\write9
+\openout9 = `main.lot'.
+
+
+
+[10
+
+]
+\openout2 = `1-pre/abbreviations.aux'.
+
+ (./1-pre/abbreviations.tex
+No file main.nls.
+)
+\openout2 = `1-pre/main.aux'.
+
+
+No file 1-pre/main.tex.
+\openout2 = `2-intro/main.aux'.
+
+(./2-intro/main.tex
+Chapter 1.
+
+
+[1
+
+
+
+
+
+
+
+
+
+
+]
+
+[2]
+
+LaTeX Warning: Citation `Bengio2003-xn' on page 3 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Sutskever2011-ne' on page 3 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Graves2013-yv' on page 3 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Vaswani2017-pb' on page 3 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Brown2020-js' on page 3 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Thoppilan2022-jf' on page 3 undefined on input line 43.
+
+
+LaTeX Warning: Citation `OpenAI2023-lt' on page 3 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Anthropic2024-tc' on page 3 undefined on input line 43.
+
+
+LaTeX Warning: Citation `DeepSeek-AI2025-ai' on page 3 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Gemini-Team2024-wk' on page 3 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Gemini-Team2023-ux' on page 3 undefined on input line 43.
+
+
+LaTeX Warning: Citation `OpenAI2024-em' on page 3 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Hubert2024-kv' on page 3 undefined on input line 45.
+
+
+LaTeX Warning: Citation `Guzik2023-cl' on page 3 undefined on input line 45.
+
+
+
+[3]
+
+LaTeX Warning: Citation `Goodfellow2014-jz' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `Mordvintsev2015-oz' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `Ramesh2021-xb' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `Rombach2021-wf' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `Ho2020-zj' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `OpenAI2021-te' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `Nichol2021-ne' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `Zhang2023-by' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `Alexander2024-pz' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `Huang2018-pc' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `Dhariwal2020-au' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `Roberts2019-ym' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `Copet2023-mh' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `Suno2024-wa' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `Udio2024-rc' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `Runway2024-zs' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `Polyak2024-lh' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `OpenAI2024-ua' on page 4 undefined on input line 47.
+
+<comparisonimages.png, id=114, 1442.38875pt x 697.60625pt>
+File: comparisonimages.png Graphic file (type png)
+<use comparisonimages.png>
+Package pdftex.def Info: comparisonimages.png  used on input line 51.
+(pdftex.def)             Requested size: 426.79135pt x 206.40944pt.
+
+LaTeX Warning: Citation `Hu2023-ie' on page 4 undefined on input line 56.
+
+
+LaTeX Warning: Citation `Patel2023-fg' on page 4 undefined on input line 56.
+
+
+
+[4 <./comparisonimages.png>]
+
+LaTeX Warning: Citation `Offerman2024-lf' on page 5 undefined on input line 58.
+
+
+LaTeX Warning: Citation `Baudelaire1955-ae' on page 5 undefined on input line 66.
+
+
+LaTeX Warning: Citation `Benjamin1935-wd' on page 5 undefined on input line 66.
+
+
+
+[5]
+
+LaTeX Warning: Citation `Scharf1968-na' on page 6 undefined on input line 68.
+
+
+LaTeX Warning: Citation `Marmor1997-ka' on page 6 undefined on input line 68.
+
+
+LaTeX Warning: Citation `Robinson1896-mo' on page 6 undefined on input line 68.
+
+
+LaTeX Warning: Citation `Candy2002-ra' on page 6 undefined on input line 74.
+
+
+
+[6]
+
+LaTeX Warning: Citation `Davis2013-jy' on page 7 undefined on input line 76.
+
+
+LaTeX Warning: Citation `Yannakakis2014-zs' on page 7 undefined on input line 76.
+
+
+LaTeX Warning: Citation `Kantosalo2020-zf' on page 7 undefined on input line 76.
+
+
+LaTeX Warning: Citation `Rezwana2022-gg' on page 7 undefined on input line 76.
+
+
+LaTeX Warning: Citation `Moruzzi2024-cq' on page 7 undefined on input line 76.
+
+
+LaTeX Warning: Citation `Haase2024-yp' on page 7 undefined on input line 76.
+
+
+LaTeX Warning: Citation `Lin2023-zq' on page 7 undefined on input line 76.
+
+
+LaTeX Warning: Citation `Karimi2018-wi' on page 7 undefined on input line 76.
+
+
+LaTeX Warning: Citation `Vinchon2023-gh' on page 7 undefined on input line 76.
+
+
+LaTeX Warning: Citation `Amabile1983-lj' on page 7 undefined on input line 85.
+
+
+LaTeX Warning: Citation `Sternberg1998-oz' on page 7 undefined on input line 85.
+
+
+LaTeX Warning: Citation `Runco2012-mk' on page 7 undefined on input line 85.
+
+
+LaTeX Warning: Citation `Boden2003-hk' on page 7 undefined on input line 85.
+
+
+LaTeX Warning: Citation `Colton2021-bt' on page 7 undefined on input line 87.
+
+
+Overfull \hbox (0.19846pt too wide) in paragraph at lines 90--91
+\T1/lmr/m/n/10.95 tak-ing on par-tic-u-lar re-spon-si-bil-i-ties, ex-hibit be-haviours that un-bi-ased ob-servers
+ []
+
+
+LaTeX Warning: Citation `Rhodes1961-od' on page 7 undefined on input line 93.
+
+
+LaTeX Warning: Citation `Jordanous2016-xb' on page 7 undefined on input line 93.
+
+
+
+[7]
+
+LaTeX Warning: Citation `Bown2012-gg' on page 8 undefined on input line 102.
+
+
+LaTeX Warning: Citation `Bown2021-os' on page 8 undefined on input line 102.
+
+
+LaTeX Warning: Citation `Davis2013-jy' on page 8 undefined on input line 104.
+
+
+LaTeX Warning: Citation `Rezwana2023-rt' on page 8 undefined on input line 104.
+
+
+LaTeX Warning: Citation `Malafouris2013-by' on page 8 undefined on input line 106.
+
+
+LaTeX Warning: Citation `Clark1998-yi' on page 8 undefined on input line 106.
+
+
+
+[8]
+
+LaTeX Warning: Citation `McCarthy1955-ls' on page 9 undefined on input line 110.
+
+
+LaTeX Warning: Citation `Boden2003-hk' on page 9 undefined on input line 110.
+
+
+LaTeX Warning: Citation `Boden1998-yn' on page 9 undefined on input line 110.
+
+
+LaTeX Warning: Citation `Colton2012-jc' on page 9 undefined on input line 110.
+
+
+LaTeX Warning: Citation `Bown2012-gg' on page 9 undefined on input line 110.
+
+
+LaTeX Warning: Citation `Moruzzi2020-mw' on page 9 undefined on input line 110.
+
+
+LaTeX Warning: Citation `Wiggins2006-zd' on page 9 undefined on input line 110.
+
+
+LaTeX Warning: Citation `Jordanous2012-kw' on page 9 undefined on input line 110.
+
+
+LaTeX Warning: Citation `Colton2021-bt' on page 9 undefined on input line 110.
+
+
+LaTeX Warning: Citation `Hubert2024-kv' on page 9 undefined on input line 116.
+
+
+LaTeX Warning: Citation `Guzik2023-cl' on page 9 undefined on input line 116.
+
+
+LaTeX Warning: Citation `Koivisto2023-lw' on page 9 undefined on input line 116.
+
+
+LaTeX Warning: Citation `Alexander2024-pz' on page 9 undefined on input line 116.
+
+
+
+[9]
+
+LaTeX Warning: Citation `Metz2016-dm' on page 10 undefined on input line 122.
+
+
+LaTeX Warning: Citation `Hitsuwari2023-tw' on page 10 undefined on input line 122.
+
+
+LaTeX Warning: Citation `Vaccaro2024-ne' on page 10 undefined on input line 124.
+
+
+LaTeX Warning: Citation `DellAcqua2023-og' on page 10 undefined on input line 124.
+
+
+LaTeX Warning: Citation `McGuire2024-im' on page 10 undefined on input line 124.
+
+
+
+[10]
+
+LaTeX Warning: Citation `Gerlich2025-as' on page 11 undefined on input line 134.
+
+
+LaTeX Warning: Citation `Lee2025-dw' on page 11 undefined on input line 134.
+
+
+LaTeX Warning: Citation `Essel2024-qc' on page 11 undefined on input line 134.
+
+
+LaTeX Warning: Citation `Lehmann2022-kr' on page 11 undefined on input line 136.
+
+
+LaTeX Warning: Citation `Kantosalo2020-nh' on page 11 undefined on input line 136.
+
+
+LaTeX Warning: Citation `Liapis2016-bv' on page 11 undefined on input line 136.
+
+
+LaTeX Warning: Citation `Lin2023-jd' on page 11 undefined on input line 136.
+
+
+LaTeX Warning: Citation `Karimi2020-cf' on page 11 undefined on input line 136.
+
+
+LaTeX Warning: Citation `Moruzzi2024-cq' on page 11 undefined on input line 136.
+
+
+LaTeX Warning: Citation `Rezwana2022-gg' on page 11 undefined on input line 136.
+
+
+LaTeX Warning: Citation `Abbas2024-sf' on page 11 undefined on input line 136.
+
+
+LaTeX Warning: Citation `McCormack2019-yh' on page 11 undefined on input line 136.
+
+
+LaTeX Warning: Citation `Louie2020-aq' on page 11 undefined on input line 136.
+
+
+LaTeX Warning: Citation `Kruger2017-xa' on page 11 undefined on input line 136.
+
+
+LaTeX Warning: Citation `McCormack2020-ix' on page 11 undefined on input line 136.
+
+
+LaTeX Warning: Citation `Hutchings2020-bv' on page 11 undefined on input line 136.
+
+
+LaTeX Warning: Citation `Wang2020-cw' on page 11 undefined on input line 136.
+
+
+LaTeX Warning: Citation `Rezwana2022-ui' on page 11 undefined on input line 136.
+
+
+
+[11]
+
+LaTeX Warning: Citation `Nebelong2023-rb' on page 12 undefined on input line 141.
+
+
+LaTeX Warning: Citation `Park2024-gw' on page 12 undefined on input line 141.
+
+
+LaTeX Warning: Citation `Llano2022-ti' on page 12 undefined on input line 141.
+
+
+LaTeX Warning: Citation `El-Assady2022-qc' on page 12 undefined on input line 141.
+
+
+LaTeX Warning: Citation `Park2024-gw' on page 12 undefined on input line 141.
+
+
+LaTeX Warning: Citation `Buschek2021-ks' on page 12 undefined on input line 141.
+
+
+LaTeX Warning: Citation `Bown2024-yx' on page 12 undefined on input line 143.
+
+
+LaTeX Warning: Citation `OpenAI2022-pj' on page 12 undefined on input line 143.
+
+
+LaTeX Warning: Citation `Ramesh2022-kc' on page 12 undefined on input line 143.
+
+
+LaTeX Warning: Reference `fig:unidirectional' on page 12 undefined on input line 151.
+
+
+
+[12]
+<unidirectional.png, id=164, 2699.08376pt x 372.39125pt>
+File: unidirectional.png Graphic file (type png)
+<use unidirectional.png>
+Package pdftex.def Info: unidirectional.png  used on input line 155.
+(pdftex.def)             Requested size: 320.0935pt x 44.16225pt.
+
+
+LaTeX Warning: Reference `fig:dialogicthroughandabout' on page 13 undefined on input line 160.
+
+<dialogicthroughandabout.jpg, id=165, 8671.39626pt x 5692.26625pt>
+File: dialogicthroughandabout.jpg Graphic file (type jpg)
+<use dialogicthroughandabout.jpg>
+Package pdftex.def Info: dialogicthroughandabout.jpg  used on input line 164.
+(pdftex.def)             Requested size: 320.0935pt x 210.10678pt.
+
+LaTeX Warning: Citation `Bown2020-oc' on page 13 undefined on input line 169.
+
+
+
+[13 <./unidirectional.png>]
+
+[14 <./dialogicthroughandabout.jpg>]
+
+[15]
+./2-intro/main.tex:214: Misplaced alignment tab character &.
+<argument> New Media &
+                       Music:
+l.214     \item \textbf{New Media & Music:}
+                                            This domain was retained for two...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+
+[16]
+
+LaTeX Warning: Reference `fig:approach_figure' on page 17 undefined on input line 219.
+
+<DiagramStructure.png, id=195, 1194.71344pt x 1690.06406pt>
+File: DiagramStructure.png Graphic file (type png)
+<use DiagramStructure.png>
+Package pdftex.def Info: DiagramStructure.png  used on input line 224.
+(pdftex.def)             Requested size: 426.79135pt x 603.75493pt.
+
+LaTeX Warning: Float too large for page by 12.25096pt on input line 227.
+
+
+
+[17]
+
+[18 <./DiagramStructure.png (PNG copy)>]
+
+[19])
+
+[20]
+
+[21]
+\openout2 = `3-literature/main.aux'.
+
+ (./3-literature/main.tex
+Chapter 2.
+
+
+[22
+
+
+
+
+]
+
+LaTeX Warning: Citation `Candy2002-ra' on page 23 undefined on input line 31.
+
+
+LaTeX Warning: Citation `Davis2013-jy' on page 23 undefined on input line 31.
+
+
+LaTeX Warning: Citation `Yannakakis2014-zs' on page 23 undefined on input line 31.
+
+
+LaTeX Warning: Citation `Kantosalo2020-zf' on page 23 undefined on input line 31.
+
+
+LaTeX Warning: Citation `Rezwana2022-gg' on page 23 undefined on input line 31.
+
+
+LaTeX Warning: Citation `Moruzzi2024-cq' on page 23 undefined on input line 31.
+
+
+LaTeX Warning: Citation `Haase2024-yp' on page 23 undefined on input line 31.
+
+
+LaTeX Warning: Citation `Lin2023-zq' on page 23 undefined on input line 31.
+
+
+LaTeX Warning: Citation `Karimi2018-wi' on page 23 undefined on input line 31.
+
+
+LaTeX Warning: Citation `Liapis2016-zt' on page 23 undefined on input line 31.
+
+
+
+[23]
+
+LaTeX Warning: Citation `Rhodes1961-od' on page 24 undefined on input line 35.
+
+
+LaTeX Warning: Citation `Kantosalo2019-pz' on page 24 undefined on input line 35.
+
+
+LaTeX Warning: Citation `Amabile1983-lj' on page 24 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Sternberg1998-oz' on page 24 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Runco2012-mk' on page 24 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Boden2003-hk' on page 24 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Turing1950-aq' on page 24 undefined on input line 39.
+
+
+LaTeX Warning: Citation `McCarthy1955-ls' on page 24 undefined on input line 39.
+
+
+
+[24]
+
+LaTeX Warning: Citation `Russell2016-oe' on page 25 undefined on input line 41.
+
+
+LaTeX Warning: Citation `Simon1967-nr' on page 25 undefined on input line 41.
+
+
+LaTeX Warning: Citation `Boden2003-hk' on page 25 undefined on input line 41.
+
+
+LaTeX Warning: Citation `Wiggins2006-zd' on page 25 undefined on input line 41.
+
+
+LaTeX Warning: Citation `Ritchie2007-jy' on page 25 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Colton2008-fh' on page 25 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Colton2011-uy' on page 25 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Maher2012-oj' on page 25 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Jordanous2012-kw' on page 25 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Cohen1995-wt' on page 25 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Colton2015-qr' on page 25 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Perez-y-Perez1999-ma' on page 25 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Cope1992-pq' on page 25 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Reichardt1968-eo' on page 25 undefined on input line 43.
+
+
+LaTeX Warning: Citation `Colton2021-bt' on page 25 undefined on input line 43.
+
+
+Overfull \hbox (0.19846pt too wide) in paragraph at lines 46--47
+\T1/lmr/m/n/10.95 tak-ing on par-tic-u-lar re-spon-si-bil-i-ties, ex-hibit be-haviours that un-bi-ased ob-servers
+ []
+
+
+LaTeX Warning: Citation `Colton2021-bt' on page 25 undefined on input line 49.
+
+
+LaTeX Warning: Citation `Hubert2024-kv' on page 25 undefined on input line 49.
+
+
+LaTeX Warning: Citation `Guzik2023-cl' on page 25 undefined on input line 49.
+
+
+LaTeX Warning: Citation `Alexander2024-pz' on page 25 undefined on input line 49.
+
+
+LaTeX Warning: Citation `Wu2025-or' on page 25 undefined on input line 49.
+
+
+LaTeX Warning: Citation `Kobis2021-bb' on page 25 undefined on input line 49.
+
+
+
+[25]
+
+LaTeX Warning: Citation `Runco2025-bu' on page 26 undefined on input line 51.
+
+
+LaTeX Warning: Citation `Wagner2015-oj' on page 26 undefined on input line 53.
+
+
+LaTeX Warning: Citation `Bown2012-gg' on page 26 undefined on input line 53.
+
+
+LaTeX Warning: Citation `Brown2016-tc' on page 26 undefined on input line 55.
+
+
+LaTeX Warning: Citation `Malafouris2008-xn' on page 26 undefined on input line 55.
+
+
+
+[26]
+
+LaTeX Warning: Citation `Lawton2023-tb' on page 27 undefined on input line 57.
+
+
+LaTeX Warning: Citation `Nielsen1994-df' on page 27 undefined on input line 63.
+
+
+LaTeX Warning: Citation `Amershi2019-vy' on page 27 undefined on input line 63.
+
+
+LaTeX Warning: Citation `Shneiderman2020-je' on page 27 undefined on input line 63.
+
+
+LaTeX Warning: Citation `Wright2020-nt' on page 27 undefined on input line 63.
+
+
+LaTeX Warning: Citation `Bengler2012-jf' on page 27 undefined on input line 63.
+
+
+LaTeX Warning: Citation `Resnick2005-fs' on page 27 undefined on input line 63.
+
+
+LaTeX Warning: Citation `Apple-Inc1987-am' on page 27 undefined on input line 65.
+
+
+LaTeX Warning: Citation `Weisz2024-io' on page 27 undefined on input line 65.
+
+
+LaTeX Warning: Citation `Koomen2025-eu' on page 27 undefined on input line 65.
+
+
+
+[27]
+
+LaTeX Warning: Citation `Weisz2024-io' on page 28 undefined on input line 69.
+
+
+LaTeX Warning: Citation `Nielsen1994-df' on page 28 undefined on input line 69.
+
+
+LaTeX Warning: Citation `Buschek2021-ks' on page 28 undefined on input line 69.
+
+
+LaTeX Warning: Citation `Dell-Acqua2022-dy' on page 28 undefined on input line 69.
+
+
+LaTeX Warning: Citation `Gerlich2025-as' on page 28 undefined on input line 69.
+
+
+LaTeX Warning: Citation `Buschek2021-ks' on page 28 undefined on input line 69.
+
+
+LaTeX Warning: Citation `Amershi2019-wu' on page 28 undefined on input line 71.
+
+
+LaTeX Warning: Citation `Weisz2024-io' on page 28 undefined on input line 71.
+
+
+LaTeX Warning: Citation `Guzdial2019-gr' on page 28 undefined on input line 75.
+
+
+LaTeX Warning: Citation `Kantosalo2019-pz' on page 28 undefined on input line 75.
+
+
+
+[28]
+
+LaTeX Warning: Citation `Rezwana2022-gg' on page 29 undefined on input line 77.
+
+
+LaTeX Warning: Citation `Moruzzi2024-cq' on page 29 undefined on input line 77.
+
+
+LaTeX Warning: Citation `Haase2024-yp' on page 29 undefined on input line 77.
+
+
+LaTeX Warning: Citation `Kim2021-fh' on page 29 undefined on input line 83.
+
+
+LaTeX Warning: Citation `Kantosalo2019-pz' on page 29 undefined on input line 83.
+
+
+LaTeX Warning: Citation `Rezwana2022-ui' on page 29 undefined on input line 83.
+
+
+LaTeX Warning: Citation `Rezwana2023-gj' on page 29 undefined on input line 83.
+
+
+LaTeX Warning: Citation `Lawton2023-tb' on page 29 undefined on input line 83.
+
+
+
+[29]
+
+LaTeX Warning: Citation `Lee2022-rj' on page 30 undefined on input line 85.
+
+
+LaTeX Warning: Citation `Jordanous2012-kw' on page 30 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Kantosalo2019-pz' on page 30 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Davis2016-te' on page 30 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Lawton2023-gd' on page 30 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Lee2022-rj' on page 30 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Lee2024-vz' on page 30 undefined on input line 91.
+
+
+
+[30]
+
+LaTeX Warning: Citation `Zao-Sanders2024-qo' on page 31 undefined on input line 93.
+
+
+LaTeX Warning: Citation `Chakrabarty2024-ov' on page 31 undefined on input line 93.
+
+
+LaTeX Warning: Citation `Doshi2023-dv' on page 31 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Chakrabarty2024-ov' on page 31 undefined on input line 97.
+
+
+LaTeX Warning: Citation `Chang2023-tv' on page 31 undefined on input line 97.
+
+
+LaTeX Warning: Citation `Clark1998-yi' on page 31 undefined on input line 97.
+
+
+LaTeX Warning: Citation `Ippolito2022-mf' on page 31 undefined on input line 97.
+
+
+LaTeX Warning: Citation `Li2024-yh' on page 31 undefined on input line 97.
+
+
+
+[31]
+
+LaTeX Warning: Citation `DellAcqua2023-og' on page 32 undefined on input line 107.
+
+
+LaTeX Warning: Citation `Buschek2021-ks' on page 32 undefined on input line 107.
+
+
+LaTeX Warning: Citation `Gerlich2025-as' on page 32 undefined on input line 109.
+
+
+LaTeX Warning: Citation `Lee2025-dw' on page 32 undefined on input line 109.
+
+
+LaTeX Warning: Citation `Essel2024-qc' on page 32 undefined on input line 109.
+
+
+LaTeX Warning: Citation `Dell-Acqua2022-dy' on page 32 undefined on input line 111.
+
+
+LaTeX Warning: Citation `Moruzzi2022-tx' on page 32 undefined on input line 111.
+
+
+LaTeX Warning: Citation `Lawton2023-tb' on page 32 undefined on input line 111.
+
+
+
+[32]
+
+LaTeX Warning: Citation `Buschek2021-ks' on page 33 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Zhu2018-zd' on page 33 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Llano2022-ti' on page 33 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Newn2020-mv' on page 33 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Shneiderman2020-je' on page 33 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Linardatos2020-uq' on page 33 undefined on input line 113.
+
+
+LaTeX Warning: Citation `El-Assady2022-qc' on page 33 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Gomez2023-bp' on page 33 undefined on input line 113.
+
+
+LaTeX Warning: Citation `El-Assady2022-qc' on page 33 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Kantosalo2020-nh' on page 33 undefined on input line 117.
+
+
+LaTeX Warning: Citation `Kantosalo2016-nm' on page 33 undefined on input line 117.
+
+
+LaTeX Warning: Citation `Kantosalo2016-nm' on page 33 undefined on input line 117.
+
+
+LaTeX Warning: Citation `Lin2023-zq' on page 33 undefined on input line 117.
+
+
+LaTeX Warning: Citation `Jia2024-vp' on page 33 undefined on input line 117.
+
+
+LaTeX Warning: Citation `Kantosalo2020-nh' on page 33 undefined on input line 119.
+
+
+LaTeX Warning: Citation `Kantosalo2016-nm' on page 33 undefined on input line 119.
+
+
+LaTeX Warning: Citation `Lin2023-zq' on page 33 undefined on input line 119.
+
+
+LaTeX Warning: Citation `Davis2016-te' on page 33 undefined on input line 119.
+
+
+LaTeX Warning: Citation `Zhou2024-vp' on page 33 undefined on input line 119.
+
+
+LaTeX Warning: Citation `Rezwana2022-gg' on page 33 undefined on input line 119.
+
+
+LaTeX Warning: Citation `Gomez2023-bp' on page 33 undefined on input line 119.
+
+
+LaTeX Warning: Citation `Jia2024-vp' on page 33 undefined on input line 121.
+
+
+LaTeX Warning: Citation `Fugener2019-yz' on page 33 undefined on input line 121.
+
+
+LaTeX Warning: Citation `Fugener2019-yz' on page 33 undefined on input line 121.
+
+
+LaTeX Warning: Citation `Dell-Acqua2022-dy' on page 33 undefined on input line 121.
+
+
+LaTeX Warning: Citation `Fugener2019-yz' on page 33 undefined on input line 121.
+
+
+
+[33]
+
+LaTeX Warning: Citation `Lin2023-jd' on page 34 undefined on input line 123.
+
+
+LaTeX Warning: Citation `Lin2023-jd' on page 34 undefined on input line 123.
+
+
+LaTeX Warning: Citation `McGuire2024-im' on page 34 undefined on input line 123.
+
+
+LaTeX Warning: Citation `McGuire2024-im' on page 34 undefined on input line 123.
+
+
+LaTeX Warning: Citation `Lin2023-jd' on page 34 undefined on input line 125.
+
+
+LaTeX Warning: Citation `Winston2017-nb' on page 34 undefined on input line 125.
+
+
+LaTeX Warning: Citation `Shakeri2021-dx' on page 34 undefined on input line 125.
+
+
+LaTeX Warning: Citation `Zhou2024-vp' on page 34 undefined on input line 125.
+
+
+LaTeX Warning: Citation `Lawton2023-gd' on page 34 undefined on input line 125.
+
+
+LaTeX Warning: Citation `Lin2023-zq' on page 34 undefined on input line 127.
+
+
+LaTeX Warning: Citation `Moruzzi2024-cq' on page 34 undefined on input line 127.
+
+
+LaTeX Warning: Citation `Ding2024-ja' on page 34 undefined on input line 127.
+
+
+LaTeX Warning: Citation `Weisz2024-io' on page 34 undefined on input line 127.
+
+
+
+[34]
+
+LaTeX Warning: Citation `Park2024-gw' on page 35 undefined on input line 131.
+
+
+LaTeX Warning: Citation `Tholander2023-rv' on page 35 undefined on input line 131.
+
+
+LaTeX Warning: Citation `Verheijden2023-gn' on page 35 undefined on input line 131.
+
+
+LaTeX Warning: Citation `Park2024-gw' on page 35 undefined on input line 131.
+
+
+LaTeX Warning: Citation `Peng2024-tr' on page 35 undefined on input line 131.
+
+
+LaTeX Warning: Citation `Shneiderman1997-pu' on page 35 undefined on input line 133.
+
+
+LaTeX Warning: Citation `Shneiderman1997-tv' on page 35 undefined on input line 133.
+
+
+LaTeX Warning: Citation `Masson2024-nt' on page 35 undefined on input line 133.
+
+
+LaTeX Warning: Citation `Masson2024-nt' on page 35 undefined on input line 133.
+
+
+LaTeX Warning: Citation `Ding2024-ta' on page 35 undefined on input line 135.
+
+
+LaTeX Warning: Citation `Chang2023-tv' on page 35 undefined on input line 135.
+
+
+LaTeX Warning: Citation `Moruzzi2024-cq' on page 35 undefined on input line 135.
+
+
+LaTeX Warning: Citation `Chang2023-tv' on page 35 undefined on input line 135.
+
+
+LaTeX Warning: Citation `Davis2024-ml' on page 35 undefined on input line 135.
+
+
+
+[35]
+
+LaTeX Warning: Citation `Weisz2024-io' on page 36 undefined on input line 137.
+
+
+LaTeX Warning: Citation `Amershi2019-vy' on page 36 undefined on input line 137.
+
+
+LaTeX Warning: Citation `Chang2023-tv' on page 36 undefined on input line 137.
+
+
+LaTeX Warning: Citation `Davis2024-ml' on page 36 undefined on input line 137.
+
+
+LaTeX Warning: Citation `Park2024-gw' on page 36 undefined on input line 139.
+
+
+LaTeX Warning: Citation `Peng2024-tr' on page 36 undefined on input line 139.
+
+
+LaTeX Warning: Citation `Peng2024-tr' on page 36 undefined on input line 139.
+
+
+LaTeX Warning: Citation `Peng2024-tr' on page 36 undefined on input line 139.
+
+
+LaTeX Warning: Citation `Verheijden2023-gn' on page 36 undefined on input line 139.
+
+
+LaTeX Warning: Citation `McCormack2024-gv' on page 36 undefined on input line 141.
+
+
+LaTeX Warning: Citation `Lin2020-ji' on page 36 undefined on input line 141.
+
+
+LaTeX Warning: Citation `McCormack2024-gv' on page 36 undefined on input line 141.
+
+
+LaTeX Warning: Citation `Lin2020-ji' on page 36 undefined on input line 141.
+
+
+LaTeX Warning: Citation `Blanchard2024-jz' on page 36 undefined on input line 141.
+
+
+LaTeX Warning: Citation `Lee2024-tu' on page 36 undefined on input line 141.
+
+
+LaTeX Warning: Citation `Resnick2005-fs' on page 36 undefined on input line 141.
+
+
+LaTeX Warning: Citation `Ippolito2022-mf' on page 36 undefined on input line 143.
+
+
+LaTeX Warning: Citation `Yuan2022-kb' on page 36 undefined on input line 143.
+
+
+LaTeX Warning: Citation `Chakrabarty2024-ov' on page 36 undefined on input line 143.
+
+
+LaTeX Warning: Citation `Ippolito2022-mf' on page 36 undefined on input line 143.
+
+
+LaTeX Warning: Citation `Grigis2024-pf' on page 36 undefined on input line 143.
+
+
+LaTeX Warning: Citation `Anthropic2024-ne' on page 36 undefined on input line 143.
+
+
+LaTeX Warning: Citation `Ouyang2022-af' on page 36 undefined on input line 143.
+
+
+LaTeX Warning: Citation `Bai2022-ec' on page 36 undefined on input line 143.
+
+
+LaTeX Warning: Citation `Koomen2025-eu' on page 36 undefined on input line 143.
+
+
+
+[36]
+
+LaTeX Warning: Citation `Mamykina2002-lm' on page 37 undefined on input line 147.
+
+
+LaTeX Warning: Citation `Rezwana2022-gg' on page 37 undefined on input line 147.
+
+
+LaTeX Warning: Citation `Rezwana2023-gj' on page 37 undefined on input line 149.
+
+
+LaTeX Warning: Citation `Rezwana2022-ui' on page 37 undefined on input line 149.
+
+
+LaTeX Warning: Citation `Rezwana2023-gj' on page 37 undefined on input line 149.
+
+
+LaTeX Warning: Citation `Rezwana2022-gg' on page 37 undefined on input line 149.
+
+
+LaTeX Warning: Citation `Coenen2021-ym' on page 37 undefined on input line 151.
+
+
+LaTeX Warning: Citation `Zhang2021-ej' on page 37 undefined on input line 151.
+
+
+LaTeX Warning: Citation `Coenen2021-ym' on page 37 undefined on input line 151.
+
+
+LaTeX Warning: Citation `Tholander2023-rv' on page 37 undefined on input line 151.
+
+
+LaTeX Warning: Citation `Zhang2021-ej' on page 37 undefined on input line 151.
+
+
+
+[37]
+
+LaTeX Warning: Citation `Zhu2018-zd' on page 38 undefined on input line 153.
+
+
+LaTeX Warning: Citation `Vaccaro2024-ne' on page 38 undefined on input line 153.
+
+
+LaTeX Warning: Citation `Oh2018-mu' on page 38 undefined on input line 153.
+
+
+LaTeX Warning: Citation `Rezwana2023-gj' on page 38 undefined on input line 155.
+
+
+LaTeX Warning: Citation `Rezwana2022-ui' on page 38 undefined on input line 155.
+
+
+LaTeX Warning: Citation `Jakesch2023-ks' on page 38 undefined on input line 155.
+
+
+LaTeX Warning: Citation `Jakesch2023-ks' on page 38 undefined on input line 155.
+
+
+LaTeX Warning: Citation `El-Assady2022-qc' on page 38 undefined on input line 155.
+
+
+
+[38]
+
+LaTeX Warning: Citation `Davis2016-te' on page 39 undefined on input line 161.
+
+
+LaTeX Warning: Citation `Koch2020-gx' on page 39 undefined on input line 163.
+
+
+LaTeX Warning: Citation `Davis2016-te' on page 39 undefined on input line 163.
+
+
+LaTeX Warning: Citation `Lawton2023-tb' on page 39 undefined on input line 163.
+
+
+LaTeX Warning: Citation `Koch2020-gx' on page 39 undefined on input line 163.
+
+
+LaTeX Warning: Citation `Lawton2023-tb' on page 39 undefined on input line 163.
+
+
+LaTeX Warning: Citation `Lin2020-ji' on page 39 undefined on input line 163.
+
+
+LaTeX Warning: Citation `Rezwana2022-gg' on page 39 undefined on input line 165.
+
+
+LaTeX Warning: Citation `Bown2020-oc' on page 39 undefined on input line 165.
+
+
+LaTeX Warning: Citation `Zhou2024-vp' on page 39 undefined on input line 165.
+
+
+LaTeX Warning: Citation `Davis2016-te' on page 39 undefined on input line 165.
+
+
+LaTeX Warning: Citation `Koch2020-gx' on page 39 undefined on input line 165.
+
+
+LaTeX Warning: Citation `Bown2020-oc' on page 39 undefined on input line 167.
+
+
+LaTeX Warning: Citation `Coenen2021-ym' on page 39 undefined on input line 167.
+
+
+LaTeX Warning: Citation `Bown2020-oc' on page 39 undefined on input line 167.
+
+
+LaTeX Warning: Citation `Lin2023-jd' on page 39 undefined on input line 167.
+
+
+LaTeX Warning: Citation `Davis2016-te' on page 39 undefined on input line 169.
+
+
+LaTeX Warning: Citation `Bown2020-oc' on page 39 undefined on input line 169.
+
+
+LaTeX Warning: Citation `Zhou2024-vp' on page 39 undefined on input line 169.
+
+
+LaTeX Warning: Citation `Wallas1926-ky' on page 39 undefined on input line 173.
+
+
+LaTeX Warning: Citation `Design-Council2004-fv' on page 39 undefined on input line 173.
+
+
+
+[39]
+
+LaTeX Warning: Citation `Li2024-yh' on page 40 undefined on input line 175.
+
+
+LaTeX Warning: Citation `Calderwood2020-gg' on page 40 undefined on input line 175.
+
+
+LaTeX Warning: Citation `Clark2018-yf' on page 40 undefined on input line 175.
+
+
+LaTeX Warning: Citation `Wan2023-he' on page 40 undefined on input line 175.
+
+
+LaTeX Warning: Citation `Mirowski2023-oz' on page 40 undefined on input line 175.
+
+
+LaTeX Warning: Citation `Doshi2023-dv' on page 40 undefined on input line 175.
+
+
+LaTeX Warning: Citation `Haase2023-mz' on page 40 undefined on input line 175.
+
+
+LaTeX Warning: Citation `Wan2023-he' on page 40 undefined on input line 175.
+
+
+LaTeX Warning: Citation `Chakrabarty2024-ov' on page 40 undefined on input line 175.
+
+
+LaTeX Warning: Citation `Chakrabarty2024-ov' on page 40 undefined on input line 177.
+
+
+LaTeX Warning: Citation `Yuan2022-kb' on page 40 undefined on input line 177.
+
+
+LaTeX Warning: Citation `Lee2024-vz' on page 40 undefined on input line 177.
+
+
+LaTeX Warning: Citation `Palani2024-on' on page 40 undefined on input line 177.
+
+
+LaTeX Warning: Citation `Lee2024-vz' on page 40 undefined on input line 177.
+
+
+LaTeX Warning: Citation `Lin2023-zq' on page 40 undefined on input line 179.
+
+
+LaTeX Warning: Citation `Zhou2024-vp' on page 40 undefined on input line 179.
+
+
+LaTeX Warning: Citation `Ippolito2022-mf' on page 40 undefined on input line 179.
+
+
+LaTeX Warning: Citation `Chakrabarty2024-ov' on page 40 undefined on input line 179.
+
+
+LaTeX Warning: Citation `Wan2023-he' on page 40 undefined on input line 181.
+
+
+LaTeX Warning: Citation `Ding2024-ta' on page 40 undefined on input line 181.
+
+
+LaTeX Warning: Citation `Mirowski2023-oz' on page 40 undefined on input line 181.
+
+
+LaTeX Warning: Citation `Moruzzi2024-cq' on page 40 undefined on input line 181.
+
+
+LaTeX Warning: Citation `Resnick2005-fs' on page 40 undefined on input line 181.
+
+
+LaTeX Warning: Citation `Weisz2024-io' on page 40 undefined on input line 181.
+
+
+LaTeX Warning: Citation `Palani2024-on' on page 40 undefined on input line 185.
+
+
+LaTeX Warning: Citation `Huang2020-fh' on page 40 undefined on input line 185.
+
+
+LaTeX Warning: Citation `Uitdenbogerd2023-no' on page 40 undefined on input line 185.
+
+
+
+[40]
+
+LaTeX Warning: Citation `Palani2024-on' on page 41 undefined on input line 187.
+
+
+LaTeX Warning: Citation `Park2024-gw' on page 41 undefined on input line 187.
+
+
+LaTeX Warning: Citation `Huang2020-fh' on page 41 undefined on input line 187.
+
+
+LaTeX Warning: Citation `Palani2024-on' on page 41 undefined on input line 187.
+
+
+LaTeX Warning: Citation `Palani2024-on' on page 41 undefined on input line 187.
+
+
+LaTeX Warning: Citation `Huang2020-fh' on page 41 undefined on input line 187.
+
+
+LaTeX Warning: Citation `Uitdenbogerd2023-no' on page 41 undefined on input line 187.
+
+
+LaTeX Warning: Citation `Palani2024-on' on page 41 undefined on input line 189.
+
+
+LaTeX Warning: Citation `Zhang2021-ej' on page 41 undefined on input line 189.
+
+
+LaTeX Warning: Citation `Gottweis2025-kc' on page 41 undefined on input line 189.
+
+
+LaTeX Warning: Citation `Park2024-gw' on page 41 undefined on input line 189.
+
+
+LaTeX Warning: Citation `Huang2020-fh' on page 41 undefined on input line 189.
+
+
+LaTeX Warning: Citation `Verheijden2023-gn' on page 41 undefined on input line 189.
+
+
+LaTeX Warning: Citation `Huang2020-fh' on page 41 undefined on input line 191.
+
+
+LaTeX Warning: Citation `Palani2024-on' on page 41 undefined on input line 191.
+
+
+
+[41]
+
+LaTeX Warning: Citation `Bohm1996-fo' on page 42 undefined on input line 197.
+
+
+LaTeX Warning: Citation `Dafoe2021-in' on page 42 undefined on input line 197.
+
+
+LaTeX Warning: Citation `Hayes1983-ca' on page 42 undefined on input line 197.
+
+
+LaTeX Warning: Citation `Allen1999-sr' on page 42 undefined on input line 197.
+
+
+LaTeX Warning: Citation `Yannakakis2014-zs' on page 42 undefined on input line 197.
+
+
+LaTeX Warning: Citation `Deterding2017-wh' on page 42 undefined on input line 197.
+
+
+LaTeX Warning: Citation `Bown2020-oc' on page 42 undefined on input line 199.
+
+
+LaTeX Warning: Citation `Zhou2024-vp' on page 42 undefined on input line 201.
+
+
+LaTeX Warning: Citation `Lin2023-jd' on page 42 undefined on input line 201.
+
+
+LaTeX Warning: Citation `Tholander2023-rv' on page 42 undefined on input line 201.
+
+
+LaTeX Warning: Citation `Dylan2023-ma' on page 42 undefined on input line 201.
+
+
+LaTeX Warning: Citation `Bown2020-oc' on page 42 undefined on input line 201.
+
+
+LaTeX Warning: Citation `Gomez2023-bp' on page 42 undefined on input line 201.
+
+
+LaTeX Warning: Citation `Wang2021-uy' on page 42 undefined on input line 201.
+
+
+LaTeX Warning: Citation `Zhou2024-vp' on page 42 undefined on input line 201.
+
+
+LaTeX Warning: Citation `Ghajargar2022-af' on page 42 undefined on input line 201.
+
+
+LaTeX Warning: Citation `Feldman2017-ip' on page 42 undefined on input line 201.
+
+
+
+[42]
+
+LaTeX Warning: Citation `Zhou2024-vp' on page 43 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Lin2023-jd' on page 43 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Rezwana2023-gj' on page 43 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Rezwana2022-ui' on page 43 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Lin2023-jd' on page 43 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Zhou2024-vp' on page 43 undefined on input line 205.
+
+
+LaTeX Warning: Citation `Lin2023-jd' on page 43 undefined on input line 207.
+
+
+LaTeX Warning: Citation `Glickman2024-zh' on page 43 undefined on input line 209.
+
+
+LaTeX Warning: Citation `Jakesch2023-ks' on page 43 undefined on input line 209.
+
+
+
+[43]
+
+LaTeX Warning: Citation `Moruzzi2022-tx' on page 44 undefined on input line 215.
+
+
+LaTeX Warning: Citation `Haase2024-yp' on page 44 undefined on input line 215.
+
+
+LaTeX Warning: Citation `Guzdial2019-gr' on page 44 undefined on input line 215.
+
+
+LaTeX Warning: Citation `Lin2023-jd' on page 44 undefined on input line 215.
+
+
+LaTeX Warning: Citation `Guzdial2019-gr' on page 44 undefined on input line 215.
+
+
+LaTeX Warning: Citation `Lawton2023-tb' on page 44 undefined on input line 215.
+
+
+LaTeX Warning: Citation `McGuire2024-im' on page 44 undefined on input line 215.
+
+
+LaTeX Warning: Citation `Lehmann2022-kr' on page 44 undefined on input line 215.
+
+
+LaTeX Warning: Citation `Lubart2005-zi' on page 44 undefined on input line 221.
+
+
+LaTeX Warning: Citation `Norman1994-kz' on page 44 undefined on input line 221.
+
+
+LaTeX Warning: Citation `Shneiderman2020-je' on page 44 undefined on input line 221.
+
+
+LaTeX Warning: Citation `Lin2023-jd' on page 44 undefined on input line 221.
+
+
+LaTeX Warning: Citation `Haase2024-yp' on page 44 undefined on input line 221.
+
+
+LaTeX Warning: Citation `Tholander2023-rv' on page 44 undefined on input line 221.
+
+
+LaTeX Warning: Citation `Kim2021-fh' on page 44 undefined on input line 221.
+
+
+LaTeX Warning: Citation `Mirowski2023-oz' on page 44 undefined on input line 221.
+
+
+LaTeX Warning: Citation `Lee2024-vz' on page 44 undefined on input line 221.
+
+
+LaTeX Warning: Citation `Li2024-yh' on page 44 undefined on input line 221.
+
+
+LaTeX Warning: Citation `Oh2018-mu' on page 44 undefined on input line 221.
+
+
+LaTeX Warning: Citation `Li2024-yh' on page 44 undefined on input line 221.
+
+
+LaTeX Warning: Citation `Yuan2022-kb' on page 44 undefined on input line 221.
+
+
+
+[44]
+
+LaTeX Warning: Citation `Calderwood2020-gg' on page 45 undefined on input line 224.
+
+
+LaTeX Warning: Citation `Wan2023-he' on page 45 undefined on input line 224.
+
+
+LaTeX Warning: Citation `Lubart2005-zi' on page 45 undefined on input line 224.
+
+
+LaTeX Warning: Citation `Haase2024-yp' on page 45 undefined on input line 224.
+
+
+LaTeX Warning: Citation `Kim2023-zq' on page 45 undefined on input line 224.
+
+
+LaTeX Warning: Citation `Clark2018-yf' on page 45 undefined on input line 224.
+
+
+LaTeX Warning: Citation `Doshi2023-dv' on page 45 undefined on input line 224.
+
+
+LaTeX Warning: Citation `Yang2022-vs' on page 45 undefined on input line 224.
+
+
+LaTeX Warning: Citation `Ghajargar2022-af' on page 45 undefined on input line 224.
+
+
+LaTeX Warning: Citation `Calderwood2020-gg' on page 45 undefined on input line 224.
+
+
+LaTeX Warning: Citation `Yang2022-vs' on page 45 undefined on input line 224.
+
+
+LaTeX Warning: Citation `Bougueng-Tchemeube2023-nm' on page 45 undefined on input line 224.
+
+
+LaTeX Warning: Citation `Wadinambiarachchi2024-jn' on page 45 undefined on input line 224.
+
+
+LaTeX Warning: Citation `Chakrabarty2024-ov' on page 45 undefined on input line 224.
+
+
+LaTeX Warning: Citation `Lin2023-jd' on page 45 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Guzdial2019-cv' on page 45 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Lin2023-zq' on page 45 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Zhou2024-vp' on page 45 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Davis2016-te' on page 45 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Rezwana2023-gj' on page 45 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Lawton2023-tb' on page 45 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Yang2022-vs' on page 45 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Oh2018-mu' on page 45 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Ghajargar2022-af' on page 45 undefined on input line 227.
+
+
+LaTeX Warning: Citation `Guzdial2019-gr' on page 45 undefined on input line 227.
+
+
+LaTeX Warning: Citation `McGuire2024-im' on page 45 undefined on input line 227.
+
+
+
+[45]
+
+LaTeX Warning: Citation `Lin2023-zq' on page 46 undefined on input line 230.
+
+
+LaTeX Warning: Citation `Zhou2024-vp' on page 46 undefined on input line 230.
+
+
+LaTeX Warning: Citation `Chakrabarty2024-ov' on page 46 undefined on input line 230.
+
+
+LaTeX Warning: Citation `Ippolito2022-mf' on page 46 undefined on input line 230.
+
+
+LaTeX Warning: Citation `Csikszentmihalyi1990-hu' on page 46 undefined on input line 232.
+
+
+LaTeX Warning: Citation `Zhong2024-ij' on page 46 undefined on input line 236.
+
+
+LaTeX Warning: Citation `Kim2023-wt' on page 46 undefined on input line 236.
+
+
+LaTeX Warning: Citation `Yuan2022-kb' on page 46 undefined on input line 236.
+
+
+LaTeX Warning: Citation `Fan2019-qq' on page 46 undefined on input line 236.
+
+
+LaTeX Warning: Citation `Ding2024-ta' on page 46 undefined on input line 236.
+
+
+LaTeX Warning: Citation `Long2019-lw' on page 46 undefined on input line 236.
+
+
+LaTeX Warning: Citation `Louie2020-aq' on page 46 undefined on input line 236.
+
+
+LaTeX Warning: Citation `Ippolito2022-mf' on page 46 undefined on input line 236.
+
+
+LaTeX Warning: Citation `Wadinambiarachchi2024-jn' on page 46 undefined on input line 236.
+
+
+LaTeX Warning: Citation `Oh2018-mu' on page 46 undefined on input line 239.
+
+
+LaTeX Warning: Citation `Wan2023-he' on page 46 undefined on input line 239.
+
+
+LaTeX Warning: Citation `Hitsuwari2023-tw' on page 46 undefined on input line 239.
+
+
+LaTeX Warning: Citation `Wu2025-or' on page 46 undefined on input line 239.
+
+
+LaTeX Warning: Citation `Huang2020-fh' on page 46 undefined on input line 239.
+
+
+LaTeX Warning: Citation `Hitsuwari2023-tw' on page 46 undefined on input line 239.
+
+
+LaTeX Warning: Citation `Wu2025-or' on page 46 undefined on input line 239.
+
+
+LaTeX Warning: Citation `Palani2024-on' on page 46 undefined on input line 239.
+
+
+LaTeX Warning: Citation `Lawton2023-tb' on page 46 undefined on input line 239.
+
+
+LaTeX Warning: Citation `Wan2023-he' on page 46 undefined on input line 239.
+
+
+LaTeX Warning: Citation `Lee2025-dw' on page 46 undefined on input line 239.
+
+
+
+[46]
+
+LaTeX Warning: Citation `Li2024-yh' on page 47 undefined on input line 241.
+
+
+LaTeX Warning: Citation `Hitsuwari2023-tw' on page 47 undefined on input line 241.
+
+
+LaTeX Warning: Citation `Sarkar2023-ee' on page 47 undefined on input line 241.
+
+
+LaTeX Warning: Citation `Shneiderman2020-ue' on page 47 undefined on input line 241.
+
+
+LaTeX Warning: Citation `Li2024-yh' on page 47 undefined on input line 241.
+
+
+LaTeX Warning: Citation `Guzdial2019-cv' on page 47 undefined on input line 241.
+
+
+LaTeX Warning: Citation `Moruzzi2024-cq' on page 47 undefined on input line 241.
+
+
+LaTeX Warning: Citation `Weisz2024-io' on page 47 undefined on input line 241.
+
+)
+
+[47]
+
+[48]
+\openout2 = `4-techchapter/main.aux'.
+
+ (./4-techchapter/main.tex
+Chapter 3.
+
+
+[49
+
+
+
+
+]
+
+[50]
+Overfull \hbox (20.26625pt too wide) in paragraph at lines 35--36
+[]\T1/lmr/bx/n/10.95 A Frame-work for Dialogue-Based Human-AI Cre-ative Col-lab-o-ra-tion. \T1/lmr/m/n/10.95 Ocampo,
+ []
+
+<4-techchapter/GenCHI-thesis.pdf, id=369, 614.295pt x 794.97pt>
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf  used on input line 38.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<4-techchapter/GenCHI-thesis.pdf, id=371, page=1, 614.295pt x 794.97pt>
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 1>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page1 used on input line 38.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 1>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page1 used on input line 38.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+[51]
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 1>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page1 used on input line 38.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 1>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page1 used on input line 38.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 1>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page1 used on input line 38.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[52
+
+ <./4-techchapter/GenCHI-thesis.pdf>]
+<4-techchapter/GenCHI-thesis.pdf, id=427, page=2, 614.295pt x 794.97pt>
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 2>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page2 used on input line 38.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 2>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page2 used on input line 38.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 2>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page2 used on input line 38.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[53
+
+ <./4-techchapter/GenCHI-thesis.pdf>]
+<4-techchapter/GenCHI-thesis.pdf, id=432, page=3, 614.295pt x 794.97pt>
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 3>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page3 used on input line 38.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 3>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page3 used on input line 38.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 3>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page3 used on input line 38.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[54
+
+ <./4-techchapter/GenCHI-thesis.pdf>]
+<4-techchapter/GenCHI-thesis.pdf, id=440, page=4, 614.295pt x 794.97pt>
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 4>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page4 used on input line 38.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 4>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page4 used on input line 38.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 4>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page4 used on input line 38.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[55
+
+ <./4-techchapter/GenCHI-thesis.pdf>]
+<4-techchapter/GenCHI-thesis.pdf, id=445, page=5, 614.295pt x 794.97pt>
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 5>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page5 used on input line 38.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 5>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page5 used on input line 38.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: 4-techchapter/GenCHI-thesis.pdf Graphic file (type pdf)
+<use 4-techchapter/GenCHI-thesis.pdf, page 5>
+Package pdftex.def Info: 4-techchapter/GenCHI-thesis.pdf , page5 used on input line 38.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[56
+
+ <./4-techchapter/GenCHI-thesis.pdf>]
+
+LaTeX Warning: Citation `Allen1999-sr' on page 57 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Yannakakis2014-zs' on page 57 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Deterding2017-wh' on page 57 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Bown2020-oc' on page 57 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Bown2024-yx' on page 57 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Abbas2024-sf' on page 57 undefined on input line 44.
+
+
+LaTeX Warning: Citation `Heersmink2024-mk' on page 57 undefined on input line 44.
+
+
+LaTeX Warning: Citation `DellAcqua2023-og' on page 57 undefined on input line 44.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 25.2232pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.2232pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.2232pt}.
+
+[57]
+
+LaTeX Warning: Citation `Bown2020-zn' on page 58 undefined on input line 54.
+
+
+LaTeX Warning: Citation `Bown2024-yx' on page 58 undefined on input line 54.
+
+
+
+[58]
+<levels of dialogue.png, id=462, 808.01875pt x 350.30875pt>
+File: levels of dialogue.png Graphic file (type png)
+<use levels of dialogue.png>
+Package pdftex.def Info: levels of dialogue.png  used on input line 66.
+(pdftex.def)             Requested size: 426.79135pt x 185.032pt.
+
+
+LaTeX Warning: Citation `Bown2024-yx' on page 59 undefined on input line 67.
+
+
+LaTeX Warning: Citation `Bown2024-yx' on page 59 undefined on input line 67.
+
+
+
+[59]
+
+[60 <./levels of dialogue.png>]
+<dialogicelements.png, id=474, 1172.38pt x 858.20625pt>
+File: dialogicelements.png Graphic file (type png)
+<use dialogicelements.png>
+Package pdftex.def Info: dialogicelements.png  used on input line 95.
+(pdftex.def)             Requested size: 320.0935pt x 234.31163pt.
+
+
+[61 <./dialogicelements.png>]
+
+LaTeX Warning: Citation `Hayes1983-ca' on page 62 undefined on input line 109.
+
+
+LaTeX Warning: Citation `Rezwana2022-gg' on page 62 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Ashktorab2021-ie' on page 62 undefined on input line 115.
+
+
+
+[62]
+
+LaTeX Warning: Citation `SXSW2023-wg' on page 63 undefined on input line 117.
+
+
+LaTeX Warning: Citation `Brown2020-js' on page 63 undefined on input line 121.
+
+
+LaTeX Warning: Citation `OpenAI2022-pj' on page 63 undefined on input line 121.
+
+
+LaTeX Warning: Citation `OpenAI2022-wx' on page 63 undefined on input line 121.
+
+
+
+[63]
+
+LaTeX Warning: Citation `Bown2024-yx' on page 64 undefined on input line 138.
+
+
+LaTeX Warning: Citation `Alkaissi2023-tp' on page 64 undefined on input line 138.
+
+
+LaTeX Warning: Citation `Ocampo2024-dv' on page 64 undefined on input line 138.
+
+<Bidirectional.png, id=491, 2104.86375pt x 1914.15125pt>
+File: Bidirectional.png Graphic file (type png)
+<use Bidirectional.png>
+Package pdftex.def Info: Bidirectional.png  used on input line 143.
+(pdftex.def)             Requested size: 320.0935pt x 291.08252pt.
+
+LaTeX Warning: Citation `Freire1970-pa' on page 64 undefined on input line 156.
+
+./4-techchapter/main.tex:156: Argument of \@citex has an extra }.
+<inserted text> 
+                \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./4-techchapter/main.tex:156: Paragraph ended before \@citex was complete.
+<to be read again> 
+                   \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./4-techchapter/main.tex:156: You can't use `the character ,' after \the.
+\@citeorg@nocite ...{\expandafter \@cite@ignsp #1,
+                                                  \: ,\:}\if@filesw \immedia...
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I'm forgetting what you said and using zero instead.
+
+./4-techchapter/main.tex:156: Argument of \@gobblethree has an extra }.
+<inserted text> 
+                \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./4-techchapter/main.tex:156: Paragraph ended before \@gobblethree was complete.
+<to be read again> 
+                   \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Extra \endcsname.
+\@make@cite@list ...eb \@extra@b@citeb \endcsname 
+                                                  \relax \@citea {\bfseries ...
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+LaTeX Warning: Citation `0\:\par ' on page 64 undefined on input line 156.
+
+./4-techchapter/main.tex:156: Missing { inserted.
+<to be read again> 
+                   }
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Extra \endcsname.
+\@cite@out #1->\citeform {\csname #1\endcsname 
+                                               }
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+./4-techchapter/main.tex:156: Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+
+LaTeX Warning: Citation `Abbas2024-sf' on page 64 undefined on input line 156.
+
+
+LaTeX Warning: Citation ` Rafner2021-tm' on page 64 undefined on input line 156.
+
+./4-techchapter/main.tex:156: Argument of \@citex has an extra }.
+<inserted text> 
+                \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./4-techchapter/main.tex:156: Paragraph ended before \@citex was complete.
+<to be read again> 
+                   \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./4-techchapter/main.tex:156: You can't use `the character ,' after \the.
+\@citeorg@nocite ...{\expandafter \@cite@ignsp #1,
+                                                  \: ,\:}\if@filesw \immedia...
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I'm forgetting what you said and using zero instead.
+
+./4-techchapter/main.tex:156: Argument of \@gobblethree has an extra }.
+<inserted text> 
+                \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./4-techchapter/main.tex:156: Paragraph ended before \@gobblethree was complete.
+<to be read again> 
+                   \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Extra \endcsname.
+\@make@cite@list ...eb \@extra@b@citeb \endcsname 
+                                                  \relax \@citea {\bfseries ...
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+LaTeX Warning: Citation `0\:\par ' on page 64 undefined on input line 156.
+
+./4-techchapter/main.tex:156: Missing { inserted.
+<to be read again> 
+                   }
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Extra \endcsname.
+\@cite@out #1->\citeform {\csname #1\endcsname 
+                                               }
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+./4-techchapter/main.tex:156: Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+
+
+[64]
+
+[65 <./Bidirectional.png>]
+
+LaTeX Warning: Citation `Ocampo2024-dv' on page 66 undefined on input line 156.
+
+./4-techchapter/main.tex:156: Argument of \@citex has an extra }.
+<inserted text> 
+                \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./4-techchapter/main.tex:156: Paragraph ended before \@citex was complete.
+<to be read again> 
+                   \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./4-techchapter/main.tex:156: You can't use `the character ,' after \the.
+\@citeorg@nocite ...{\expandafter \@cite@ignsp #1,
+                                                  \: ,\:}\if@filesw \immedia...
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I'm forgetting what you said and using zero instead.
+
+./4-techchapter/main.tex:156: Argument of \@gobblethree has an extra }.
+<inserted text> 
+                \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./4-techchapter/main.tex:156: Paragraph ended before \@gobblethree was complete.
+<to be read again> 
+                   \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Extra \endcsname.
+\@make@cite@list ...eb \@extra@b@citeb \endcsname 
+                                                  \relax \@citea {\bfseries ...
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+LaTeX Warning: Citation `0\:\par ' on page 66 undefined on input line 156.
+
+./4-techchapter/main.tex:156: Missing { inserted.
+<to be read again> 
+                   }
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Extra \endcsname.
+\@cite@out #1->\citeform {\csname #1\endcsname 
+                                               }
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+./4-techchapter/main.tex:156: Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+
+LaTeX Warning: Citation `Whitney2024-pp' on page 66 undefined on input line 156.
+
+
+LaTeX Warning: Citation ` Anthropic2024-dl' on page 66 undefined on input line 156.
+
+./4-techchapter/main.tex:156: Argument of \@citex has an extra }.
+<inserted text> 
+                \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./4-techchapter/main.tex:156: Paragraph ended before \@citex was complete.
+<to be read again> 
+                   \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./4-techchapter/main.tex:156: You can't use `the character ,' after \the.
+\@citeorg@nocite ...{\expandafter \@cite@ignsp #1,
+                                                  \: ,\:}\if@filesw \immedia...
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I'm forgetting what you said and using zero instead.
+
+./4-techchapter/main.tex:156: Argument of \@gobblethree has an extra }.
+<inserted text> 
+                \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./4-techchapter/main.tex:156: Paragraph ended before \@gobblethree was complete.
+<to be read again> 
+                   \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Extra \endcsname.
+\@make@cite@list ...eb \@extra@b@citeb \endcsname 
+                                                  \relax \@citea {\bfseries ...
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+LaTeX Warning: Citation `0\:\par ' on page 66 undefined on input line 156.
+
+./4-techchapter/main.tex:156: Missing { inserted.
+<to be read again> 
+                   }
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Extra \endcsname.
+\@cite@out #1->\citeform {\csname #1\endcsname 
+                                               }
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+./4-techchapter/main.tex:156: Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+
+LaTeX Warning: Citation `OpenAI2024-ug' on page 66 undefined on input line 156.
+
+./4-techchapter/main.tex:156: Argument of \@citex has an extra }.
+<inserted text> 
+                \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./4-techchapter/main.tex:156: Paragraph ended before \@citex was complete.
+<to be read again> 
+                   \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./4-techchapter/main.tex:156: You can't use `the character ,' after \the.
+\@citeorg@nocite ...{\expandafter \@cite@ignsp #1,
+                                                  \: ,\:}\if@filesw \immedia...
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I'm forgetting what you said and using zero instead.
+
+./4-techchapter/main.tex:156: Argument of \@gobblethree has an extra }.
+<inserted text> 
+                \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./4-techchapter/main.tex:156: Paragraph ended before \@gobblethree was complete.
+<to be read again> 
+                   \par 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Extra \endcsname.
+\@make@cite@list ...eb \@extra@b@citeb \endcsname 
+                                                  \relax \@citea {\bfseries ...
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+LaTeX Warning: Citation `0\:\par ' on page 66 undefined on input line 156.
+
+./4-techchapter/main.tex:156: Missing { inserted.
+<to be read again> 
+                   }
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:156: Extra \endcsname.
+\@cite@out #1->\citeform {\csname #1\endcsname 
+                                               }
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+./4-techchapter/main.tex:156: Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 ... more integrated human-AI co-creativity.}
+                                                  
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+
+LaTeX Warning: Citation `Bown2020-zn' on page 66 undefined on input line 166.
+
+
+
+[66]
+
+LaTeX Warning: Citation `Nails2005-iq' on page 67 undefined on input line 168.
+
+
+LaTeX Warning: Citation `Wikipedia-contributors2024-hr' on page 67 undefined on input line 168.
+
+
+LaTeX Warning: Citation `Sharma2023-or' on page 67 undefined on input line 170.
+
+
+LaTeX Warning: Citation `Bown2020-oc' on page 67 undefined on input line 172.
+
+
+LaTeX Warning: Citation `Jansson1991-wy' on page 67 undefined on input line 172.
+
+
+
+[67]
+
+LaTeX Warning: Citation `Wadinambiarachchi2024-jn' on page 68 undefined on input line 174.
+
+
+LaTeX Warning: Citation `Kim2023-wt' on page 68 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Reicherts2020-up' on page 68 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Karimi2019-io' on page 68 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Bohm1996-fo' on page 68 undefined on input line 182.
+
+
+LaTeX Warning: Citation `Abbas2024-sf' on page 68 undefined on input line 182.
+
+
+LaTeX Warning: Citation `Essel2024-qc' on page 68 undefined on input line 182.
+
+
+
+[68]
+
+LaTeX Warning: Citation `Bohm1996-fo' on page 69 undefined on input line 188.
+
+
+LaTeX Warning: Citation `Bohm1996-fo' on page 69 undefined on input line 188.
+
+
+LaTeX Warning: Citation `Bown2024-yx' on page 69 undefined on input line 192.
+
+
+
+[69]
+
+LaTeX Warning: Citation `Ribeiro2016-xb' on page 70 undefined on input line 194.
+
+
+LaTeX Warning: Citation `Doshi-Velez2017-qv' on page 70 undefined on input line 194.
+
+
+LaTeX Warning: Citation `Loh2024-fb' on page 70 undefined on input line 196.
+
+
+LaTeX Warning: Citation `Smith2022-dm' on page 70 undefined on input line 196.
+
+
+LaTeX Warning: Citation `Prathyush2024-ly' on page 70 undefined on input line 196.
+
+
+LaTeX Warning: Citation `Harkonen2020-eu' on page 70 undefined on input line 196.
+
+
+LaTeX Warning: Citation `Davis2024-ml' on page 70 undefined on input line 196.
+
+
+LaTeX Warning: Citation `Schon1987-fy' on page 70 undefined on input line 202.
+
+
+LaTeX Warning: Citation `Schon1992-jt' on page 70 undefined on input line 202.
+
+
+
+[70]
+
+LaTeX Warning: Citation `Kantosalo2020-nh' on page 71 undefined on input line 204.
+
+
+LaTeX Warning: Citation ` Lin2023-jd' on page 71 undefined on input line 204.
+
+
+LaTeX Warning: Citation ` Rezwana2022-gg' on page 71 undefined on input line 204.
+
+./4-techchapter/main.tex:204: Argument of \@citex has an extra }.
+<inserted text> 
+                \par 
+l.204 ...eative outputs across multiple versions.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./4-techchapter/main.tex:204: Paragraph ended before \@citex was complete.
+<to be read again> 
+                   \par 
+l.204 ...eative outputs across multiple versions.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./4-techchapter/main.tex:204: You can't use `the character ,' after \the.
+\@citeorg@nocite ...{\expandafter \@cite@ignsp #1,
+                                                  \: ,\:}\if@filesw \immedia...
+l.204 ...eative outputs across multiple versions.}
+                                                  
+I'm forgetting what you said and using zero instead.
+
+./4-techchapter/main.tex:204: Argument of \@gobblethree has an extra }.
+<inserted text> 
+                \par 
+l.204 ...eative outputs across multiple versions.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./4-techchapter/main.tex:204: Paragraph ended before \@gobblethree was complete.
+<to be read again> 
+                   \par 
+l.204 ...eative outputs across multiple versions.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./4-techchapter/main.tex:204: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.204 ...eative outputs across multiple versions.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:204: Extra \endcsname.
+\@make@cite@list ...eb \@extra@b@citeb \endcsname 
+                                                  \relax \@citea {\bfseries ...
+l.204 ...eative outputs across multiple versions.}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+LaTeX Warning: Citation `0\:\par ' on page 71 undefined on input line 204.
+
+./4-techchapter/main.tex:204: Missing { inserted.
+<to be read again> 
+                   }
+l.204 ...eative outputs across multiple versions.}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./4-techchapter/main.tex:204: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.204 ...eative outputs across multiple versions.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:204: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.204 ...eative outputs across multiple versions.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:204: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.204 ...eative outputs across multiple versions.}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./4-techchapter/main.tex:204: Extra \endcsname.
+\@cite@out #1->\citeform {\csname #1\endcsname 
+                                               }
+l.204 ...eative outputs across multiple versions.}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+./4-techchapter/main.tex:204: Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.204 ...eative outputs across multiple versions.}
+                                                  
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+
+LaTeX Warning: Citation `Park2024-gw' on page 71 undefined on input line 206.
+
+
+LaTeX Warning: Citation `Ocampo2023-gu' on page 71 undefined on input line 206.
+
+
+LaTeX Warning: Citation `Peng2024-tr' on page 71 undefined on input line 206.
+
+
+LaTeX Warning: Citation `Bown2024-yx' on page 71 undefined on input line 208.
+
+
+LaTeX Warning: Citation `Ocampo2024-dv' on page 71 undefined on input line 208.
+
+
+LaTeX Warning: Citation `Ocampo2024-dv' on page 71 undefined on input line 210.
+
+
+LaTeX Warning: Citation `Brooks2022-vo' on page 71 undefined on input line 210.
+
+
+LaTeX Warning: Citation `Pichai2024-ao' on page 71 undefined on input line 210.
+
+
+
+[71]
+
+LaTeX Warning: Citation `Koch2020-gx' on page 72 undefined on input line 212.
+
+
+LaTeX Warning: Citation `Lee2022-rj' on page 72 undefined on input line 212.
+
+
+LaTeX Warning: Citation `Kim2023-wt' on page 72 undefined on input line 212.
+
+
+LaTeX Warning: Citation `Park2024-gw' on page 72 undefined on input line 214.
+
+
+LaTeX Warning: Citation `Lee2022-rj' on page 72 undefined on input line 214.
+
+
+LaTeX Warning: Citation `DellAcqua2023-og' on page 72 undefined on input line 214.
+
+
+LaTeX Warning: Citation `Suchman2006-bs' on page 72 undefined on input line 218.
+
+
+
+[72]
+
+LaTeX Warning: Citation `Bown2021-os' on page 73 undefined on input line 220.
+
+<context.png, id=540, 1247.66125pt x 807.015pt>
+File: context.png Graphic file (type png)
+<use context.png>
+Package pdftex.def Info: context.png  used on input line 230.
+(pdftex.def)             Requested size: 320.0935pt x 207.03598pt.
+
+
+[73]
+
+[74 <./context.png>]
+
+LaTeX Warning: Reference `tab:dialogic_elements' on page 75 undefined on input line 243.
+
+
+
+[75])
+
+[76]
+\openout2 = `5-Writing/main.aux'.
+
+ (./5-Writing/main.tex
+Chapter 4.
+
+
+[77
+
+
+
+
+]
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 38.82321pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.82321pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-13.82321pt}.
+
+[78]
+<5-Writing/BeyondChat.pdf, id=579, 614.295pt x 794.97pt>
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf  used on input line 42.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<5-Writing/BeyondChat.pdf, id=581, page=1, 614.295pt x 794.97pt>
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 1>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page1 used on input line 42.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 1>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page1 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+[79]
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 1>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page1 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 1>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page1 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 1>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page1 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[80
+
+ <./5-Writing/BeyondChat.pdf>]
+<5-Writing/BeyondChat.pdf, id=609, page=2, 614.295pt x 794.97pt>
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 2>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page2 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 2>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page2 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 2>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page2 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[81
+
+ <./5-Writing/BeyondChat.pdf>]
+<5-Writing/BeyondChat.pdf, id=615, page=3, 614.295pt x 794.97pt>
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 3>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page3 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 3>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page3 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 3>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page3 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[82
+
+ <./5-Writing/BeyondChat.pdf>]
+<5-Writing/BeyondChat.pdf, id=620, page=4, 614.295pt x 794.97pt>
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 4>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page4 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 4>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page4 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 4>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page4 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[83
+
+ <./5-Writing/BeyondChat.pdf>]
+<5-Writing/BeyondChat.pdf, id=628, page=5, 614.295pt x 794.97pt>
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 5>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page5 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 5>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page5 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 5>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page5 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[84
+
+ <./5-Writing/BeyondChat.pdf>]
+<5-Writing/BeyondChat.pdf, id=633, page=6, 614.295pt x 794.97pt>
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 6>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page6 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 6>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page6 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 6>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page6 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[85
+
+ <./5-Writing/BeyondChat.pdf>]
+<5-Writing/BeyondChat.pdf, id=639, page=7, 614.295pt x 794.97pt>
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 7>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page7 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 7>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page7 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 7>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page7 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[86
+
+ <./5-Writing/BeyondChat.pdf>]
+<5-Writing/BeyondChat.pdf, id=644, page=8, 614.295pt x 794.97pt>
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 8>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page8 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 8>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page8 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 8>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page8 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[87
+
+ <./5-Writing/BeyondChat.pdf>]
+<5-Writing/BeyondChat.pdf, id=650, page=9, 614.295pt x 794.97pt>
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 9>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page9 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 9>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page9 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 9>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page9 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[88
+
+ <./5-Writing/BeyondChat.pdf>]
+<5-Writing/BeyondChat.pdf, id=655, page=10, 614.295pt x 794.97pt>
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 10>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page10 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 10>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page10 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
+<use 5-Writing/BeyondChat.pdf, page 10>
+Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page10 used on input line 42.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[89
+
+ <./5-Writing/BeyondChat.pdf>])
+\openout2 = `6-Visual/main.aux'.
+
+ (./6-Visual/main.tex
+Chapter 5.
+
+Overfull \hbox (4.75928pt too wide) in paragraph at lines 7--8
+[]\T1/lmr/m/n/10.95 On one hand, this ex-plo-ration con-tributes to un-der-stand-ing ef-fec-tive human-AI co-creativity
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 38.82321pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.82321pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-13.82321pt}.
+
+[90
+
+
+
+
+]
+
+./6-Visual/main.tex:20: Package pdfpages Error: Cannot find file `7-techchapter/ICCC_short.pdf'.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
+                                                  
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+./6-Visual/main.tex:20: Package pdfpages Error: Cannot find file `-'.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
+                                                  
+(That was another \errmessage.)
+
+./6-Visual/main.tex:20: Undefined control sequence.
+\AM@expand@range ...M@i \relax \@tempcntb =\AM@ii 
+                                                  \relax \ifnum \@tempcnta <...
+l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./6-Visual/main.tex:20: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./6-Visual/main.tex:20: Undefined control sequence.
+\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
+                                                \relax \ifthenelse {\boolean...
+l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./6-Visual/main.tex:20: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+./6-Visual/main.tex:20: Package pdfpages Error: Page 1 of `\AM@currentdocname ' does not exist.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
+                                                  
+You have set a wrong page number in the `pages' option. Document 
+`\AM@currentdocname ' does not have 1 pages.
+
+./6-Visual/main.tex:20: Undefined control sequence.
+\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
+                                                \relax \ifthenelse {\boolean...
+l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./6-Visual/main.tex:20: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+)
+
+[91]
+\openout2 = `7-NewMedia/main.aux'.
+
+ (./7-NewMedia/main.tex
+Chapter 6.
+
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 25.2232pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.2232pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.2232pt}.
+
+[92
+
+
+
+
+]
+
+LaTeX Warning: Citation `Candy2019-vg' on page 93 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Vear2021-cx' on page 93 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Colton2012-jc' on page 93 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Cohen1995-wt' on page 93 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Cope2000-cq' on page 93 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Reichardt1968-eo' on page 93 undefined on input line 16.
+
+
+
+[93]
+
+LaTeX Warning: Citation `Weisz2024-io' on page 94 undefined on input line 22.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 25.2232pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.2232pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.2232pt}.
+
+[94]
+
+LaTeX Warning: Citation `Eno2020-ip' on page 95 undefined on input line 39.
+
+
+
+[95]
+
+./7-NewMedia/main.tex:51: Package pdfpages Error: Cannot find file `6-techchapter/EvoMusArtPaper.pdf'.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
+                                                  
+(That was another \errmessage.)
+
+
+./7-NewMedia/main.tex:51: Package pdfpages Error: Cannot find file `-'.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
+                                                  
+(That was another \errmessage.)
+
+./7-NewMedia/main.tex:51: Undefined control sequence.
+\AM@expand@range ...M@i \relax \@tempcntb =\AM@ii 
+                                                  \relax \ifnum \@tempcnta <...
+l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./7-NewMedia/main.tex:51: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./7-NewMedia/main.tex:51: Undefined control sequence.
+\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
+                                                \relax \ifthenelse {\boolean...
+l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./7-NewMedia/main.tex:51: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+./7-NewMedia/main.tex:51: Package pdfpages Error: Page 1 of `\AM@currentdocname ' does not exist.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
+                                                  
+You have set a wrong page number in the `pages' option. Document 
+`\AM@currentdocname ' does not have 1 pages.
+
+./7-NewMedia/main.tex:51: Undefined control sequence.
+\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
+                                                \relax \ifthenelse {\boolean...
+l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./7-NewMedia/main.tex:51: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+./7-NewMedia/main.tex:53: Package pdfpages Error: Cannot find file `6-techchapter/SMCPaper.pdf'.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
+                                                  
+(That was another \errmessage.)
+
+
+./7-NewMedia/main.tex:53: Package pdfpages Error: Cannot find file `-'.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
+                                                  
+(That was another \errmessage.)
+
+./7-NewMedia/main.tex:53: Undefined control sequence.
+\AM@expand@range ...M@i \relax \@tempcntb =\AM@ii 
+                                                  \relax \ifnum \@tempcnta <...
+l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./7-NewMedia/main.tex:53: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./7-NewMedia/main.tex:53: Undefined control sequence.
+\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
+                                                \relax \ifthenelse {\boolean...
+l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./7-NewMedia/main.tex:53: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+./7-NewMedia/main.tex:53: Package pdfpages Error: Page 1 of `\AM@currentdocname ' does not exist.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
+                                                  
+You have set a wrong page number in the `pages' option. Document 
+`\AM@currentdocname ' does not have 1 pages.
+
+./7-NewMedia/main.tex:53: Undefined control sequence.
+\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
+                                                \relax \ifthenelse {\boolean...
+l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./7-NewMedia/main.tex:53: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+)
+
+
+Package fancyhdr Warning: \headheight is too small (25.0pt): 
+(fancyhdr)                Make it at least 25.2232pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.2232pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.2232pt}.
+
+[96]
+\openout2 = `8-conclusion/main.aux'.
+
+ (./8-conclusion/main.tex
+Chapter 7.
+
+
+[97
+
+
+
+
+]
+
+[98]
+
+LaTeX Warning: Citation `Csikszentmihalyi1997-ui' on page 99 undefined on input line 55.
+
+
+LaTeX Warning: Citation `Schon1992-jt' on page 99 undefined on input line 55.
+
+
+LaTeX Warning: Citation `Colton2011-vl' on page 99 undefined on input line 55.
+
+
+
+[99]
+<intention action spaces.png, id=713, 649.42625pt x 358.33875pt>
+File: intention action spaces.png Graphic file (type png)
+<use intention action spaces.png>
+Package pdftex.def Info: intention action spaces.png  used on input line 59.
+(pdftex.def)             Requested size: 426.79135pt x 235.49823pt.
+
+
+[100 <./intention action spaces.png>]
+
+LaTeX Warning: Citation `Palani2024-on' on page 101 undefined on input line 83.
+
+
+LaTeX Warning: Citation `Palani2024-on' on page 101 undefined on input line 88.
+
+
+LaTeX Warning: Citation `Suh2021-cj' on page 101 undefined on input line 95.
+
+
+
+[101]
+
+LaTeX Warning: Citation `Weisz2024-io' on page 102 undefined on input line 109.
+
+
+LaTeX Warning: Citation `Schlosser2019-jk' on page 102 undefined on input line 115.
+
+
+
+[102]
+
+LaTeX Warning: Citation `Palani2024-on' on page 103 undefined on input line 133.
+
+
+
+[103]
+
+LaTeX Warning: Citation `Weisz2024-io' on page 104 undefined on input line 139.
+
+
+
+[104]
+
+LaTeX Warning: Citation `Eno2024-rj' on page 105 undefined on input line 162.
+
+
+LaTeX Warning: Citation `Heersmink2024-mk' on page 105 undefined on input line 165.
+
+
+LaTeX Warning: Citation `Rafner2021-tm' on page 105 undefined on input line 165.
+
+
+LaTeX Warning: Citation `Gerlich2025-as' on page 105 undefined on input line 165.
+
+
+LaTeX Warning: Citation `Lee2025-dw' on page 105 undefined on input line 165.
+
+
+LaTeX Warning: Citation `Tierney2002-xp' on page 105 undefined on input line 165.
+
+
+LaTeX Warning: Citation `Kosmyna2025-cm' on page 105 undefined on input line 167.
+
+
+
+[105]
+
+LaTeX Warning: Citation `Amabile1996-pt' on page 106 undefined on input line 169.
+
+
+LaTeX Warning: Citation `Csikszentmihalyi1997-ui' on page 106 undefined on input line 169.
+
+
+LaTeX Warning: Citation `Davis2016-te' on page 106 undefined on input line 169.
+
+
+LaTeX Warning: Citation `Cherry2014-ty' on page 106 undefined on input line 169.
+
+
+LaTeX Warning: Citation `Rezwana2022-ui' on page 106 undefined on input line 169.
+
+
+LaTeX Warning: Citation `Clark2018-yf' on page 106 undefined on input line 169.
+
+
+LaTeX Warning: Citation `Lawton2023-gd' on page 106 undefined on input line 169.
+
+
+LaTeX Warning: Citation `Yuan2022-kb' on page 106 undefined on input line 169.
+
+
+LaTeX Warning: Citation `Li2024-yh' on page 106 undefined on input line 169.
+
+
+LaTeX Warning: Citation `Kantosalo2015-pk' on page 106 undefined on input line 169.
+
+
+LaTeX Warning: Citation `Resnick2005-fs' on page 106 undefined on input line 169.
+
+
+LaTeX Warning: Citation `Moruzzi2024-cq' on page 106 undefined on input line 171.
+
+
+Overfull \hbox (5.39565pt too wide) in paragraph at lines 171--172
+[]\T1/lmr/m/n/10.95 Balancing this is what I sug-gest is the \T1/lmr/bx/n/10.95 fun-da-men-tal ten-sion in human-AI co-creativity\T1/lmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (10.51237pt too wide) in paragraph at lines 175--175
+[]\T1/lmr/bx/n/14.4 Interaction De-sign Prin-ci-ples for Human-AI Co-Creativity 
+ []
+
+
+
+[106]
+
+[107]
+
+LaTeX Warning: Citation `Weisz2024-io' on page 108 undefined on input line 235.
+
+
+LaTeX Warning: Citation `Simon1967-nr' on page 108 undefined on input line 237.
+
+
+LaTeX Warning: Citation `Lubart2001-vl' on page 108 undefined on input line 237.
+
+
+LaTeX Warning: Citation `Grace2015-uc' on page 108 undefined on input line 237.
+
+
+LaTeX Warning: Citation `Moruzzi2022-gp' on page 108 undefined on input line 237.
+
+
+LaTeX Warning: Citation `Lawton2023-tb' on page 108 undefined on input line 237.
+
+
+LaTeX Warning: Citation `Park2024-gw' on page 108 undefined on input line 237.
+
+
+LaTeX Warning: Citation `Koch2020-gx' on page 108 undefined on input line 237.
+
+
+
+[108]
+
+LaTeX Warning: Citation `Crespo2025-wr' on page 109 undefined on input line 258.
+
+
+
+[109]
+
+LaTeX Warning: Citation `Davis2024-ml' on page 110 undefined on input line 265.
+
+
+LaTeX Warning: Citation `Koch2020-gx' on page 110 undefined on input line 267.
+
+
+LaTeX Warning: Citation `Boden1998-yn' on page 110 undefined on input line 271.
+
+
+LaTeX Warning: Citation `Wiggins2019-yj' on page 110 undefined on input line 271.
+
+
+
+[110]
+
+LaTeX Warning: Citation `Eno2007-fl' on page 111 undefined on input line 278.
+
+
+LaTeX Warning: Citation `Sloan2016-fj' on page 111 undefined on input line 287.
+
+
+LaTeX Warning: Citation `Samuel2019-gc' on page 111 undefined on input line 287.
+
+
+
+[111]
+
+LaTeX Warning: Citation `Drummond2023-av' on page 112 undefined on input line 293.
+
+
+Overfull \hbox (2.23471pt too wide) in paragraph at lines 306--309
+[]\T1/lmr/m/n/10.95 Prompting Mid-jour-ney isn't de-ter-min-is-tic, with a straight-for-ward input-output.
+ []
+
+
+LaTeX Warning: Citation `Crespo2022-ty' on page 112 undefined on input line 309.
+
+
+LaTeX Warning: Citation `Drummond2023-bh' on page 112 undefined on input line 314.
+
+
+
+[112]
+
+LaTeX Warning: Citation `Sloan2016-fj' on page 113 undefined on input line 318.
+
+
+
+[113]
+
+LaTeX Warning: Citation `Park2024-gw' on page 114 undefined on input line 330.
+
+
+LaTeX Warning: Reference `fig:ai_generation_workflow' on page 114 undefined on input line 332.
+
+<controlnetworkflow.png, id=788, 823.075pt x 727.71875pt>
+File: controlnetworkflow.png Graphic file (type png)
+<use controlnetworkflow.png>
+Package pdftex.def Info: controlnetworkflow.png  used on input line 340.
+(pdftex.def)             Requested size: 384.1096pt x 339.60716pt.
+<inputoutput.png, id=789, 1730.465pt x 543.02875pt>
+File: inputoutput.png Graphic file (type png)
+<use inputoutput.png>
+Package pdftex.def Info: inputoutput.png  used on input line 349.
+(pdftex.def)             Requested size: 384.1096pt x 120.53557pt.
+
+LaTeX Warning: Citation `Peng2024-tr' on page 114 undefined on input line 358.
+
+<designprompt.png, id=790, 827.09pt x 453.695pt>
+File: designprompt.png Graphic file (type png)
+<use designprompt.png>
+Package pdftex.def Info: designprompt.png  used on input line 362.
+(pdftex.def)             Requested size: 426.79135pt x 234.1159pt.
+
+LaTeX Warning: Citation `Peng2024-tr' on page 114 undefined on input line 363.
+
+
+LaTeX Warning: Citation `Peng2024-tr' on page 114 undefined on input line 363.
+
+
+
+[114]
+
+[115 <./controlnetworkflow.png> <./inputoutput.png>]
+
+LaTeX Warning: Reference `fig:albo_series' on page 116 undefined on input line 372.
+
+<alboexperiments.png, id=803, 928.46875pt x 539.01375pt>
+File: alboexperiments.png Graphic file (type png)
+<use alboexperiments.png>
+Package pdftex.def Info: alboexperiments.png  used on input line 376.
+(pdftex.def)             Requested size: 426.79135pt x 247.77661pt.
+
+
+[116 <./designprompt.png>]
+
+LaTeX Warning: Citation `Resnick2005-fs' on page 117 undefined on input line 383.
+
+
+LaTeX Warning: Citation `Weisz2024-io' on page 117 undefined on input line 383.
+
+
+LaTeX Warning: Citation `Smith2022-dm' on page 117 undefined on input line 385.
+
+
+
+[117 <./alboexperiments.png>]
+<linuslee.png, id=818, 1534.73375pt x 747.79375pt>
+File: linuslee.png Graphic file (type png)
+<use linuslee.png>
+Package pdftex.def Info: linuslee.png  used on input line 393.
+(pdftex.def)             Requested size: 426.79135pt x 207.9431pt.
+
+
+LaTeX Warning: Citation `Resnick2005-fs' on page 118 undefined on input line 399.
+
+
+
+[118 <./linuslee.png>]
+
+[119]
+<sharededitor.png, id=830, 827.09pt x 475.7775pt>
+File: sharededitor.png Graphic file (type png)
+<use sharededitor.png>
+Package pdftex.def Info: sharededitor.png  used on input line 429.
+(pdftex.def)             Requested size: 426.79135pt x 245.51091pt.
+
+
+[120]
+
+LaTeX Warning: Reference `fig:shared-editor' on page 121 undefined on input line 434.
+
+
+
+[121 <./sharededitor.png>]
+
+[122]
+
+LaTeX Warning: Citation `Buschek2021-ks' on page 123 undefined on input line 490.
+
+
+
+[123]
+
+LaTeX Warning: Citation `Nielsen1994-df' on page 124 undefined on input line 502.
+
+
+LaTeX Warning: Citation `Weisz2024-io' on page 124 undefined on input line 502.
+
+
+LaTeX Warning: Citation `Schaad2025-ca' on page 124 undefined on input line 502.
+
+
+LaTeX Warning: Citation `Csikszentmihalyi1997-ui' on page 124 undefined on input line 507.
+
+
+
+[124]
+
+LaTeX Warning: Citation `Rubin2025-sc' on page 125 undefined on input line 509.
+
+
+LaTeX Warning: Citation `Eno2007-fl' on page 125 undefined on input line 509.
+
+
+
+[125]
+
+LaTeX Warning: Citation `US-Copyright-Office-Review-Board2023-nw' on page 126 undefined on input line 515.
+
+
+LaTeX Warning: Citation `Chang2023-tv' on page 126 undefined on input line 517.
+
+
+LaTeX Warning: Citation `Smith2022-dm' on page 126 undefined on input line 517.
+
+
+LaTeX Warning: Citation `Carter2017-xj' on page 126 undefined on input line 517.
+
+
+
+[126]
+
+[127]
+
+[128])
+
+[129]
+/Users/rodolfoocampo/Documents/PhD/PhD-Thesis/main.tex:120: I can't write on file `8-appendices/appendix1.aux'.
+\@include ...mmediate \openout \@partaux "#1.aux" 
+                                                  \immediate \write \@partau...
+l.120     \include{8-appendices/appendix1}
+                                          
+(Press Enter to retry, or Control-D to exit; default file extension is `.tex')
+Please type another output file name
+/Users/rodolfoocampo/Documents/PhD/PhD-Thesis/main.tex:120: Emergency stop.
+\@include ...mmediate \openout \@partaux "#1.aux" 
+                                                  \immediate \write \@partau...
+l.120     \include{8-appendices/appendix1}
+                                          
+*** (job aborted, file error in nonstop mode)
+
+ 
+Here is how much of TeX's memory you used:
+ 32189 strings out of 473190
+ 607640 string characters out of 5715800
+ 1055413 words of memory out of 5000000
+ 54538 multiletter control sequences out of 15000+600000
+ 629293 words of font info for 79 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 125i,17n,121p,1543b,3004s stack positions out of 10000i,1000n,20000p,200000b,200000s
+/Users/rodolfoocampo/Documents/PhD/PhD-Thesis/main.tex:120:  ==> Fatal error occurred, no output PDF file produced!
