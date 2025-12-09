@@ -118,6 +118,33 @@ The curly bracket protocol has several limitations that led to the development o
     \item \textbf{No granular editing}: The protocol cannot specify precise edits but requires replacing the entire editor content.
 \end{itemize}
 
+\paragraph{Further Technical Details}
+
+\subparagraph{System Components}
+
+The backend (\texttt{server.js}) uses the Fastify web server framework with the OpenAI SDK (v4+) for GPT-4o integration. Firebase Firestore serves as the database for conversation history persistence. The frontend (\texttt{index.hbs}) implements a split-pane interface with an HTML \texttt{textarea} element for the editor (left) and a chat interface (right), both managed through client-side JavaScript.
+
+\subparagraph{API Endpoints}
+
+\begin{itemize}
+    \item \texttt{POST /chat}: Main chat endpoint with editor integration, processes requests containing both chat messages and editor state
+    \item \texttt{POST /chatonly}: Standalone chat endpoint without editor context
+    \item \texttt{GET /}: Homepage with editor and chat interface
+    \item \texttt{GET /chat}: Chat-only interface without editor
+\end{itemize}
+
+\subparagraph{Session Persistence}
+
+Conversations are persisted in Firebase Firestore using session IDs. Each session is identified by a UUID generated on page load, stored in the \texttt{divided} collection. The system checks if a session document exists; if not, it creates one, otherwise it updates the existing document with the current message history. This allows conversation history to be maintained across page refreshes.
+
+\subparagraph{State Management}
+
+The application maintains conversation state in a \texttt{messages} array that includes system prompts, user messages (with embedded editor state), and assistant responses. Editor state is managed separately with undo/redo stacks: before applying AI modifications, the current editor state is pushed to \texttt{undoStack}, and the redo stack is cleared when new changes are made.
+
+\subparagraph{Error Handling and Configuration}
+
+The application includes error handling for missing Firebase credentials (graceful degradation), missing OpenAI API key (503 service unavailable), and API errors (detailed logging with user-friendly error messages). Configuration uses environment variables: \texttt{OPENAI\_API\_KEY} for the OpenAI API, a \texttt{credentials.json} service account file for Firebase, and \texttt{PORT} (defaults to 3000) for the server port.
+
 \subsection{Common Interface: Chat and Editor Hybrid Interface }
 
 The Common interface combines a chat interface with a shared collaborative editor, allowing the AI to perform more granular edits in the text editor, with a smaller chat window that places emphasis on the editor for collaborative writing. 
@@ -163,6 +190,49 @@ The frontend parses the model's JSON response and applies editor modifications a
 \paragraph{Web Implementation Overview}
 
 The Common prototype is implemented as a Node.js web application using the Fastify framework. The frontend uses Handlebars templating and JavaScript to manage the dual interface: a split-pane layout with a text editor on the left and a chat interface on the right. When a user interacts with either component, the frontend captures both the chat message and the current editor state, sending them together to a backend endpoint that forwards the complete context to GPT-4o via the OpenAI API. The model's structured JSON response is parsed by the frontend, which then updates both the chat display and applies any editor modifications automatically.
+
+\paragraph{Further Technical Details}
+
+\subparagraph{Technology Stack}
+
+\begin{itemize}
+    \item \textbf{Backend}: Node.js with Fastify framework
+    \item \textbf{Frontend}: Handlebars templating engine with client-side JavaScript
+    \item \textbf{AI Model}: OpenAI GPT-4o via OpenAI API
+    \item \textbf{Data Persistence}: Firebase Firestore (optional, toggle-controlled)
+    \item \textbf{Authentication}: Cookie-based session management
+\end{itemize}
+
+\subparagraph{API Endpoints}
+
+\begin{itemize}
+    \item \texttt{GET /}: Editor-chat interface (split-pane layout)
+    \item \texttt{GET /chat}: Chat-only interface without editor
+    \item \texttt{POST /chat}: Process chat with editor context, returns structured JSON response
+    \item \texttt{POST /chatonly}: Process chat without editor context, returns plain text
+    \item \texttt{GET /login}: Authentication page
+    \item \texttt{POST /login}: Authentication handler
+\end{itemize}
+
+\subparagraph{Request Flow and Data Recording}
+
+When a user sends a message, the frontend JavaScript captures the chat message text, current editor state (\texttt{textarea\#editor} value), session ID (UUID generated on page load), and recording toggle state. The frontend constructs a user message combining chat input with editor state, then sends a POST request to \texttt{/chat} with complete message history, session ID, and recording toggle state.
+
+Both endpoints support optional Firestore logging when the ``Record Interaction'' toggle is enabled. Documents are named using the pattern \texttt{\{sessionId\}\_\{YYYY-MM-DD\}} and store complete message history and AI responses.
+
+\subparagraph{Response Processing}
+
+The backend receives POST requests at \texttt{/chat}, forwards message history to OpenAI API (GPT-4o), optionally saves interactions to Firestore if recording is enabled, and returns the raw JSON response. The frontend parses the JSON response embedded in the \texttt{message} field, extracts \texttt{playground} and \texttt{chat} objects, updates the chat display with \texttt{chat.message}, and applies editor modifications in sequence: deletions first, then edits, then additions (beginning, then end).
+
+\subparagraph{Editor State Management}
+
+The editor maintains an undo/redo stack. Before applying AI modifications, the current editor state is pushed to \texttt{undoStack}, enabling users to revert changes via a ``Previous Version'' button. Redo functionality allows restoring undone states.
+
+\subparagraph{Error Handling and Limitations}
+
+Network errors are caught and logged to the console. Invalid JSON responses would cause parsing errors (not explicitly handled in the current implementation). OpenAI API errors return generic error messages to the user. 
+
+The system has several limitations: editor modifications rely on exact string matching, so if the same text appears multiple times, \texttt{replace()} will affect all occurrences. The system assumes GPT-4o always returns valid JSON; malformed responses would break the interface. There is no conflict resolution if a user edits the editor while an AI response is processing. Editor changes are applied only after the complete AI response is received (no real-time updates).
  
 
 

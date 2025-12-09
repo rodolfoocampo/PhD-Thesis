@@ -376,6 +376,9 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./main.aux
+INPUT ./main.aux
+INPUT main.aux
 OUTPUT main.aux
 INPUT /usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -554,11 +557,6 @@ INPUT ./4-techchapter/GenCHI-thesis.pdf
 INPUT ./4-techchapter/GenCHI-thesis.pdf
 INPUT ./4-techchapter/GenCHI-thesis.pdf
 INPUT ./4-techchapter/GenCHI-thesis.pdf
-INPUT ./4-techchapter/GenCHI-thesis.pdf
-INPUT ./4-techchapter/GenCHI-thesis.pdf
-INPUT ./4-techchapter/GenCHI-thesis.pdf
-INPUT ./4-techchapter/GenCHI-thesis.pdf
-INPUT ./4-techchapter/GenCHI-thesis.pdf
 INPUT ./levels of dialogue.png
 INPUT ./levels of dialogue.png
 INPUT ./levels of dialogue.png
@@ -637,8 +635,21 @@ INPUT ./5-Writing/BeyondChat.pdf
 INPUT ./5-Writing/BeyondChat.pdf
 INPUT ./5-Writing/BeyondChat.pdf
 INPUT ./5-Writing/BeyondChat.pdf
-INPUT ./5-Writing/BeyondChat.pdf
-INPUT ./5-Writing/BeyondChat.pdf
-INPUT ./5-Writing/BeyondChat.pdf
-INPUT ./5-Writing/BeyondChat.pdf
-INPUT ./5-Writing/BeyondChat.pdf
+INPUT ./6-Visual/main.tex
+INPUT ./6-Visual/main.tex
+OUTPUT 6-Visual/main.aux
+INPUT ./6-Visual/main.tex
+INPUT ./6-Visual/main.tex
+INPUT 6-Visual/main.tex
+INPUT ./7-NewMedia/main.tex
+INPUT ./7-NewMedia/main.tex
+OUTPUT 7-NewMedia/main.aux
+INPUT ./7-NewMedia/main.tex
+INPUT ./7-NewMedia/main.tex
+INPUT 7-NewMedia/main.tex
+INPUT ./8-conclusion/main.tex
+INPUT ./8-conclusion/main.tex
+OUTPUT 8-conclusion/main.aux
+INPUT ./8-conclusion/main.tex
+INPUT ./8-conclusion/main.tex
+INPUT 8-conclusion/main.tex
