@@ -4,9 +4,29 @@
 
 \section{Link to thesis}
 
-This chapter addresses my core research question by focusing on interfaces that preserve \textbf{human creative agency}, examining \textbf{how interaction design shapes the roles of humans and AI in co-creative processes}, and informing \textbf{interaction design principles for effective human-AI co-creation}.
+In the previous chapter, I established a framework for dialogic co-creativity, comprised of six elements: \textbf{bidirectional communication}, \textbf{shared collaborative space}, \textbf{iteration}, \textbf{mutual influence}, \textbf{mutual understanding}, and \textbf{contextual awareness}. These elements will serve as a lens throughout this thesis. 
 
-In a previous chapter, I conducted an initial exploration of dialogic interaction by adapting a text-completion language model into a conversational co-writer. There, I argued that effective dialogic co-creativity involves more than a simple two-way conversation; it requires interaction both \textit{through} and \textit{about} the creative product.
+In this chapter, I focus specifically on the elements of \textbf{bidirectional communication} and \textbf{shared collaborative space}, examining their impact on user roles, effectiveness, and agency in human-AI co-creativity. This directs attention to my core research question:
+
+\begin{quote}
+    \textbf{Core Research Question:} \\
+    \emph{How can we design generative AI systems that act as effective co-creators, maintaining human agency while effectively leveraging the creative potential of this technology?}
+\end{quote}
+
+This chapter places particular emphasis on the first research subquestion:
+
+\begin{quote}
+    \textbf{R1:} \\
+    \emph{How can we enable co-creative dialogues between humans and AI, and how does this influence the roles and effectiveness of human-AI co-creativity?}
+\end{quote}
+
+}
+
+\subsection{Background}
+
+In the paper presented in the previous chapter, as part of my initial exploration of dialogic interaction, I conducted an experiment in dialogic interaction by adapting a text-completion language model into a conversational co-writer. Modes of interaction at the time of writing were limited to text completion, where the model would complete a user-provided string of text. I explored the capability of the model to engage in bidirectional communication, and how this could enable better alignment, understanding and mutual influence between the user and the system, as well as more iteration and collaboration. 
+
+There, I made a first distinction between the need for interaction \textit{through} the creative product and interaction \textit{about} the creative product. I argued that effective dialogic co-creativity involves more than a simple two-way conversation; it requires the user being able to communicate with the system but also make contributions to the creative product, and the ability to separate these two modes of interaction. 
 
 Between that early 2022 work and the paper presented in this chapter (conducted in 2024 and published in 2025) there was significant progress in generative language models. Indeed, interaction converged to conversational interfaces as the dominant paradigm. While these interfaces can facilitate dialogue to align understanding, I argue they predominantly support interaction \textit{about} the creative product, rather than \textit{through} it, simply because they lack the space to do so.
 
@@ -16,9 +36,9 @@ These prototypes were evaluated through two user studies, which provided empiric
 
 Firstly, my \textbf{core research question} centres on designing generative AI interactions that effectively maintain human agency. Results demonstrated that chat-only interfaces restricted user agency and involvement at the writing level. In contrast, the hybrid interface, which combined a conversational and  a collaborative writing space, resulted in users reporting higher levels of agency and active involvement in the co-creative writing process.
 
-Secondly, my research subquestion number one (R1) examines how interaction design influences the roles assumed by humans and AI in co-creativity. Findings indicated that chat-only interfaces typically positioned users in directive roles (providing instructions, requests, or initial ideas) while the AI predominantly occupied execution-oriented roles such as writer, wordsmith, or editor. Conversely, the hybrid interface encouraged a more balanced distribution of roles, with users more actively participating in the writing itself.
+Secondly, my first research subquestion (R1) examines how to enable co-creative dialogues between humans and AI and how they influence roles and effectiveness. Findings indicated that chat-only interfaces typically positioned users in directive roles (providing instructions, requests, or initial ideas) while the AI predominantly occupied execution-oriented roles such as writer, wordsmith, or editor. Conversely, the hybrid interface encouraged a more balanced distribution of roles, with users more actively participating in the writing itself, demonstrating how dialogic interaction design can influence role distribution and effectiveness.
 
-Finally, the third research subquestion (R3) explores interaction design principles for effective human-AI co-creativity. This chapter contributes insights integrated into the design principles outlined in the final chapter:
+Finally, the second research subquestion (R2) explores interaction design principles for effective human-AI co-creativity. This chapter contributes insights integrated into the design principles outlined in the final chapter:
 
 \begin{itemize}
     \item The need for a collaborative workspace in addition to a conversational space.
@@ -30,11 +50,134 @@ While the primary goal of my research is to design effective human-AI co-creativ
 
 These findings highlight the need for further research into how alternative interfaces beyond chat interfaces can impact co-creativity, recognising that interaction designers must balance diverse, often competing objectives.
 
+
+
 \textbf{Publication in lieu of chapter:}
 
 \begin{itemize}
     \item Beyond Chat: Towards Greater User Involvement and Agency in Human-AI Co-Creativity through Shared Collaborative Spaces. Ocampo, Rodolfo, Bown, Oliver, \& Grace, Kazjon. (in press). Accepted for publication in \textit{Proceedings of the International Conference on Computational Creativity (ICCC) 2025}, Campinhas, Brazil, June 23–27.
 \end{itemize}
+
+\section{Further Documentation}
+
+This section provides additional visual and technical documentation from the preceding paper, illustrating the interface conditions tested and how each was implemented. In the first study, a prototype named Vorges was developed in two versions: one with a chat-only interface serving as the control condition (see Figure~\ref{fig:chatvorges}), and one with a hybrid interface that combined chat and a text editor (see Figure~\ref{fig:editorvorges}). In a subsequent study, a second improved prototype, Common, was developed to implement a more advanced hybrid interface, allowing the AI to perform more granular edits in the text editor (see Figure~\ref{fig:editorcommon}).
+
+The core difference between the first and second version of the Vorges prototype was the mechanism used to enable the AI to communicate through chat and modify the shared text editor. The first version used a simple text-based protocol to enable the model to decide between chat and editor responses. The second version used a more sophisticated mechanism using structured JSON to enable the model to perform more granular edits in the text editor.
+
+\subsection{Vorges Interface: Chat and Editor Comparison}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\linewidth]{beyondchatimages/chatvorges.png}
+    \caption{Vorges chat interface, enabling bidirectional communication about the creative work}
+    \label{fig:chatvorges}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\linewidth]{beyondchatimages/editorvorges.png}
+    \caption{Vorges hybrid interface combining chat and shared collaborative editor, enabling interaction both about and through the creation}
+    \label{fig:editorvorges}
+\end{figure}
+
+\subsubsection{Technical Documentation: Vorges Implementation}
+
+The Vorges prototype represents an earlier, more rudimentary implementation of the hybrid chat-editor interface shown in Common and described in the paper. Its core innovation lies in a simple protocol that enables the AI model to simultaneously communicate through chat and modify the shared text editor, though using a different mechanism than the later Common prototype.
+
+\paragraph{Web Implementation Overview}
+
+The Vorges prototype is implemented as a Node.js web application using the Fastify framework. The frontend uses Handlebars templating with a split-pane layout: a text editor on the left and a chat interface on the right. When a user sends a chat message, the frontend automatically captures the current editor state and embeds it in the request sent to GPT-4o via the OpenAI API. The model's response is parsed on the client side to extract both chat messages and editor modifications.
+
+\paragraph{The Curly Bracket Protocol}
+
+Vorges uses a simple text-based protocol to enable the model to decide between chat and editor responses. When the user sends a message, the current editor content is automatically appended to the request in curly brackets:
+
+\begin{verbatim}
+userMessage + " The current text in the editor is: {" + editorContent + "}"
+\end{verbatim}
+
+The system prompt instructs GPT-4o to use a specific format:
+\begin{itemize}
+    \item \textbf{Text in curly brackets} \texttt{\{text\}}: Content to be placed in the text editor
+    \item \textbf{Text outside curly brackets}: Messages to display in the chat interface
+\end{itemize}
+
+When the model wants to modify the editor, it returns the complete text that should appear in the editor wrapped in curly brackets. The frontend parses the response using a regular expression to extract bracketed content, clears the editor, and types the new text into it using an animated typing effect. The bracketed text is then removed from the message before displaying it in the chat interface.
+
+\paragraph{Model Awareness and Decision-Making}
+
+Similar to Common, Vorges enables the model to read both the user's chat messages and their direct contributions to the editor. To do so, I developed a simple curly bracket protocol. The model can respond in three ways:
+\begin{enumerate}
+    \item \textbf{Chat only} (interaction \textit{about}): Text without curly brackets appears only in the chat interface.
+    \item \textbf{Editor only} (interaction \textit{through}): Text wrapped in curly brackets replaces the entire editor content.
+    \item \textbf{Both}: The model can include both bracketed and unbracketed text to simultaneously update the editor and display a chat message.
+\end{enumerate}
+
+\paragraph{Limitations and Evolution to Common}
+
+The curly bracket protocol has several limitations that led to the development of Common's approach:
+\begin{itemize}
+    \item \textbf{Full text replacement}: The model must return the complete editor text, not incremental changes, which is inefficient for large documents.
+    \item \textbf{Single state capture}: Only one editor state is transmitted per message, so rapid consecutive edits may miss intermediate states.
+    \item \textbf{No granular editing}: The protocol cannot specify precise edits but requires replacing the entire editor content.
+\end{itemize}
+
+\subsection{Common Interface: Chat and Editor Hybrid Interface }
+
+The Common interface combines a chat interface with a shared collaborative editor, allowing the AI to perform more granular edits in the text editor, with a smaller chat window that places emphasis on the editor for collaborative writing. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\linewidth]{beyondchatimages/editorcommon.png}
+    \caption{Common editor interface, providing direct artefact manipulation without chat capabilities}
+    \label{fig:editorcommon}
+\end{figure}
+
+\subsubsection{Technical Report: Chat-Editor Co-Creative Application}
+
+The core innovation of the Common prototype lies in a more structured prototocol for chat and editor communication, using JSON to enable the model to perform more granular edits in the text editor, allowing more fluid (interaction \textit{about} the creation) and (\textit{through} the creation).
+
+When a user sends a chat message, the system automatically captures and includes the current state of the text editor in the request to GPT-4o. This means the model receives both:
+\begin{itemize}
+    \item The user's chat message (explicit communication)
+    \item The current editor content (visible user contributions to the artefact)
+\end{itemize}
+
+
+The system prompt instructs GPT-4o to respond in a structured JSON format that allows it to choose how to interact:
+
+\begin{verbatim}
+{
+  "playground": {
+    "add_end": "Text to append",
+    "add_beginning": "Text to prepend",
+    "edit": { "original": "...", "new": "..." },
+    "delete": "Text to remove"
+  },
+  "chat": {
+    "message": "Chat message to display"
+  }
+}
+\end{verbatim}
+
+The model can respond in three ways:
+\begin{enumerate}
+    \item \textbf{Chat only} (interaction \textit{about}): When the model needs to ask questions, clarify intentions, or discuss the creative work, it populates only the \texttt{chat.message} field.
+    \item \textbf{Editor only} (interaction \textit{through}): When the model should directly modify the text, it populates the \texttt{playground} fields (add, edit, or delete operations).
+    \item \textbf{Both}: The model can simultaneously respond in chat and modify the editor, enabling it to explain its edits or discuss while making changes.
+\end{enumerate}
+
+This design allows the model to fluidly switch between discussing the creation and directly contributing to it, based on its understanding of the user's intent and the current state of the collaborative work.
+
+\paragraph{Collaborative Editing Mechanism}
+
+The frontend parses the model's JSON response and applies editor modifications automatically. When the model edits text, it uses exact string matching to find and replace content, allowing it to respond to specific user contributions. For example, if a user writes a paragraph and the model wants to refine it, it can identify the exact text and propose an edited version, demonstrating awareness of and response to the user's direct contributions to the shared workspace.
+
+\paragraph{Web Implementation Overview}
+
+The Common prototype is implemented as a Node.js web application using the Fastify framework. The frontend uses Handlebars templating and JavaScript to manage the dual interface: a split-pane layout with a text editor on the left and a chat interface on the right. When a user interacts with either component, the frontend captures both the chat message and the current editor state, sending them together to a backend endpoint that forwards the complete context to GPT-4o via the OpenAI API. The model's structured JSON response is parsed by the frontend, which then updates both the chat display and applies any editor modifications automatically.
+ 
+
 
 
 % --- Manually add the paper's structure to the Table of Contents ---
