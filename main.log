@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.18)  9 DEC 2025 12:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.18)  9 DEC 2025 13:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -4669,586 +4669,1914 @@ look up `weird error' in the index to The TeXbook.)
  (./5-Writing/main.tex
 Chapter 4.
 
-LaTeX Warning: Reference `fig:chatvorges' on page 16 undefined on input line 63.
+LaTeX Warning: Reference `{fig:chatvorges}' on page 16 undefined on input line 179.
+
+./5-Writing/main.tex:179: Argument of \T@ref has an extra }.
+<inserted text> 
+                \par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./5-Writing/main.tex:179: Paragraph ended before \T@ref was complete.
+<to be read again> 
+                   \par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./5-Writing/main.tex:179: You can't use `\endcsname' after \the.
+\NR@setref ... \NR@@setref \csname r@#1\endcsname 
+                                                  
+l.179 }
+       
+I'm forgetting what you said and using zero instead.
+
+./5-Writing/main.tex:179: Argument of \@firstoffive has an extra }.
+<inserted text> 
+                \par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./5-Writing/main.tex:179: Paragraph ended before \@firstoffive was complete.
+<to be read again> 
+                   \par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./5-Writing/main.tex:179: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
 
-LaTeX Warning: Reference `fig:editorvorges' on page 16 undefined on input line 63.
+LaTeX Warning: Reference `on page 16 undefined on input line 179.
+
+./5-Writing/main.tex:179: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
 
-LaTeX Warning: Reference `fig:editorcommon' on page 16 undefined on input line 63.
+LaTeX Warning: Reference `' on page 16 undefined on input line 179.
+
+./5-Writing/main.tex:179: Extra \endcsname.
+\NR@setref ... \NR@@setref \csname r@#1\endcsname 
+                                                  
+l.179 }
+       
+I'm ignoring this, since I wasn't doing a \csname.
+
+./5-Writing/main.tex:179: Argument of \@firstoffive has an extra }.
+<inserted text> 
+                \par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./5-Writing/main.tex:179: Paragraph ended before \@firstoffive was complete.
+<to be read again> 
+                   \par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
 
-./5-Writing/main.tex:69: LaTeX Error: Not in outer par mode.
+./5-Writing/main.tex:179: Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 }
+       
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+
+LaTeX Warning: Reference `{fig:editorvorges}' on page 16 undefined on input line 179.
+
+./5-Writing/main.tex:179: Argument of \T@ref has an extra }.
+<inserted text> 
+                \par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./5-Writing/main.tex:179: Paragraph ended before \T@ref was complete.
+<to be read again> 
+                   \par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./5-Writing/main.tex:179: You can't use `\endcsname' after \the.
+\NR@setref ... \NR@@setref \csname r@#1\endcsname 
+                                                  
+l.179 }
+       
+I'm forgetting what you said and using zero instead.
+
+./5-Writing/main.tex:179: Argument of \@firstoffive has an extra }.
+<inserted text> 
+                \par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./5-Writing/main.tex:179: Paragraph ended before \@firstoffive was complete.
+<to be read again> 
+                   \par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./5-Writing/main.tex:179: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Reference `on page 16 undefined on input line 179.
+
+./5-Writing/main.tex:179: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Reference `' on page 16 undefined on input line 179.
+
+./5-Writing/main.tex:179: Extra \endcsname.
+\NR@setref ... \NR@@setref \csname r@#1\endcsname 
+                                                  
+l.179 }
+       
+I'm ignoring this, since I wasn't doing a \csname.
+
+./5-Writing/main.tex:179: Argument of \@firstoffive has an extra }.
+<inserted text> 
+                \par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./5-Writing/main.tex:179: Paragraph ended before \@firstoffive was complete.
+<to be read again> 
+                   \par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./5-Writing/main.tex:179: Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 }
+       
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+
+LaTeX Warning: Reference `{fig:editorcommon}' on page 16 undefined on input line 179.
+
+./5-Writing/main.tex:179: Argument of \T@ref has an extra }.
+<inserted text> 
+                \par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./5-Writing/main.tex:179: Paragraph ended before \T@ref was complete.
+<to be read again> 
+                   \par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./5-Writing/main.tex:179: You can't use `\endcsname' after \the.
+\NR@setref ... \NR@@setref \csname r@#1\endcsname 
+                                                  
+l.179 }
+       
+I'm forgetting what you said and using zero instead.
+
+./5-Writing/main.tex:179: Argument of \@firstoffive has an extra }.
+<inserted text> 
+                \par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./5-Writing/main.tex:179: Paragraph ended before \@firstoffive was complete.
+<to be read again> 
+                   \par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./5-Writing/main.tex:179: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Reference `on page 16 undefined on input line 179.
+
+./5-Writing/main.tex:179: Missing \endcsname inserted.
+<to be read again> 
+                   \hbox 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Reference `' on page 16 undefined on input line 179.
+
+./5-Writing/main.tex:179: Extra \endcsname.
+\NR@setref ... \NR@@setref \csname r@#1\endcsname 
+                                                  
+l.179 }
+       
+I'm ignoring this, since I wasn't doing a \csname.
+
+./5-Writing/main.tex:179: Argument of \@firstoffive has an extra }.
+<inserted text> 
+                \par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./5-Writing/main.tex:179: Paragraph ended before \@firstoffive was complete.
+<to be read again> 
+                   \par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./5-Writing/main.tex:179: Package soul Error: Reconstruction failed.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 }
+       
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+
+./5-Writing/main.tex:179: LaTeX Error: Environment {figure} undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 \begin{figure}[h]
-                      
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.179 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-./5-Writing/main.tex:69: Undefined control sequence.
-\@float@Hx ...ltovf \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.69 \begin{figure}[h]
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./5-Writing/main.tex:69: Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.69 \begin{figure}[h]
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+./5-Writing/main.tex:179: Extra }, or forgotten \endgroup.
+\SOUL@doword ...hskip \z@ \relax \the \SOUL@word }
+                                                  \let \SOUL@errmsg \SOUL@er...
+l.179 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
 <beyondchatimages/chatvorges.png, id=206, 1409.265pt x 772.8875pt>
 File: beyondchatimages/chatvorges.png Graphic file (type png)
 <use beyondchatimages/chatvorges.png>
-Package pdftex.def Info: beyondchatimages/chatvorges.png  used on input line 71.
+Package pdftex.def Info: beyondchatimages/chatvorges.png  used on input line 179.
 (pdftex.def)             Requested size: 341.43437pt x 187.25398pt.
-
-./5-Writing/main.tex:76: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.76 \begin{figure}[h]
-                      
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./5-Writing/main.tex:76: Undefined control sequence.
-\@float@Hx ...ltovf \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.76 \begin{figure}[h]
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./5-Writing/main.tex:76: Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.76 \begin{figure}[h]
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<beyondchatimages/editorvorges.png, id=207, 1384.17125pt x 782.925pt>
-File: beyondchatimages/editorvorges.png Graphic file (type png)
-<use beyondchatimages/editorvorges.png>
-Package pdftex.def Info: beyondchatimages/editorvorges.png  used on input line 78.
-(pdftex.def)             Requested size: 341.43437pt x 193.11449pt.
-
-./5-Writing/main.tex:152: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.152 \begin{figure}[h]
-                       
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./5-Writing/main.tex:152: Undefined control sequence.
-\@float@Hx ...ltovf \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.152 \begin{figure}[h]
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./5-Writing/main.tex:152: Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.152 \begin{figure}[h]
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<beyondchatimages/editorcommon.png, id=208, 962.59625pt x 805.0075pt>
-File: beyondchatimages/editorcommon.png Graphic file (type png)
-<use beyondchatimages/editorcommon.png>
-Package pdftex.def Info: beyondchatimages/editorcommon.png  used on input line 154.
-(pdftex.def)             Requested size: 341.43437pt x 285.52786pt.
-<5-Writing/BeyondChat.pdf, id=209, 614.295pt x 794.97pt>
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf  used on input line 242.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<5-Writing/BeyondChat.pdf, id=211, page=1, 614.295pt x 794.97pt>
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 1>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page1 used on input line 242.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 1>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page1 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 1>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page1 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 1>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page1 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-<5-Writing/BeyondChat.pdf, id=212, page=2, 614.295pt x 794.97pt>
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 2>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page2 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 2>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page2 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-<5-Writing/BeyondChat.pdf, id=213, page=3, 614.295pt x 794.97pt>
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 3>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page3 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 3>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page3 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-<5-Writing/BeyondChat.pdf, id=214, page=4, 614.295pt x 794.97pt>
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 4>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page4 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 4>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page4 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-<5-Writing/BeyondChat.pdf, id=215, page=5, 614.295pt x 794.97pt>
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 5>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page5 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 5>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page5 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-<5-Writing/BeyondChat.pdf, id=216, page=6, 614.295pt x 794.97pt>
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 6>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page6 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 6>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page6 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-<5-Writing/BeyondChat.pdf, id=217, page=7, 614.295pt x 794.97pt>
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 7>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page7 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 7>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page7 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-<5-Writing/BeyondChat.pdf, id=218, page=8, 614.295pt x 794.97pt>
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 8>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page8 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 8>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page8 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-<5-Writing/BeyondChat.pdf, id=219, page=9, 614.295pt x 794.97pt>
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 9>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page9 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 9>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page9 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-<5-Writing/BeyondChat.pdf, id=220, page=10, 614.295pt x 794.97pt>
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 10>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page10 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: 5-Writing/BeyondChat.pdf Graphic file (type pdf)
-<use 5-Writing/BeyondChat.pdf, page 10>
-Package pdftex.def Info: 5-Writing/BeyondChat.pdf , page10 used on input line 242.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-)
-\openout2 = `6-Visual/main.aux'.
-
- (./6-Visual/main.tex
-Chapter 5.
-
-./6-Visual/main.tex:20: Package pdfpages Error: Cannot find file `7-techchapter/ICCC_short.pdf'.
-
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
-                                                  
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
-
-
-./6-Visual/main.tex:20: Package pdfpages Error: Cannot find file `-'.
-
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
-                                                  
-(That was another \errmessage.)
-
-./6-Visual/main.tex:20: Undefined control sequence.
-\AM@expand@range ...M@i \relax \@tempcntb =\AM@ii 
-                                                  \relax \ifnum \@tempcnta <...
-l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./6-Visual/main.tex:20: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./6-Visual/main.tex:20: Undefined control sequence.
-\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
-                                                \relax \ifthenelse {\boolean...
-l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./6-Visual/main.tex:20: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-./6-Visual/main.tex:20: Package pdfpages Error: Page 1 of `\AM@currentdocname ' does not exist.
-
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
-                                                  
-You have set a wrong page number in the `pages' option. Document 
-`\AM@currentdocname ' does not have 1 pages.
-
-./6-Visual/main.tex:20: Undefined control sequence.
-\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
-                                                \relax \ifthenelse {\boolean...
-l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./6-Visual/main.tex:20: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.20 ...pdf[pages=-]{7-techchapter/ICCC_short.pdf}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-)
-\openout2 = `7-NewMedia/main.aux'.
-
- (./7-NewMedia/main.tex
-Chapter 6.
-
-LaTeX Warning: Citation `Candy2019-vg' on page 16 undefined on input line 16.
-
-
-LaTeX Warning: Citation `Vear2021-cx' on page 16 undefined on input line 16.
-
-
-LaTeX Warning: Citation `Colton2012-jc' on page 16 undefined on input line 16.
-
-
-LaTeX Warning: Citation `Cohen1995-wt' on page 16 undefined on input line 16.
-
-
-LaTeX Warning: Citation `Cope2000-cq' on page 16 undefined on input line 16.
-
-
-LaTeX Warning: Citation `Reichardt1968-eo' on page 16 undefined on input line 16.
-
-
-LaTeX Warning: Citation `Weisz2024-io' on page 16 undefined on input line 22.
-
-
-LaTeX Warning: Citation `Eno2020-ip' on page 16 undefined on input line 39.
-
-
-./7-NewMedia/main.tex:51: Package pdfpages Error: Cannot find file `6-techchapter/EvoMusArtPaper.pdf'.
-
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
-                                                  
-(That was another \errmessage.)
-
-
-./7-NewMedia/main.tex:51: Package pdfpages Error: Cannot find file `-'.
-
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
-                                                  
-(That was another \errmessage.)
-
-./7-NewMedia/main.tex:51: Undefined control sequence.
-\AM@expand@range ...M@i \relax \@tempcntb =\AM@ii 
-                                                  \relax \ifnum \@tempcnta <...
-l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./7-NewMedia/main.tex:51: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./7-NewMedia/main.tex:51: Undefined control sequence.
-\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
-                                                \relax \ifthenelse {\boolean...
-l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./7-NewMedia/main.tex:51: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-./7-NewMedia/main.tex:51: Package pdfpages Error: Page 1 of `\AM@currentdocname ' does not exist.
-
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
-                                                  
-You have set a wrong page number in the `pages' option. Document 
-`\AM@currentdocname ' does not have 1 pages.
-
-./7-NewMedia/main.tex:51: Undefined control sequence.
-\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
-                                                \relax \ifthenelse {\boolean...
-l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./7-NewMedia/main.tex:51: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.51 ...pages=-]{6-techchapter/EvoMusArtPaper.pdf}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-./7-NewMedia/main.tex:53: Package pdfpages Error: Cannot find file `6-techchapter/SMCPaper.pdf'.
-
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
-                                                  
-(That was another \errmessage.)
-
-
-./7-NewMedia/main.tex:53: Package pdfpages Error: Cannot find file `-'.
-
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
-                                                  
-(That was another \errmessage.)
-
-./7-NewMedia/main.tex:53: Undefined control sequence.
-\AM@expand@range ...M@i \relax \@tempcntb =\AM@ii 
-                                                  \relax \ifnum \@tempcnta <...
-l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./7-NewMedia/main.tex:53: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./7-NewMedia/main.tex:53: Undefined control sequence.
-\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
-                                                \relax \ifthenelse {\boolean...
-l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./7-NewMedia/main.tex:53: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-./7-NewMedia/main.tex:53: Package pdfpages Error: Page 1 of `\AM@currentdocname ' does not exist.
-
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
-                                                  
-You have set a wrong page number in the `pages' option. Document 
-`\AM@currentdocname ' does not have 1 pages.
-
-./7-NewMedia/main.tex:53: Undefined control sequence.
-\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
-                                                \relax \ifthenelse {\boolean...
-l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./7-NewMedia/main.tex:53: Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.53 ...depdf[pages=-]{6-techchapter/SMCPaper.pdf}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-)
-\openout2 = `8-conclusion/main.aux'.
-
- (./8-conclusion/main.tex
-Chapter 7.
-)
-Runaway argument?
-{first I developed a framework for dialogic co-creativity comprised o\ETC.
-/Users/rodolfoocampo/Documents/PhD/PhD-Thesis/main.tex:114: File ended while scanning use of \SOUL@n.
+./5-Writing/main.tex:179: Argument of \Gin@ii has an extra }.
 <inserted text> 
                 \par 
-l.114     \include{8-conclusion/main}
-                                     
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
 
-/Users/rodolfoocampo/Documents/PhD/PhD-Thesis/main.tex:120: I can't write on file `8-appendices/appendix1.aux'.
-\@include ...mmediate \openout \@partaux "#1.aux" 
-                                                  \immediate \write \@partau...
-l.120     \include{8-appendices/appendix1}
-                                          
-(Press Enter to retry, or Control-D to exit; default file extension is `.tex')
-Please type another output file name
-/Users/rodolfoocampo/Documents/PhD/PhD-Thesis/main.tex:120: Emergency stop.
-\@include ...mmediate \openout \@partaux "#1.aux" 
-                                                  \immediate \write \@partau...
-l.120     \include{8-appendices/appendix1}
-                                          
-*** (job aborted, file error in nonstop mode)
+Runaway argument?
+./5-Writing/main.tex:179: Paragraph ended before \Gin@ii was complete.
+<to be read again> 
+                   \par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
- 
-Here is how much of TeX's memory you used:
- 31858 strings out of 473190
- 603315 string characters out of 5715800
- 2203577 words of memory out of 5000000
- 54413 multiletter control sequences out of 15000+600000
- 620314 words of font info for 76 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 125i,14n,121p,1543b,3255s stack positions out of 10000i,1000n,20000p,200000b,200000s
-/Users/rodolfoocampo/Documents/PhD/PhD-Thesis/main.tex:120:  ==> Fatal error occurred, no output PDF file produced!
+./5-Writing/main.tex:179: Argument of \Gin@ii has an extra }.
+<inserted text> 
+                \par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./5-Writing/main.tex:179: Paragraph ended before \Gin@ii was complete.
+<to be read again> 
+                   \par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./5-Writing/main.tex:179: Argument of \Gin@ii has an extra }.
+<inserted text> 
+                \par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./5-Writing/main.tex:179: Paragraph ended before \Gin@ii was complete.
+<to be read again> 
+                   \par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./5-Writing/main.tex:179: You can't use `endcsname' after the.
+__file_name_expand:n ...s:w __file_name=#1cs_end: 
+                                                  __file_name_expand_end: 
+l.179 }
+       
+I'm forgetting what you said and using zero instead.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: Missing \endcsname inserted in filename.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: You can't use `endcsname' after the.
+__file_name_expand:n ...s:w __file_name=#1cs_end: 
+                                                  __file_name_expand_end: 
+l.179 }
+       
+I'm forgetting what you said and using zero instead.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: Missing \endcsname inserted in filename.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: You can't use `end-group character }' after the.
+exp_args:Nf ...:wN {exp:w exp_end_continue_f:w #2}
+                                                  
+l.179 }
+       
+I'm forgetting what you said and using zero instead.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: / invalid in file name. Lost: .
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Missing endcsname inserted.
+<to be read again> 
+                   xdef 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./5-Writing/main.tex:179: You can't use `endcsname' after the.
+__file_name_expand:n ...s:w __file_name=#1cs_end: 
+                                                  __file_name_expand_end: 
+l.179 }
+       
+I'm forgetting what you said and using zero instead.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: Missing \endcsname inserted in filename.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: You can't use `end-group character }' after the.
+exp_args:Nf ...:wN {exp:w exp_end_continue_f:w #2}
+                                                  
+l.179 }
+       
+I'm forgetting what you said and using zero instead.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: / invalid in file name. Lost: .
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Missing endcsname inserted.
+<to be read again> 
+                   cs_set_nopar:Npx 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: A sequence was misused.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: A sequence was misused.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: A sequence was misused.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: A sequence was misused.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: A sequence was misused.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: A sequence was misused.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: A sequence was misused.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: A sequence was misused.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: A sequence was misused.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: A sequence was misused.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: A sequence was misused.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: A sequence was misused.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: A sequence was misused.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: A sequence was misused.
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Illegal parameter number in definition of @curr@file.
+<to be read again> 
+                   1
+l.179 }
+       
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./5-Writing/main.tex:179: Illegal parameter number in definition of @curr@file.
+<to be read again> 
+                   1
+l.179 }
+       
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./5-Writing/main.tex:179: Missing endcsname inserted.
+<to be read again> 
+                   hbox 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: hbox invalid in file name. Lost: .
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Missing endcsname inserted.
+<to be read again> 
+                   hbox 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: hbox invalid in file name. Lost: .
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Missing endcsname inserted.
+<to be read again> 
+                   hbox 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./5-Writing/main.tex:179: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX Error: hbox invalid in file name. Lost: .
+l.179 }
+       
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./5-Writing/main.tex:179: Argument of @tempa has an extra }.
+<inserted text> 
+                par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+5-Writing/main.tex edef Gin@ext {Gin@temp }
+./5-Writing/main.tex:179: Paragraph ended before @tempa was complete.
+<to be read again> 
+                   par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./5-Writing/main.tex:179: Argument of @tempa has an extra }.
+<inserted text> 
+                par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+5-Writing/main.tex edef Gin@ext {Gin@temp }
+./5-Writing/main.tex:179: Paragraph ended before @tempa was complete.
+<to be read again> 
+                   par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./5-Writing/main.tex:179: Argument of @tempa has an extra }.
+<inserted text> 
+                par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+5-Writing/main.tex edef Gin@ext {Gin@temp }
+./5-Writing/main.tex:179: Paragraph ended before @tempa was complete.
+<to be read again> 
+                   par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./5-Writing/main.tex:179: Argument of @tempa has an extra }.
+<inserted text> 
+                par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+5-Writing/main.tex edef Gin@ext {Gin@temp }
+./5-Writing/main.tex:179: Paragraph ended before @tempa was complete.
+<to be read again> 
+                   par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./5-Writing/main.tex:179: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.179 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./5-Writing/main.tex:179: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.179 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./5-Writing/main.tex:179: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.179 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./5-Writing/main.tex:179: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.179 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./5-Writing/main.tex:179: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.179 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./5-Writing/main.tex:179: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.179 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./5-Writing/main.tex:179: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.179 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./5-Writing/main.tex:179: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.179 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./5-Writing/main.tex:179: Missing number, treated as zero.
+<to be read again> 
+                   hbox 
+l.179 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./5-Writing/main.tex:179: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   hbox 
+l.179 }
+       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./5-Writing/main.tex:179: Extra }, or forgotten endgroup.
+SOUL@analyze ...yphen else SOUL@dosyllable fi fi }
+                                                  
+l.179 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./5-Writing/main.tex:179: Extra else.
+SOUL@eval ...e {}fi def SOUL@n * {SOUL@scan }else 
+                                                  ifx SOUL@@ \SOUL@doword SO...
+l.179 }
+       
+I'm ignoring this; it doesn't match any \if.
+
+./5-Writing/main.tex:179: Argument of @gobbletwo has an extra }.
+<inserted text> 
+                par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./5-Writing/main.tex:179: Paragraph ended before @gobbletwo was complete.
+<to be read again> 
+                   par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./5-Writing/main.tex:179: Missing { inserted.
+<to be read again> 
+                   }
+l.179 }
+       
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Improper discretionary list.
+SOUL@everyhyphen ...hyphkern SOUL@sethyphenchar }}
+                                                  {}{}
+l.179 }
+       
+Discretionary lists must contain only boxes and kerns.
+
+The following discretionary sublist has been deleted: []
+
+./5-Writing/main.tex:179: Extra }, or forgotten endgroup.
+SOUL@doword ...dent hskip z@ relax the SOUL@word }
+                                                  let SOUL@errmsg SOUL@error...
+l.179 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./5-Writing/main.tex:179: Argument of begin has an extra }.
+<inserted text> 
+                par 
+l.179 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./5-Writing/main.tex:179: Paragraph ended before begin was complete.
+<to be read again> 
+                   par 
+l.179 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./5-Writing/main.tex:179: You can't use `the character /' after the.
+<argument> env/the /
+                    before
+l.179 }
+       
+I'm forgetting what you said and using zero instead.
+
+./5-Writing/main.tex:179: You can't use `endcsname' after the.
+@ifundefined #1->ifcsname #1endcsname 
+                                      @ifundefin@d@i else @ifundefin@d@ii fi...
+l.179 }
+       
+I'm forgetting what you said and using zero instead.
+
+./5-Writing/main.tex:179: Missing endcsname inserted.
+<to be read again> 
+                   relax 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./5-Writing/main.tex:179: You can't use `endcsname' after the.
+@ifundefin@d@i ...andafter ifx csname #2endcsname 
+                                                  relax @ifundefin@d@ii fi @...
+l.179 }
+       
+I'm forgetting what you said and using zero instead.
+
+./5-Writing/main.tex:179: Missing endcsname inserted.
+<to be read again> 
+                   relax 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./5-Writing/main.tex:179: You can't use `blank space  ' after the.
+<argument> Environment the  
+                            undefined
+l.179 }
+       
+I'm forgetting what you said and using zero instead.
+
+./5-Writing/main.tex:179: Missing { inserted.
+<to be read again> 
+                   }
+l.179 }
+       
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./5-Writing/main.tex:179: Missing endcsname inserted.
+<to be read again> 
+                   hbox 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./5-Writing/main.tex:179: Missing endcsname inserted.
+<to be read again> 
+                   hbox 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./5-Writing/main.tex:179: Extra endcsname.
+@ifundefined #1->ifcsname #1endcsname 
+                                      @ifundefin@d@i else @ifundefin@d@ii fi...
+l.179 }
+       
+I'm ignoring this, since I wasn't doing a \csname.
+
+./5-Writing/main.tex:179: Missing endcsname inserted.
+<to be read again> 
+                   hbox 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./5-Writing/main.tex:179: Missing endcsname inserted.
+<to be read again> 
+                   hbox 
+l.179 }
+       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./5-Writing/main.tex:179: Missing endcsname inserted.
+<to be read again> 
+                   hbox 
+l.179 }
+       
+The control sequence marked <to be 

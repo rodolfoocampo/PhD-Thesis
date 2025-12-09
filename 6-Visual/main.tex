@@ -2,49 +2,44 @@
 
 \section{Link to thesis}
 
-\hl{
-In the previous chapter I developed a series of prototypes tested in user studies, primarily focusing on the impact of two dialogic elements: having bidirectional communication with a generative AI model and a shared collaborative space. 
+\hl{In the previous chapter, I developed a series of prototypes tested in user studies, primarily focusing on the impact of two dialogic elements: bidirectional communication with a generative AI model and a shared collaborative space. In this chapter, I shift focus to the domain of image-based generative AI through a real-world creative production case study. This case study illuminates the challenges of interacting with a generative system that virtually implements no elements of dialogic interaction as described in Chapter 3. Rather than examining a system designed with dialogic principles, this chapter serves a complementary purpose: by analyzing a system that exemplifies \textit{pseudo-dialogue}, I examine how the absence of dialogic elements affects roles, agency, and effectiveness in human-AI co-creativity. This analysis contributes to both research questions: it reveals how dialogic elements influence roles and effectiveness (R1) by showing what happens in their absence, and it identifies critical design principles (R2) by highlighting which missing elements create the most significant limitations.}
 
-In this chapter, I shift focus to the domain of image-based generative AI, in a real-world creative production case study. This case study illumintates the challenges of interacting with a generative system that virtually implements no elements of dialogic interaction as described in chapter 3.
+\hl{As established in Chapter 3, pseudo-dialogue represents the most limited form of dialogic interaction. The interaction is linear: the user provides an instruction (for example, a prompt) and the computer generates. The user can evaluate the output and adjust the next prompt accordingly, but the computer does not form a model of the user based on an iterative back-and-forth, nor is there a conversational interface. The system is simply a generator; it is the user who adjusts their mental model of how the system works based on repeated interaction, and iterates inputs accordingly. Text-to-image systems exemplify pseudo-dialogue, as illustrated in Figure~\ref{fig:levels-dialogue}.}
 
-- In this case I engaged with it from the perspective of practice-based research, rather than through a user study. 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\linewidth]{levels of dialogue.png}
+    \caption{Three levels of dialogic interaction. In pseudodialigue only the user models the AI who produces outputs based on prompts or requests. In weak-asymmetric dialogue, only the user models the AI who produces outputs based on prompts or requests. In pseudo-dialogue, a level of communication takes place but the collaboration and mutual modelling is limited. In full-dialogue, both model each other and act and evaluate the common creation. Figure from \cite{Bown2024-yx}}
+    \label{fig:levels-dialogue}
+\end{figure}
 
-- I describe and examine my experience as a creative practitioner, collaborating with the creative team of a magazine. 
+\hl{In this case study, I engaged with the system from the perspective of practice-based research, rather than through a user study. I collaborated with the Australian Financial Review to produce visuals for their 2023 Power Issue, which features individuals they deem to be the most powerful people in Australia. The aim was to produce "impossible photography" of the subjects to tell stories about their personality and work that would be difficult or impossible with traditional photography. I describe and examine my experience as a creative practitioner working with the creative team of the magazine. This exploration contributes to understanding effective human-AI co-creativity by identifying how generative tools can enable new creative possibilities and use cases. More importantly, a core objective of this case study was to examine the limitations of current tools in supporting real-world creative production, particularly through the lens of the dialogic interaction framework.}
 
-- From the perspective of dialogic interaction and co-creativity, the system can be described as engaging in pseudodialigue. 
+\hl{To analyse how the absence of dialogic elements affects co-creative processes, I examine the system against each of the six elements of dialogic co-creativity introduced in Chapter 3:}
 
-- Include figure of the three types of dialogue here (levels of dialogue figure)
+\begin{itemize}
+    \item \textbf{Bidirectional Communication:} The system does not engage in bidirectional interaction in the language domain. It merely takes in language input from the user (prompts) and produces an artefact in the image domain. There is no conversational interface, no ability for the system to ask clarifying questions, seek feedback, or engage in dialogue about the creative goals or process.
+    
+    \item \textbf{A Shared Space:} The user and AI do not share a collaborative space where both can make contributions. The system operates purely as a generator: it produces complete images from scratch based on prompts, but cannot modify existing images, make incremental edits, or build upon user-created content. The user cannot directly contribute to the image at the pixel level or make edits that the AI can then respond to.
+    
+    \item \textbf{Iteration:} Iteration is severely limited, representing a primary challenge in this case study. The outputs cannot be iteratively refined or edited, given the model lacks editing capabilities. The user can only iterate by generating entirely new images with adjusted prompts, not by refining promising directions through incremental modifications. This limitation makes it difficult to explore and further refine promising images, which is a crucial dynamic in creative processes.
+    
+    \item \textbf{Mutual Understanding:} Forming mutual understanding is limited. It is the user who models the system's behavior through repeated interaction, learning how to craft effective prompts, but the AI does not model the human's goals, preferences, or creative intentions. The system has no memory of previous interactions or understanding of the user's evolving creative vision.
+    
+    \item \textbf{Context-awareness:} The model does not generate with meaningful awareness of the context in which the output is being made. For example, it lacks knowledge of branding elements or aesthetic guidelines for the magazine. It has limited knowledge of the world and limited ability for the user to include goals and preferences in the model. To address this, I trained the model with a dataset of images, using this as a primary steering mechanism to inject some contextual knowledge, but this remains a workaround rather than true context-awareness.
+    
+    \item \textbf{Mutual Influence:} Mutual influence is limited. The system influences the user through the production of novel outputs that may inspire new directions or reveal unexpected possibilities. However, the user's influence on the system is constrained to prompt engineering; the system does not adapt its behavior, learn from feedback, or evolve its understanding based on the interaction.
+\end{itemize}
 
+\hl{This analysis highlights how the absence of dialogic elements fundamentally shapes the roles and effectiveness within human-AI co-creative processes, directly addressing R1. In this system, the human is situated primarily in the \textit{intentional space}, responsible for formulating creative objectives and converting them into prompts, while the AI remains in the \textit{action space}, generating complete outputs. My role in this process was mainly that of curator and instructor: I assembled a dataset of images to train the model on the desired style for each subject, and then curated the resulting outputs—using some as references for further attempts to iterate and refine. However, because the model could only generate entirely new images rather than edit existing ones, the potential for true iteration was quite limited.
 
-- The system does not engage in bidirectional interaction in the language domain. 
-- It merely takes in language input from the user, and produces an artefact in the image domain. 
-- The outputs cannot be iterated on, given the model lacks editing capabilities
-- Forming mutual understanding is limited. It is the user who models the system behavior, and not the AI that models the human
-- The human iterated only by adjusting their understanding of how the system worked ()
-- The model does not generate with meaningful awareness of the context in which the output is being made, for example, branding elements or aesthetic guidelines for the magazine. Limited knowledge of the world, and limited ability for the user to include goals and preferences in the model. 
-- In order to do this, I trained the model with a dataset of images, and I used this as a primarily steering mechanism. 
-- Mutual influence? Limited. It influences through the production of novel outputs. 
+These constraints reduced my creative agency and overall interaction effectiveness by introducing friction between intention and outcome. Specifically, the inability to incrementally iterate, the lack of bidirectional dialogue for clarification or feedback, and the absence of a shared space for collaborative editing all contributed to these challenges.}
 
+\hl{The insights gained from this case study also inform R2, exploring design principles for human-AI co-creativity by identifying key challenges that dialogic elements might address. One notable limitation was the difficulty in establishing precise control over style and structure, especially when working exclusively through prompt-based interfaces.
 
-- In the conclusion, I consolidate this. 
+The ability to train the model with a personalised dataset proved valuable, yet, as model providers increasingly move towards closed-source approaches, such opportunities are becoming less common. This observation suggests an important design principle for pseudo-dialogic systems: enabling users to personalise generative outputs through dataset training which could enable better steering, refinement and alignemnt.}
 
-
-Iteration is limited, a primary challenge. 
-There is no conversation or bidirectional communication. 
-User and AI don't share a collaborative space whereboth can make contributions. 
-
-It is purely a generator. 
-The interaction can be considered a pseudodialogue. 
-
-Contributed to understanding of how dialogic interaction can enhance human-AI co-creative effectivness. 
-
-I collaborated with the Australian Financial Review to produce visuals for their 2023 Power Issue, which features who they deem to be the most powerful people in Australia. The aim was to produce "impossible photography" of the subjects to tell stories about their personality and work difficult or impossible with traditional photography. 
-
-On one hand, this exploration contributes to understanding effective human-AI co-creativity by identifying how generative tools can enable new creative possibilities and use cases. Secondly, a core objective of this case study was to examine the limitations of current tools in supporting real-world creative production. 
-
-Findings from this work primarily inform my research question 2, investigating design principles for human-AI co-creativity, by highlighting crucial challenges. A significant limitation identified is the difficulty in enabling precise control over style and structure particularly when relying solely on prompting interfaces. A second challenge was iterative exploration and refinement of promising images to pursue interesting directions. Exploring and further refining is a crucial dynamic in creative processes, and remains a critical challenge for successful human-AI co-creativity.
-
-Provided below is the publication covering the case study, presented as a short paper and poster at the 2024 International Conference on Computational Creativity (ICCC):
+\hl{Provided below is the publication covering the case study, presented as a short paper and poster at the 2024 International Conference on Computational Creativity (ICCC):}
 
 \textbf{Publication in lieu of Chapter:}
 
@@ -53,5 +48,5 @@ Provided below is the publication covering the case study, presented as a short 
     \item Integrating Generative AI into Creative Workflows: Dealing with Consistency, Scene Control, and Refinement in a Professional Image Generation Case Study. Ocampo Blanco, Rodolfo, \& Bown, Oliver. (2024). In \textit{Proceedings of the International Conference on Computational Creativity (ICCC)}. Jönköping, Sweden.
 \end{itemize}
 
-\includepdf[pages=-]{7-techchapter/ICCC_short.pdf}
+\includepdf[pages=-]{6-Visual/ICCC_short.pdf}
 
