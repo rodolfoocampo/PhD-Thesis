@@ -20,13 +20,12 @@ This chapter places particular emphasis on the first research subquestion:
     \emph{How can we enable co-creative dialogues between humans and AI, and how does this influence the roles and effectiveness of human-AI co-creativity?}
 \end{quote}
 
-}
 
 \subsection{Background}
 
-In the paper presented in the previous chapter, as part of my initial exploration of dialogic interaction, I conducted an experiment in dialogic interaction by adapting a text-completion language model into a conversational co-writer. Modes of interaction at the time of writing were limited to text completion, where the model would complete a user-provided string of text. I explored the capability of the model to engage in bidirectional communication, and how this could enable better alignment, understanding and mutual influence between the user and the system, as well as more iteration and collaboration. 
+\hl{In the paper presented in the previous chapter, as part of my initial exploration of dialogic interaction, I conducted an experiment in dialogic interaction by adapting a text-completion language model into a conversational co-writer. Modes of interaction at the time of writing were limited to text completion, where the model would complete a user-provided string of text. I explored the capability of the model to engage in bidirectional communication, and how this could enable better alignment, understanding and mutual influence between the user and the system, as well as more iteration and collaboration. 
 
-There, I made a first distinction between the need for interaction \textit{through} the creative product and interaction \textit{about} the creative product. I argued that effective dialogic co-creativity involves more than a simple two-way conversation; it requires the user being able to communicate with the system but also make contributions to the creative product, and the ability to separate these two modes of interaction. 
+There, I made a first distinction between the need for interaction \textit{through} the creative product and interaction \textit{about} the creative product. I argued that effective dialogic co-creativity involves more than a simple two-way conversation; it requires the user being able to communicate with the system but also make contributions to the creative product, and the ability to separate these two modes of interaction. }
 
 Between that early 2022 work and the paper presented in this chapter (conducted in 2024 and published in 2025) there was significant progress in generative language models. Indeed, interaction converged to conversational interfaces as the dominant paradigm. While these interfaces can facilitate dialogue to align understanding, I argue they predominantly support interaction \textit{about} the creative product, rather than \textit{through} it, simply because they lack the space to do so.
 
@@ -57,6 +56,8 @@ These findings highlight the need for further research into how alternative inte
 \begin{itemize}
     \item Beyond Chat: Towards Greater User Involvement and Agency in Human-AI Co-Creativity through Shared Collaborative Spaces. Ocampo, Rodolfo, Bown, Oliver, \& Grace, Kazjon. (in press). Accepted for publication in \textit{Proceedings of the International Conference on Computational Creativity (ICCC) 2025}, Campinhas, Brazil, June 23–27.
 \end{itemize}
+
+\hl{
 
 \section{Further Documentation}
 
@@ -100,9 +101,7 @@ The system prompt instructs GPT-4o to use a specific format:
 
 When the model wants to modify the editor, it returns the complete text that should appear in the editor wrapped in curly brackets. The frontend parses the response using a regular expression to extract bracketed content, clears the editor, and types the new text into it using an animated typing effect. The bracketed text is then removed from the message before displaying it in the chat interface.
 
-\paragraph{Model Awareness and Decision-Making}
-
-Vorges enables the model to read both the user's chat messages and their direct contributions to the editor. To do so, I developed a simple curly bracket protocol. The model can respond in three ways:
+The model can respond in three ways:
 \begin{enumerate}
     \item \textbf{Chat only} (interaction \textit{about}): Text without curly brackets appears only in the chat interface.
     \item \textbf{Editor only} (interaction \textit{through}): Text wrapped in curly brackets replaces the entire editor content.
@@ -118,32 +117,7 @@ The curly bracket protocol has several limitations that led to the development o
     \item \textbf{No granular editing}: The protocol cannot specify precise edits but requires replacing the entire editor content.
 \end{itemize}
 
-\paragraph{Further Technical Details}
 
-\subparagraph{System Components}
-
-The backend (\texttt{server.js}) uses the Fastify web server framework with the OpenAI SDK (v4+) for GPT-4o integration. Firebase Firestore serves as the database for conversation history persistence. The frontend (\texttt{index.hbs}) implements a split-pane interface with an HTML \texttt{textarea} element for the editor (left) and a chat interface (right), both managed through client-side JavaScript.
-
-\subparagraph{API Endpoints}
-
-\begin{itemize}
-    \item \texttt{POST /chat}: Main chat endpoint with editor integration, processes requests containing both chat messages and editor state
-    \item \texttt{POST /chatonly}: Standalone chat endpoint without editor context
-    \item \texttt{GET /}: Homepage with editor and chat interface
-    \item \texttt{GET /chat}: Chat-only interface without editor
-\end{itemize}
-
-\subparagraph{Session Persistence}
-
-Conversations are persisted in Firebase Firestore using session IDs. Each session is identified by a UUID generated on page load, stored in the \texttt{divided} collection. The system checks if a session document exists; if not, it creates one, otherwise it updates the existing document with the current message history. This allows conversation history to be maintained across page refreshes.
-
-\subparagraph{State Management}
-
-The application maintains conversation state in a \texttt{messages} array that includes system prompts, user messages (with embedded editor state), and assistant responses. Editor state is managed separately with undo/redo stacks: before applying AI modifications, the current editor state is pushed to \texttt{undoStack}, and the redo stack is cleared when new changes are made.
-
-\subparagraph{Error Handling and Configuration}
-
-The application includes error handling for missing Firebase credentials (graceful degradation), missing OpenAI API key (503 service unavailable), and API errors (detailed logging with user-friendly error messages). Configuration uses environment variables: \texttt{OPENAI\_API\_KEY} for the OpenAI API, a \texttt{credentials.json} service account file for Firebase, and \texttt{PORT} (defaults to 3000) for the server port.
 
 \subsection{Common Interface: Chat and Editor Hybrid Interface }
 
@@ -183,9 +157,6 @@ The model can respond in three ways:
     \item \textbf{Both}: The model can simultaneously respond in chat and modify the editor, enabling it to explain its edits or discuss while making changes.
 \end{enumerate}
 
-\paragraph{Collaborative Editing Mechanism}
-
-The frontend parses the model's JSON response and applies editor modifications automatically. When the model edits text, it uses exact string matching to find and replace content, allowing it to respond to specific user contributions. For example, if a user writes a paragraph and the model wants to refine it, it can identify the exact text and propose an edited version, demonstrating awareness of and response to the user's direct contributions to the shared workspace.
 
 \paragraph{Web Implementation Overview}
 
@@ -193,46 +164,20 @@ The Common prototype is implemented as a Node.js web application using the Fasti
 
 \paragraph{Further Technical Details}
 
+The following stack was used in both Vorges and Common. 
+
 \subparagraph{Technology Stack}
 
 \begin{itemize}
     \item \textbf{Backend}: Node.js with Fastify framework
     \item \textbf{Frontend}: Handlebars templating engine with client-side JavaScript
     \item \textbf{AI Model}: OpenAI GPT-4o via OpenAI API
-    \item \textbf{Data Persistence}: Firebase Firestore (optional, toggle-controlled)
-    \item \textbf{Authentication}: Cookie-based session management
+    \item \textbf{Data Logging for Research Purposes}: Firebase Firestore 
+
 \end{itemize}
 
-\subparagraph{API Endpoints}
+}
 
-\begin{itemize}
-    \item \texttt{GET /}: Editor-chat interface (split-pane layout)
-    \item \texttt{GET /chat}: Chat-only interface without editor
-    \item \texttt{POST /chat}: Process chat with editor context, returns structured JSON response
-    \item \texttt{POST /chatonly}: Process chat without editor context, returns plain text
-    \item \texttt{GET /login}: Authentication page
-    \item \texttt{POST /login}: Authentication handler
-\end{itemize}
-
-\subparagraph{Request Flow and Data Recording}
-
-When a user sends a message, the frontend JavaScript captures the chat message text, current editor state (\texttt{textarea\#editor} value), session ID (UUID generated on page load), and recording toggle state. The frontend constructs a user message combining chat input with editor state, then sends a POST request to \texttt{/chat} with complete message history, session ID, and recording toggle state.
-
-Both endpoints support optional Firestore logging when the ``Record Interaction'' toggle is enabled. Documents are named using the pattern \texttt{\{sessionId\}\_\{YYYY-MM-DD\}} and store complete message history and AI responses.
-
-\subparagraph{Response Processing}
-
-The backend receives POST requests at \texttt{/chat}, forwards message history to OpenAI API (GPT-4o), optionally saves interactions to Firestore if recording is enabled, and returns the raw JSON response. The frontend parses the JSON response embedded in the \texttt{message} field, extracts \texttt{playground} and \texttt{chat} objects, updates the chat display with \texttt{chat.message}, and applies editor modifications in sequence: deletions first, then edits, then additions (beginning, then end).
-
-\subparagraph{Editor State Management}
-
-The editor maintains an undo/redo stack. Before applying AI modifications, the current editor state is pushed to \texttt{undoStack}, enabling users to revert changes via a ``Previous Version'' button. Redo functionality allows restoring undone states.
-
-\subparagraph{Error Handling and Limitations}
-
-Network errors are caught and logged to the console. Invalid JSON responses would cause parsing errors (not explicitly handled in the current implementation). OpenAI API errors return generic error messages to the user. 
-
-The system has several limitations: editor modifications rely on exact string matching, so if the same text appears multiple times, \texttt{replace()} will affect all occurrences. The system assumes GPT-4o always returns valid JSON; malformed responses would break the interface. There is no conflict resolution if a user edits the editor while an AI response is processing. Editor changes are applied only after the complete AI response is received (no real-time updates).
  
 
 
