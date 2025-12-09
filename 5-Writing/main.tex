@@ -82,10 +82,6 @@ The core difference between the first and second version of the Vorges prototype
 
 \subsubsection{Technical Documentation: Vorges Implementation}
 
-The Vorges prototype represents an earlier, more rudimentary implementation of the hybrid chat-editor interface shown in Common and described in the paper. Its core innovation lies in a simple protocol that enables the AI model to simultaneously communicate through chat and modify the shared text editor, though using a different mechanism than the later Common prototype.
-
-\paragraph{Web Implementation Overview}
-
 The Vorges prototype is implemented as a Node.js web application using the Fastify framework. The frontend uses Handlebars templating with a split-pane layout: a text editor on the left and a chat interface on the right. When a user sends a chat message, the frontend automatically captures the current editor state and embeds it in the request sent to GPT-4o via the OpenAI API. The model's response is parsed on the client side to extract both chat messages and editor modifications.
 
 \paragraph{The Curly Bracket Protocol}
@@ -106,7 +102,7 @@ When the model wants to modify the editor, it returns the complete text that sho
 
 \paragraph{Model Awareness and Decision-Making}
 
-Similar to Common, Vorges enables the model to read both the user's chat messages and their direct contributions to the editor. To do so, I developed a simple curly bracket protocol. The model can respond in three ways:
+Vorges enables the model to read both the user's chat messages and their direct contributions to the editor. To do so, I developed a simple curly bracket protocol. The model can respond in three ways:
 \begin{enumerate}
     \item \textbf{Chat only} (interaction \textit{about}): Text without curly brackets appears only in the chat interface.
     \item \textbf{Editor only} (interaction \textit{through}): Text wrapped in curly brackets replaces the entire editor content.
@@ -135,14 +131,7 @@ The Common interface combines a chat interface with a shared collaborative edito
 
 \subsubsection{Technical Report: Chat-Editor Co-Creative Application}
 
-The core innovation of the Common prototype lies in a more structured prototocol for chat and editor communication, using JSON to enable the model to perform more granular edits in the text editor, allowing more fluid (interaction \textit{about} the creation) and (\textit{through} the creation).
-
-When a user sends a chat message, the system automatically captures and includes the current state of the text editor in the request to GPT-4o. This means the model receives both:
-\begin{itemize}
-    \item The user's chat message (explicit communication)
-    \item The current editor content (visible user contributions to the artefact)
-\end{itemize}
-
+The core innovation of the Common prototype lies in a more structured prototocol for chat and editor communication, using JSON to enable the model to perform more granular edits in the text editor.
 
 The system prompt instructs GPT-4o to respond in a structured JSON format that allows it to choose how to interact:
 
@@ -166,8 +155,6 @@ The model can respond in three ways:
     \item \textbf{Editor only} (interaction \textit{through}): When the model should directly modify the text, it populates the \texttt{playground} fields (add, edit, or delete operations).
     \item \textbf{Both}: The model can simultaneously respond in chat and modify the editor, enabling it to explain its edits or discuss while making changes.
 \end{enumerate}
-
-This design allows the model to fluidly switch between discussing the creation and directly contributing to it, based on its understanding of the user's intent and the current state of the collaborative work.
 
 \paragraph{Collaborative Editing Mechanism}
 
