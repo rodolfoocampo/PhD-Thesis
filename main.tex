@@ -8,8 +8,19 @@
 \usepackage{hyperref}
 \usepackage{float}
 \usepackage{tcolorbox}
-\usepackage{soul}
-\sethlcolor{yellow}
+\usepackage{mdframed}
+\mdfdefinestyle{highlightstyle}{
+    backgroundcolor=yellow!30,
+    linecolor=yellow!30,
+    linewidth=0pt,
+    leftmargin=0pt,
+    rightmargin=0pt,
+    innerleftmargin=2pt,
+    innerrightmargin=2pt,
+    innertopmargin=2pt,
+    innerbottommargin=2pt
+}
+\newmdenv[style=highlightstyle]{highlight}
 
 
 
