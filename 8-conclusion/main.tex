@@ -17,11 +17,63 @@ This aim was broken down into the following sub-questions:
 \end{itemize}
 \end{quote}
 
-I examined these questions through a mixed-methodology approach, developing and testing prototypes with users from a design research perspective, and engaging in creative practice through collaborations with teams working on real-world creative productions. This chapter begins by presenting the core argument of the thesis. 
 
-It then develops this argument by addressing the research sub-questions, starting with an analysis of how interaction design shapes the roles, agency, and effectiveness of human-AI interaction. Following this, I explore the potential of dialogic interaction to enhance co-creativity, culminating in a final section that synthesises these findings into a set of actionable design principles.
 
-\section{Core argument}
+I address these questions by synthesising findings from my research studies, emerging literature, and observations from practice. In Chapter 3, I established a framework for dialogic co-creativity comprising six core elements: bidirectional communication, shared collaborative space, iteration, mutual influence, mutual understanding, and contextual awareness. I also distinguished three levels of dialogic interaction: pseudo-dialogue, weak asymmetric dialogue, and full dialogue \cite{Bown2024-yx}. Throughout this thesis, I used this framework as an analytical lens to examine how dialogic elements influence roles, agency, and effectiveness in human-AI co-creativity.
+
+Here, I propose that these three levels of dialogue correspond to three distinct types of co-creative AI systems, each requiring different dialogic elements to be prioritised. I reframe the elements of dialogic co-creativity as design principles and propose specific guidelines for their implementation at each level.
+
+\subsection{Three Levels of Co-Creative Systems}
+
+From the studies in the preceding chapters and a survey of the literature and practice, I propose there are three levels of co-creative systems. Each level prioritises different dialogic elements and requires distinct design approaches.
+
+\textbf{Level 1: Generative co-creators} prioritise \textbf{mutual influence} and \textbf{iteration}. These systems, exemplified by text-to-image generators such as those used in Chapter 5, operate primarily as generators with minimal dialogic capabilities. They enable users to explore creative possibilities through generative variability and support basic iterative workflows. However, they lack conversational interfaces, shared collaborative spaces, and robust context awareness. Their role exists primarily in early stages of the creative workflow, serving to ideate and explore possibilities. 
+
+As such, mutual influence is a desirable design principle for this level. The AI influences the user by stimulating novelty and shifts in perspective, facilitating new creative directions. On the other hand, the user can influence the system through expressive control, allowing them to steer it towards their creative intentions. This dynamic of mutual influence enables productive exploration. A key aspect of this exploration is iteration, allowing users to pursue interesting directions further. Hence, iteration is prioritised alongside mutual influence.
+
+\textbf{Level 2: Communicative and iterative co-creators} add \textbf{mutual understanding} and \textbf{bidirectional communication} to the elements prioritised at Level 1. These systems, such as chatbots like ChatGPT or Vorges in chat-only mode, enable conversational interaction and can iterate on outputs when the creation is in language. They support alignment of goals and intentions through dialogue, but remain limited in supporting interaction through the creation itself.
+
+Enabling conversational interaction, or bidirectional communication, may appear trivial. However, such types of interaction were not commonplace at the beginning of this thesis, before the emergence of conversational large language models. Early explorations in this thesis examined capabilities of earlier models to engage in these types of interactions and, through early experiments such as the one in Chapter 3, argued for the value of this type of interaction in enabling human-AI co-creativity.
+
+However, throughout this thesis, as conversation emerged as the dominant design pattern with generative system, I also argued that conversational interaction alone is not enough, particularly if it only enables a client-producer dynamic where interaction is limited to instruction following. A dynamic of mutual understanding is important, where the system asks for clarification, suggests alternative viewpoints and possibilities, and seeks to form an understanding of the user. Similarly, allowing the user to query the system for explanations and clarification, as well as enabling discussion on goals, intentions, and preferences, distinguishes these systems from purely generative ones. As such, mutual understanding is highlighted as a key design principle for this level of co-creativity. This is primarily enabled through conversational design, but also through visibility of creative affordances and primitives, enabling the user to form a shared understanding of the system. 
+
+\textbf{Level 3: Collaborative, embedded and adaptive co-creators} integrate all elements from previous levels and additionally prioritise \textbf{shared collaborative space} and \textbf{context awareness}. These systems, such as Vorges with the Shared Space, enable a space where both human and AI can contribute to the creative product, allowing interaction not only about the creation, but through the creation itself. In Chapter 4, I showed the value of a shared collaborative space on perception of agency from the user and their involvement in a co-creative interaction. 
+
+In order to be as valuable and relevant as possible, these systems can reference relevant context, for example, user style, previous work, and relevant files. Popular systems such as Cursor exemplify a co-creator with a shared collaborative space where the AI acts with awareness of relevant files, user work, and workspace. Ideally, at this level, the system is embedded in the user's main workspace, allowing for collaboration, sharing a common space, and context awareness, enabling it to act within relevant context. 
+
+\subsection{Design Principles and Guidelines}
+
+Each dialogic element can be operationalised through specific design principles and guidelines. Table \ref{tab:dialogic-principles} presents these principles organised by the three levels of co-creativity.
+
+\begin{table}[htbp]
+\centering
+\caption{Design principles for dialogic co-creativity across three levels}
+\label{tab:dialogic-principles}
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+\textbf{Element} & \textbf{Design Principles and Guidelines} \\
+\midrule
+\textbf{Mutual Influence} & \textbf{Serendipity:} Leverage generative variability to induce perspective shifts and adaptation of creative directions. \\
+& \textbf{Expressive Control:} Enable multimodal inputs beyond text to allow users to express intentions by showing, not only telling. \\
+\midrule
+\textbf{Iteration} & \textbf{Consistency and Refinement:} Support iterative workflows that allow refinement while maintaining consistency across versions. \\
+& \textbf{Stateful Histories and Journeys:} Provide rich histories and stateful user journeys that preserve exploration and enable backtracking. \\
+\midrule
+\textbf{Mutual Understanding} & \textbf{Personalisation:} Allow users to build shared understanding through training, fine-tuning, and style ownership. \\
+& \textbf{Expose Creative Primitives:} Make visible what the system can and cannot do, enabling users to form accurate mental models. \\
+\midrule
+\textbf{Bidirectional Communication} & Enable two-way conversational exchanges that support clarification, feedback, and alignment of goals and intentions. \\
+\midrule
+\textbf{Shared Collaborative Space} & \textbf{Separate Through and About:} Provide dedicated spaces for collaboration through the creation, separate from conversational spaces. \\
+& \textbf{Visibility of Contributions:} Clearly distinguish AI contributions through edit tracking and highlighting, enabling users to review, accept, or reject changes. \\
+\midrule
+\textbf{Context Awareness} & \textbf{Connect to External Sources:} Integrate awareness of environmental data, trends, and broader sociocultural context. \\
+& \textbf{Existing Work:} Maintain awareness of the user's workspace, previous work, files, and established preferences. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+
 
 This thesis argues that a central problem in human-AI co-creativity is that the prevailing modes of interaction with generative AI often diminish user creative agency through what I now term here as\textbf{severed creative agency}: a fundamental disconnect between a user's creative intentions and the actions performed by the AI. 
 
