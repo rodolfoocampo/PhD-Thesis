@@ -1,36 +1,170 @@
-\chapter{Dialogic Human-AI Co-Creativity} \label{c:tc4}
+\chapter{A Framework for Dialogic Human-AI Co-Creativity} \label{c:tc4}
 
-\section{Link to thesis}
-This chapter addresses my core research question ("How can we design generative AI systems that act as effective co-creators, maintaining human agency while effectively leveraging the creative potential of this technology?") with a specific focus on research question regarding dialogic interaction (R1):
+
+\section{Overview}
+
+This chapter addresses the first research question of this thesis: 
 \begin{quote}
-\begin{highlight}How to enable co-creative dialogues between humans and AI, and how does it influence the roles and effectiveness of human-AI co-creativity?\end{highlight}
+    What are the elements that constitute a co-creative dialogue between humans and AI?
 \end{quote}
-It is presented in two parts.
+To answer this question, I develop a comprehensive framework for Dialogic Co-Creative Artificial Intelligence. This framework consists of two complementary components, developed across two sections in this chapter, that together provide both practical guidance and theoretical grounding for understanding human-AI co-creativity.
 
-The first part consists of a paper presented at the GenAI and HCI workshop at the 2022 Conference on Human Factors in Computing Systems (CHI '22), which served as an initial exploration of how dialogue could enhance collaboration with generative AI, specifically Large Language Models (LLMs). At the time of writing, the dominant interaction modality with LLMs was text completion, where a model would complete a user-provided string of text. An emerging approach involved repurposing this function for linear instruction-following. In this paper, I explored taking the interaction a step further to engage with the model in a dialogic way. I argued that effective human-AI co-creativity requires the formation of mutual understanding of goals and intentions, and that dialogue can serve as the mechanism for this.
+\subsection{Typology of Actions for Dialogic Co-Creative Artificial Intelligence}
 
-Through prompt engineering, I repurposed the text-completion function so that the model could interact in a bidirectional conversational exchange, enabling it to engage more as a co-creator rather than simply as a text-completion tool. A crucial aspect of this exploration was investigating the AI's ability to fluidly switch between meta-level dialogue about the creation (e.g., exchanging ideas, aligning goals) and object-level actions within the creation (e.g., writing, editing) in a single conversational thread.
+The first component presents a typology of actions for Dialogic Co-Creative Artificial Intelligence. These actions are organised into two categories: actions performed \textit{through} the artifact and actions performed \textit{about} the artifact.
 
-A key output of this work was a typology of actions that both humans and AI could engage in during creative dialogue. These included generating new text, transforming or refining existing text, providing feedback, requesting clarification, and justifying decisions, among others.
+\begin{table}[h]
+\centering
+\small
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|p{0.45\textwidth}|p{0.45\textwidth}|}
+\hline
+\textbf{Actions through the artifact} & \textbf{Actions about the artifact} \\ \hline
+\textbf{Create} \newline Propose an entirely new creation or artifact & \textbf{Set goal} \newline Establish or communicate the overarching creative intention \\ \hline
+\textbf{Extend} \newline Build upon or continue an existing artifact & \textbf{Request} \newline Ask for specific actions or modifications \\ \hline
+\textbf{Branch} \newline Generate multiple alternative extensions or variations & \textbf{Clarify} \newline Resolve ambiguity or uncertainty in requests \\ \hline
+\textbf{Transform} \newline Modify an artifact's fundamental style or characteristics & \textbf{Acknowledge} \newline Confirm mutual understanding between participants \\ \hline
+\textbf{Refine} \newline Enhance specific details or polish elements of an artifact & \\ \hline
+\end{tabular}
+\end{table}
 
-This experiment was conducted in a freeform text interface and involved using an interface designed for text completion as a space for bidirectional dialogue. I argued that GUI elements were needed to scaffold such interaction.
+This typology emerged from emerged from empirical observation and analysis presented in a paper at the GenAI and HCI workshop at CHI 2022. 
 
-This research preceded the widespread adoption of conversational interfaces; ChatGPT was launched six months after the presentation of this paper, leading to the rapid spread of bidirectional conversational interfaces as the primary form of interaction with LLMs. On one hand, this provided real-world evidence for the value of dialogic interaction. On the other hand, it also demonstrated that effective co-creativity requires more than simply a conversational interface.
+\subsection{Principles of Dialogic Co-Creativity}
 
-The second part of the chapter explores what those additional components are. It presents a more recent and general framework for dialogue as an interaction design concept in co-creativity. Drawing on interdisciplinary scholarship, this section proposes that dialogic interaction comprises the following components:
+The second component of the framework identifies six preliminary principles of dialogic co-creativity. While the action typology focuses on specific action affordances, these elements capture the broader design principles for Dialogic Co-Creative AI. I propose these principles need to be present when designing Dialogic Co-Creative AI. 
+
+\begin{table}[h]
+\centering
+\small
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|p{0.9\textwidth}|}
+\hline
+\textbf{Principles for Dialogic Co-Creative Artificial Intelligence}\\ \hline
+\textbf{Bidirectional Communication} \newline Two-way exchanges that enable both participants to express ideas and respond to each other \\ \hline
+\textbf{Shared Space} \newline A common collaborative environment where both human and AI can perceive and modify the creative work \\ \hline
+\textbf{Mutual Influence} \newline The capacity for each participant's perspectives and goals to evolve through interaction, leading to unexpected creative directions \\ \hline
+\textbf{Mutual Understanding} \newline Active efforts by both agents to model and comprehend each other's goals, preferences, and worldviews \\ \hline
+\textbf{Iteration} \newline Progressive refinement of both the creative product and shared meanings through repeated cycles \\ \hline
+\textbf{Context-awareness} \newline Integration of relevant environmental, historical, and cultural factors into the creative process \\ \hline
+\end{tabular}
+\end{table}
+
+
+These principles were derived from a synthesis of literature from three domains. From the philosophy of dialogue, Bohm's \cite{Bohm1996-fo} theory contributed the concepts of mutual influence and mutual understanding as core mechanisms through which participants shape each other's perspectives and forge shared meanings. Freire's \cite{Freire1970-pa} pedagogical framework emphasised the importance of shared collaborative spaces where knowledge is co-constructed rather than transmitted. The Socratic method provided historical grounding for dialogue as collaborative discovery through questioning and perspective-shifting.
+
+From human-computer interaction, Suchman's \cite{Suchman2006-bs} situated action theory illuminated how \textbf{context} shapes interaction beyond immediate exchanges. Hayes and Reddy's \cite{Hayes1983-ca} work on conversational systems established \textbf{bidirectional communication} as essential for natural human-computer dialogue. Contemporary work on explainable AI by Ribeiro et al. \cite{Ribeiro2016-xb} and Doshi-Velez \& Kim \cite{Doshi-Velez2017-qv} provided grounding for how mutual understanding requires systems that can clarify their reasoning to users.
+
+From creativity research, Schön's \cite{Schon1987-fy, Schon1992-jt} framework of reflective practice revealed \textbf{iteration} as fundamental to creative work and as a dialogue between creator, materials, and emerging artefact. Recent empirical studies by Rezwana \& Maher \cite{Rezwana2022-gg} validated how \textbf{bidirectional communication} enhances collaborative experiences, while Park et al. \cite{Park2024-gw} and Dell'Acqua et al. \cite{DellAcqua2023-og} demonstrated the advantages of iterative interaction over single-step generative processes.
+
+Finally, observations from emerging practice, including tools like ChatGPT, Claude Artifacts, Cursor, Canva AI, and integrated coding environments, provided concrete examples of how these theoretical principles manifest in contemporary systems, particularly highlighting advances in context-awareness and shared collaborative spaces.
+
+This multi-disciplinary synthesis, discussed in the second Section of this Chapter, revealed recurring patterns across domains: effective co-creative dialogues requires communication channels, shared workspaces, reciprocal influence, mutual modeling, iterative refinement, and contextual grounding. These insights crystallised into the six preliminary principles presented in this chapter.
+
+\begin{table}[htbp]
+\centering
+\caption{Literature Foundations for Dialogic Interaction Elements}
+\label{tab:literature_sources}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{4.5cm}|p{9cm}|}
+\hline
+\textbf{Element} & \textbf{Key Sources} & \textbf{Contribution} \\ \hline
+Bidirectional Communication & 
+\begin{tabular}[c]{@{}l@{}}
+Hayes \& Reddy (1983)\\
+Rezwana \& Maher (2022)\\
+Ashktorab et al. (2021)\\
+ChatGPT case study
+\end{tabular} & 
+\begin{tabular}[c]{@{}l@{}}
+Established need for human-like dialogue\\
+Showed bidirectional > one-way for engagement\\
+Demonstrated impact on perceived intelligence\\
+Illustrated mass appeal of conversational AI
+\end{tabular} \\ \hline
+
+Shared Space & 
+\begin{tabular}[c]{@{}l@{}}
+Freire (1970)\\
+Ocampo et al. (2024)\\
+Claude Artifacts, Canvas
+\end{tabular} & 
+\begin{tabular}[c]{@{}l@{}}
+Theorised dialogic space for co-construction\\
+Empirically validated shared workspace benefits\\
+Practical implementations of theory
+\end{tabular} \\ \hline
+
+Mutual Influence & 
+\begin{tabular}[c]{@{}l@{}}
+Bohm (1996)\\
+Socratic Method\\
+Bown (2020)\\
+Kim et al. (2023)
+\end{tabular} & 
+\begin{tabular}[c]{@{}l@{}}
+Defined dialogue as reciprocal shaping\\
+Historical model of collaborative discovery\\
+Case study of perspective shifts in music\\
+Value of Socratic method in conversational AI design
+\end{tabular} \\ \hline
+
+Mutual Understanding & 
+\begin{tabular}[c]{@{}l@{}}
+Bohm (1996)\\
+Ribeiro et al. (2016)\\
+Doshi-Velez \& Kim (2017)
+\end{tabular} & 
+\begin{tabular}[c]{@{}l@{}}
+Theorized shared meaning-making\\
+Showed need for AI explainability\\
+Framework for interpretable ML
+\end{tabular} \\ \hline
+
+Iteration & 
+\begin{tabular}[c]{@{}l@{}}
+Schön (1987, 1992)\\
+Park et al. (2024)\\
+Dell'Acqua et al. (2023)\\
+Lee et al. (2022)
+\end{tabular} & 
+\begin{tabular}[c]{@{}l@{}}
+Creativity as reflective conversation\\
+Practical value or iterative tools\\
+Iterative loops improve performance\\
+Iteration reveals richer insights
+\end{tabular} \\ \hline
+
+Context Awareness & 
+\begin{tabular}[c]{@{}l@{}}
+Suchman (2006)\\
+Bown (2021)\\
+Cursor, Copilot, v0\\
+Author's installations
+\end{tabular} & 
+\begin{tabular}[c]{@{}l@{}}
+Meaning depends on situated context\\
+Creativity embedded in environment\\
+Integration with coding workspace\\
+Real-time environmental responsiveness
+\end{tabular} \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+\section{Link to Thesis}
+
+This framework was used as the analytical lens used for the remainder of this thesis, providing the conceptual tools to examine the remaining research questions:
 
 \begin{itemize}
-\item \begin{highlight}\textbf{Bidirectional Communication:} Two-way conversational exchanges.\end{highlight}
-\item \begin{highlight}\textbf{A Shared Collaborative Space:} A common collaborative environment.\end{highlight}
-\item \begin{highlight}\textbf{Mutual Influence:} Each party's perspectives and goals evolve as a result of the interaction, and each agent drives the other to new, unexpected directions.\end{highlight}
-\item \begin{highlight}\textbf{Mutual Understanding:} Each agent actively seeks to understand the other's world-models, goals, perspectives, and preferences.\end{highlight}
-\item \begin{highlight}\textbf{Iteration:} The creative product and shared meanings evolve iteratively.\end{highlight}
-\item \begin{highlight}\textbf{Context-awareness:} Actors bring in relevant context and act within it.\end{highlight}
+    \item R2: How do the presence or absence of the elements of co-creative dialogue influence the roles and agency of participants?
+    \item R3: Which interaction design principles can guide the development of effective and human-centred Dialogic Co-Creative Artificial Intelligence?
 \end{itemize}
 
-These components form an analytical lens for the subsequent chapters, which explore their implementation and their contribution to effective human-AI co-creativity.
 
-The following short-paper publication is provided below as the first part of this chapter. 
+\section{Part 1: A typology of actions for Dialogic Co-Creative Artificial Intelligence}
+
+The following short-paper publication develops an initial typology of actiona. 
 
 \begin{itemize}
     \item \textbf{A Framework for Dialogue-Based Human-AI Creative Collaboration.} Ocampo, Rodolfo, Bown, Oliver, \& Grace, Kazjon. (2022). In \textit{Proceedings of the CHI 2022 Workshop on Generative AI and HCI}. New Orleans, USA.
@@ -235,9 +369,6 @@ Consider a second example: a programmer collaborating with an AI language model 
 
 Several emerging AI tools are advancing toward context-awareness and integration to varying degrees. \href{https://www.cursor.com/}{Cursor}, \href{https://v0.dev/}{v0}, \href{https://replit.com/ai}{Replit's AI agent}, and \href{https://github.com/features/copilot}{GitHub Copilot} integrate directly into coding environments, enabling them to reference relevant files, generate new code, create additional files, and even handle deployments. \href{https://www.canva.com/}{Canva's DreamLab} and \href{https://www.adobe.com/au/products/firefly.html}{Adobe} introduce generative AI within design workspaces, facilitating context-aware functionality. Google's Gemini Workspace similarly seeks to integrate its features into users' workflows across email, documents, and other files.
 
-Achieving broader and more nuanced sociocultural context-awareness remains especially elusive. As part of an experimental, practice-based exploration of context-awareness in co-creativity (described in subsequent chapters), I conducted two new media installations that employ large language models (LLMs) to generate soundscapes based on environmental data. In one case, commissioned for the ANU School of Cybernetics, a soundscape was generated in response to data from the weather in Canberra, Twitter activity, economic indicators, and atmospheric CO2 levels. In another, commissioned for the Sydney Opera House, an LLM produced a continually evolving, month-long soundscape driven by data on the building's energy usage, performances, and water consumption. In both instances, the role of the AI was to produce an on-going dynamic piece that directly responded to its context, be it the building, or the wider environment. To achieve so, maintaining relevant information within context, as well as the overarching goals and artistic intent, was crucial—and often challenging— for the installations.
-
-In sum, meaningful context-awareness remains a crucial frontier for achieving successful dialogic co-creation with generative systems. Such systems must not only generate, iterate, and communicate but also function as situated agents within contexts of varying scope, relevant both to the user's immediate workspace and to broader sociocultural webs of significance.
 
 \subsection{Conclusion}
 
