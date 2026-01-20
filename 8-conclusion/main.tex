@@ -202,27 +202,37 @@ For each principle, a set of guidelines are provided for their implementation. T
     \caption{Six Design Principles Adapted from the preliminary design principles proposed in Chapter 3 and informed by learnings from each chapter, and an additional meta-principle}
     \label{fig:placeholder}
 \end{figure}
+
+
+\subsection{Design for Roles and Motivations}
+
+Before applying the six design principles outlined above, designers must first consider the user: who they are, what motivates them, and what role they wish to play in the creative process. This meta-principle serves as a starting point for prioritising and adapting the other principles to specific contexts.
+
+Two key questions guide this process. First, what are the motivations of the user? As discussed in Chapter 2, users of co-creative systems may be Transactional Creators, seeking efficient outputs with minimal involvement; Casual Creators, engaging for enjoyment rather than outcome; or Transformational Creators, seeking to push creative boundaries. Each type of user will value different aspects of the interaction, influencing how the Dialogic Co-Creative AI system is designed. 
+
+Second, what roles will the user assume when interacting with the system? Users may shift between roles such as director, collaborator and curator, or audience depending on the task and their goals. A system designed for users wishing to act as directors will differ from a user seeking to collaborate, or improve their own skills with feedback from the AI. 
+
+By beginning with these questions, designers can guide decisions about which principles to emphasise and how to specifically implement them. It is important to note that mapping specifically how each design principle can be weighted and implemented for each type of user remains an area for further research. As such, this principle is not prescriptive but rather acts as an invitation to use questions as a starting point. 
+
+
 \subsection{Design for Communication}
 
-The current research project began in 2021, before the pervasive adoption of chatbots such as ChatGPT launched in November 2022. As such, one of our initial proposals of dialogic interaction was investigating both the capabilities and impact of having generative systems communicate with the user in conversational interaction. In Chapter 3, my first research paper presented at the CHI workshop on Generative AI and HCI, precisely explored the capability of an early Large Language Model to engage in dialogic interaction. LLMs at the time functioned exclusively as text completion rather than conversational agents: a string was passed (the prompt) and the next word or words were generated. However, emerging "hacky" approaches such as ours began demostrating theis capability could be exploited to produce conversational interaction if the initial prompt was framed as the a series of prexisting messages in a conversation. In our paper we showed that the system had the emergent capability of switching between discussing the writing, and doing the writing itself, and we identified a series of possible actions that human and AI could engage in. We showed this type of interaction was more condusive to a collaborative interaction, where human and AI could discuss the creative goals but also directly contribute to the creative goal. Later on, in November 2022, ChatGPT was launched, similarly repurpoising a linear language model to engage in conversational interaction. The rapid adoption of the technology served as an illustration of the potential of this type of interaction. 
+This research project began in 2021, before the widespread adoption of chatbots such as ChatGPT, which launched in November 2022. One of my initial proposals for dialogic interaction was to investigate both the capabilities and impact of having generative systems communicate with users through conversation. In Chapter 3, I presented a research paper at the CHI workshop on Generative AI and HCI that explored the capability of an early Large Language Model to engage in dialogic interaction. At the time, LLMs functioned exclusively as text completion systems rather than conversational agents: a string was passed as a prompt and the next word or words were generated. However, emerging approaches, including my own, began demonstrating that this capability could be exploited to produce conversational interaction if the initial prompt was framed as a series of pre-existing messages in a conversation. In that paper, I showed that the system had the emergent capability of switching between discussing the writing and producing the writing itself, and I identified a series of possible actions that human and AI could engage in. This type of interaction proved more conducive to collaboration, enabling human and AI to discuss creative goals while also directly contributing to the creative output. In November 2022, ChatGPT was launched, similarly repurposing a linear language model to engage in conversational interaction. Its rapid adoption illustrated the potential of this approach.
 
-As such, a starting point for a Dialogic Co-Creative AI is simply offering a space for the user and AI to commuicate conversationally. The wide adoption of chat-interfaces with generative Ai systems has demosntated the potential of this type of interaction but also its limitiations. Reducing creative interactions to language interaction limits can be limiting. For example, a study by Park et al. \cite{Park2024-gw} titled "We are visual thinkers, not verbal thinkers!" analysing how designers use generative AI tools found that one of their main struggles was to convey visual intentions through text. 
+A starting point for Dialogic Co-Creative AI is therefore to offer a space for user and AI to communicate conversationally. The widespread adoption of chat interfaces for generative AI systems has demonstrated both the potential and the limitations of this mode of interaction. Text-based communication, while accessible, can constrain creative exchange. For example, a study by Park et al. \cite{Park2024-gw} titled ``We are visual thinkers, not verbal thinkers!'' analysed how designers use generative AI tools and found that one of their main struggles was conveying visual intentions through text.
 
-Multimodal inputs offer promise for more expressive interaction, allowing the user to more richly communicate creative intentions. For example, in Chapter 5, I described how we leveraged image references to drive more granular control of the outputs, as shown in Figure  \ref{fig:ai_generation_workflow}, and previously I discussed the importance of being able to train the model on a set of images, thus communicating our creative preference implicitly. 
+Multimodal inputs offer promise for more expressive interaction, allowing users to communicate creative intentions more richly. In Chapter 5, I described how we leveraged image references to achieve more granular control of outputs, as shown in Figure \ref{fig:ai_generation_workflow}. I also discussed the importance of training the model on a set of images, thereby communicating creative preferences implicitly rather than through explicit verbal description.
 
 \begin{figure}[htbp]
     \centering
 
-    % First subfigure - Control network workflow
     \begin{subfigure}[b]{\textwidth}
         \centering
         \includegraphics[width=0.9\textwidth]{controlnetworkflow.png}
-        \caption{Workflow used to extract characteristics of an image used as reference. The reference image was generated in a software that better aligned with the aesthetic intent and then used to drive the generation of another model trained on the character's likeness.}
+        \caption{Workflow used to extract characteristics of an image used as reference. The reference image was generated in software that better aligned with the aesthetic intent and then used to drive the generation of another model trained on the character's likeness.}
         \label{fig:controlnetworkflow}
     \end{subfigure}
 
-
-    % Second subfigure - Input/Output comparison
     \begin{subfigure}[b]{\textwidth}
         \centering
         \includegraphics[width=0.9\textwidth]{inputoutput.png}
@@ -234,84 +244,91 @@ Multimodal inputs offer promise for more expressive interaction, allowing the us
     \label{fig:ai_generation_workflow}
 \end{figure}
 
-Another example is the use of moodboards as part of a creative ideation process. Designers often curate a set of references that seek to capture a general intention as a starting point.  In a study by Peng et al. \cite{Peng2024-tr}, the authors described an interface that allows designers to curate mood-boards consisting of colour palettes, images, and text, and use it to drive generation. This interface, they found, allowed designers "explore and express themselves more effectively" than text-to-image tools.
+Another example is the use of moodboards in creative ideation. Designers often curate a set of references to capture a general intention as a starting point. In a study by Peng et al. \cite{Peng2024-tr}, the authors described an interface that allows designers to curate moodboards consisting of colour palettes, images, and text, and to use these to drive generation. This interface, they found, allowed designers to ``explore and express themselves more effectively'' than text-to-image tools alone.
 
 \begin{figure}
     \centering
     \includegraphics[width=1\linewidth]{designprompt.png}
-    \caption{DesignPrompt: a moodboard tool by \cite{Peng2024-tr} allowing designers to search images, compose multimodal prompts with images, colors, semantics, and text, and "finely tune their intentions."}
-    \label{fig:enter-label}
+    \caption{DesignPrompt: a moodboard tool by Peng et al. \cite{Peng2024-tr} allowing designers to search images, compose multimodal prompts with images, colours, semantics, and text, and ``finely tune their intentions.''}
+    \label{fig:designprompt}
 \end{figure}
 
-The most effective dialogic interfaces may be hybrid ones, combining language and conversational inputs with multimodal inputs, enabling a richer communication of creative intention. 
+The most effective dialogic interfaces are likely to be hybrid ones, combining conversational input with multimodal channels such as images, sketches, and curated references. Such interfaces enable richer communication of creative intention, allowing users to show what they mean when words fall short.
 
 \subsection{Design for Collaboration}
 
-In Chapter 4, I showed the value of separating spaces for communication from spaces for collaboration, by providing a dedicated space where human and AI could collaborate. I discussed how this increased involvement and perceptions of agency. Consider, for example, the following quote from a participant using the \textbf{chat-only interface}, without a dedicated space for collaboration:
+In Chapter 4, I demonstrated the value of separating spaces for communication from spaces for collaboration by providing a dedicated space where human and AI could work together directly. This separation increased user involvement and perceptions of agency. Consider, for example, the following quote from a participant using the chat-only interface, without a dedicated space for collaboration:
+
 \begin{quote}
-"[it] made me feel like I was cheating somehow. It does not feel like my work, even though I gave all the ideas. Also, I believe there is satisfaction in putting a lot of effort/dedication/patience into something. Vorges (the AI) made everything so simple, fast, and easy that it felt artificial and no real satisfaction came as a result."
+``[It] made me feel like I was cheating somehow. It does not feel like my work, even though I gave all the ideas. Also, I believe there is satisfaction in putting a lot of effort/dedication/patience into something. Vorges [the AI] made everything so simple, fast, and easy that it felt artificial and no real satisfaction came as a result.''
 \end{quote}
+
+In contrast, a prototype enabling a shared editor, as shown in Figure \ref{fig:shared-editor}, allowed users to collaborate more closely at the level of the creative writing itself, beyond communicating only at the level of instructions and ideas.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{sharededitor.png}
-    \caption{The shared editor prototype, combining a chat with a direct manipulation space.}
+    \caption{The shared editor prototype, combining a chat interface with a direct manipulation space.}
     \label{fig:shared-editor}
 \end{figure}
 
-In contrast, a prototype enabling a shared editor as shown in Figure \ref{fig:shared-editor} allowed users to collaborate more closely at the level of the creative writing, beyond communicating only at the level of instructions and ideas. Consider the following quotes from users of this interface:
+Participants using the shared editor reported markedly different experiences:
 
 \begin{quote}
-"I really-really enjoyed writing this. I even had a deep moment of reflection, my writing was nostalgic and sad, but I was able to use AI to steer it in the right direction, it gave me confidence that I was also writing with correct grammar and spelling, English is not my first language and while I am proficient, I can still use proofreading to ensure good quality, this tool helped me with it." 
+``I really-really enjoyed writing this. I even had a deep moment of reflection, my writing was nostalgic and sad, but I was able to use AI to steer it in the right direction, it gave me confidence that I was also writing with correct grammar and spelling, English is not my first language and while I am proficient, I can still use proofreading to ensure good quality, this tool helped me with it.''
 \end{quote}
 
 \begin{quote}
- "I liked how my original ideas were still retained, and AI was used to complement my intentions. It forced me to put in some effort and do the majority of the work."
+``I liked how my original ideas were still retained, and AI was used to complement my intentions. It forced me to put in some effort and do the majority of the work.''
 \end{quote}
 
 \begin{quote}
-    "It adds an element of working together, which I think is the moral problem with current AI tools—they often seem like they're doing all the work."
+``It adds an element of working together, which I think is the moral problem with current AI tools—they often seem like they're doing all the work.''
 \end{quote}
 
 \begin{quote}
-    "It was much better than ChatGPT. I enjoyed how it gave me a lot more agency." 
+``It was much better than ChatGPT. I enjoyed how it gave me a lot more agency.''
 \end{quote}
 
 \begin{quote}
-    "I really enjoyed it; it still let me have autonomy."
+``I really enjoyed it; it still let me have autonomy.''
 \end{quote}
 
-The research also revealed that creating a space for collaboration is not trivial. A recurring theme was their need for improved visibility about the AI's edits
-\begin{quote}
- "When you ask the AI to check your grammar (as I did), it would be good if it told me what suggestions it had made, so I can double check its work easier."
-\end{quote}
+Across these responses, a consistent theme emerged: the shared editor preserved user autonomy and fostered a sense of genuine collaboration rather than delegation.
+
+However, the research also revealed that designing a space for collaboration is not trivial. A recurring concern was the need for improved visibility of the AI's contributions:
 
 \begin{quote}
-    "I am unsure as what parts of the text are being edited, in the end I am not quite sure which parts were mine and which ones were edited by AI."
-\end{quote}
-
-\begin{quote}
-"Once the tool has made revisions to the original text, maybe it can highlight the key changes that have been made... otherwise I need to slowly read through and identify the changes myself."
+``When you ask the AI to check your grammar (as I did), it would be good if it told me what suggestions it had made, so I can double check its work easier.''
 \end{quote}
 
 \begin{quote}
-[...] in an AI chatbox, usually you would parse through the original text copy into the chat, and the chat would then spit out a new copy, makes it a bit easier to edit/cut out any additions you don't like.
+``I am unsure as what parts of the text are being edited, in the end I am not quite sure which parts were mine and which ones were edited by AI.''
 \end{quote}
-These findings align with similar findings by Buschek et al. \cite{Buschek2021-ks} findings. In a paper discussing "Nine Potential Pitfalls when Designing Human-AI Co-Creative Systems", they describe one of them as managing"conflicts of territory", where the AI may override user's contributions and make desctruive changes.To mitigate this, Buschek et al. suggest highlighting AI-introduced changes, allowing revisions and providing version control, which align closely with the suggestions made by users of my own research study.
 
+\begin{quote}
+``Once the tool has made revisions to the original text, maybe it can highlight the key changes that have been made... otherwise I need to slowly read through and identify the changes myself.''
+\end{quote}
+
+\begin{quote}
+``[...] in an AI chatbox, usually you would parse through the original text copy into the chat, and the chat would then spit out a new copy, makes it a bit easier to edit/cut out any additions you don't like.''
+\end{quote}
+
+These findings align with those of Buschek et al. \cite{Buschek2021-ks}, who discuss ``conflicts of territory'' as one of nine potential pitfalls when designing human-AI co-creative systems. They describe how AI may override user contributions and make destructive changes, and suggest mitigations including highlighting AI-introduced changes, allowing revisions, and providing version control. These recommendations align closely with the suggestions made by participants in my own study.
+
+Designing for collaboration, therefore, requires not only providing a shared space but also ensuring that contributions within that space remain visible, attributable, and reversible. Without such safeguards, the benefits of collaboration risk being undermined by confusion over authorship and loss of user control.
 
 \subsection{Design for Mutual Influence}
 
+As discussed in Chapters 2 and 3, mutual influence is a core component of dialogic co-creativity. Rather than a unidirectional flow where the user simply directs the system, dialogic co-creativity involves both parties shaping and being shaped by the creative process. This reciprocal dynamic suggests that the AI's contributions can valuably redirect the creative trajectory towards new, unanticipated directions.
 
-In Chapter 3, I discussed the work by Weisz et al \cite{Weisz2024-io} on principles for the design of generative AI systems. They argue that an important design principles is managing generative variability, the tendency for tools to go on divergent directions, and they propose a set of guidelines to do so. While useful, these strategies focus on \textit{mitigation}. However, in the case of co-creativity, generative variability may be a feature rather than a bug.
-
-Consider for example, one comment of a participant of my co-creative writing studies: 
+In Chapter 3, I examined the work of Weisz et al. \cite{Weisz2024-io} regarding design principles for generative AI systems. They argue that a key design principle involves managing ``generative variability,'' which is the tendency for tools to move in divergent directions. While they propose guidelines to manage this variability, their strategies primarily focus on \textit{mitigation}. In the context of co-creativity, however, generative variability may be considered a functional feature rather than a flaw. This perspective is reflected in a comment from a participant in my co-creative writing studies:
 
 \begin{quote}
-"Vorges is like a creative collaborator or editor with ADHD - not always on point and occasionally disordered, but with no shortage of ideas."
+``Vorges is like a creative collaborator or editor with ADHD - not always on point and occasionally disordered, but with no shortage of ideas.''
 \end{quote}
 
-In creativity studies, surprise and serendipity are often recognised as crucial for creativity \cite{Simon1967-nr, Lubart2001-vl, Grace2015-uc, Moruzzi2022-gp} and multiple studies suggest that the introduction of new perspectives, and novely may be one of the most appreciated features of generative AI by users in creative activities \cite{Lawton2023-tb, Park2024-gw, Koch2020-gx}, while similar perspectives are echoes by creative practitioners, such as that of creative lead and art director Lucas Crespo: 
+In creativity studies, surprise and serendipity are often recognised as crucial for the creative process \cite{Simon1967-nr, Lubart2001-vl, Grace2015-uc, Moruzzi2022-gp}. Multiple studies suggest that the introduction of new perspectives and novelty may be among the most valued features of generative AI for users engaged in creative activities \cite{Lawton2023-tb, Park2024-gw, Koch2020-gx}. Similar views are echoed by creative practitioners, such as art director Lucas Crespo:
 
 \begin{quote}
 Creative work isn't only about precision. It's about discovery, exploration, and happy accidents that lead to breakthroughs. The more you can induce the feeling of serendipity in a creative tool, the more it keeps me prompting and pushing it to its limits.
@@ -319,109 +336,103 @@ Creative work isn't only about precision. It's about discovery, exploration, and
 As AI advances, I worry we'll optimize too heavily for accuracy at the expense of serendipity. We'll build tools that give us exactly what we ask for, rather than what we didn't know we needed.
 
 The best creative tools should feel like collaborators, not calculators. They should surprise, challenge, and push us in new directions. Working with them should feel more like jamming with a slightly unpredictable bandmate. It's the difference between following a map and exploring without one. \cite{Crespo2025-wr}
-\end{quote} 
+\end{quote}
 
-Mutual Influence as framed in the context of Dialogic Co-Creative AI is largely about both the user influenced the creative process and influencing each other. A key way of doing this may be the AI leading the user to directions they did not anticipate, or provide outputs they did not know they were looking for, the definition of serendipity. 
+Mutual influence, therefore, is largely about serendipity: helping users find creative possibilities they did not know they were looking for.
 
-How can we design interactions that promote serendipity? One promising alternative lies in \textbf{exploration-based interfaces}. For instance, a study by \cite{Davis2024-ml} demonstrated that a multimodal interface allowing 2-D exploration of the latent space of fashion designs enabled better ideation than prompt-based text-to-image interfaces, such as the Stable Diffusion tool they tested against. They concluded that "text-only prompts in existing models restrict creative exploration, especially for novices." Their interface allowed users to explore the latent-space of designs along semantically meaningful directions (e.g., sleeve length or pattern) and a style-mixing panel for blending designs. The study found that this interface was reported to be more conducive to ideation than the request-execute interactions found in modern text-to-image systems. 
+How can we design interactions that promote serendipity? One promising approach lies in \textbf{exploration-based interfaces}. Davis et al. \cite{Davis2024-ml} demonstrated that a multimodal interface allowing two-dimensional exploration of the latent space of fashion designs enabled better ideation than prompt-based text-to-image interfaces, such as the Stable Diffusion tool they tested against. They concluded that ``text-only prompts in existing models restrict creative exploration, especially for novices.'' Their interface allowed users to explore the latent space of designs along semantically meaningful directions (such as sleeve length or pattern) and included a style-mixing panel for blending designs. The study found that this interface was more conducive to ideation than the request-execute interactions found in modern text-to-image systems. Similarly, Koch et al. \cite{Koch2020-gx} tested an ideation tool specifically focused on enabling serendipity, demonstrating its value for divergent exploration in human-computer partnerships.
 
-A study by Koch et al. \cite{Koch2020-gx} testing an ideation tool to support human-computer partnerships evaluated an interface that showed a consistent stream of images, related to the task or not. They found this interface was effective at introducing serendipity and perspective shifts in a creative process by providing a space for divergent exploration.
-
-Another way of enabling mutual influence, such that the system influenced the creative process towards a new direction is by \textbf{leaning into the unique characteristics of the generative AI medium itself}. As Brian Eno puts it:
+Beyond exploration-based interfaces, another way of enabling mutual influence is by \textbf{leaning into the unique characteristics of the generative AI medium itself}. As Brian Eno puts it:
 
 \begin{quote}
 Whatever you now find weird, ugly, uncomfortable and nasty about a new medium will surely become its signature. CD distortion, the jitteriness of digital video, the crap sound of 8-bit - all of these will be cherished and emulated as soon as they can be avoided \cite{Eno2007-fl}.
 \end{quote}
 
-As such, highlighting rather than hiding the weirdness and uniqueness of the output may be creatively useful. As one participant in my study in Chapter 4 highlighted related to the introduction of divergent concepts in their writing:
+Highlighting rather than hiding the weirdness and uniqueness of AI output may be creatively useful. As one participant in my study in Chapter 4 noted, regarding the introduction of divergent concepts in their writing:
 
 \begin{quote}
-"I also love its figurative language and descriptions because of how they kinda just don't make sense. I left that in on purpose because I love the idea of a curious nose and a perpetually second-hand jacket."
+``I also love its figurative language and descriptions because of how they kinda just don't make sense. I left that in on purpose because I love the idea of a curious nose and a perpetually second-hand jacket.''
 \end{quote}
 
-Robin Sloan, an author describing his process using a generative language model expressed a similar sentimient \cite{Sloan2016-fj}: "The goal is not to make the resulting text "better"; it's to make it different—weirder, with effects maybe not available by other means." Similarly, Samuel, discussing her experience with language models and citing Du Sautoy \cite{Samuel2019-gc}, argues that art often enhances our perception by "making the familiar strange." She posits that AI can be an incredible tool for writers precisely because:
+Robin Sloan, an author describing his process using a generative language model, expressed a similar sentiment \cite{Sloan2016-fj}: ``The goal is not to make the resulting text `better'; it's to make it different—weirder, with effects maybe not available by other means.'' Similarly, Samuel, discussing her experience with language models and citing Du Sautoy \cite{Samuel2019-gc}, argues that art often enhances our perception by ``making the familiar strange.'' She posits that AI can be an effective tool for writers precisely because:
 
 \begin{quote}
-"it's great at defamiliarizing our world. The human-ish language it generates can startle us into seeing things anew, so we can in turn jolt readers awake through that sense of -ish."
+``it's great at defamiliarizing our world. The human-ish language it generates can startle us into seeing things anew, so we can in turn jolt readers awake through that sense of -ish.''
 \end{quote}
 
-In my case study with the AFR magazine (Chapter 5), this was precisely our intention: to use the AI system to create "impossible photography". As the editorial team described \cite{Drummond2023-av}:
+In my case study with the AFR magazine (Chapter 5), this was precisely our intention: to use the AI system to create ``impossible photography.'' As the editorial team described \cite{Drummond2023-av}:
 
 \begin{quote}
-"They are both uncanny and yet slightly unreal. All have the distinctive fuzzy texture of AI images, as if they were drawn. Our prompts were very minimal and the output hints at the way AI is learning 21st-century human culture."
+``They are both uncanny and yet slightly unreal. All have the distinctive fuzzy texture of AI images, as if they were drawn. Our prompts were very minimal and the output hints at the way AI is learning 21st-century human culture.''
 \end{quote}
 
-Akin to how photography spurred impressionism to explore what the human eye sees rather than what the lens captures, generative AI can offer a unique lens to reframe what \textit{we are seeing} by \textit{seeing what the algorithm sees}. As such, rather than seeking exact realism, or perfect adherence, the strength of generative AI systems in creative tools may be in leaning into the weirdness of AI outputs, rather than their mitigation. 
-
+Designing for mutual influence, therefore, involves embracing rather than suppressing the generative variability of AI systems. This can be achieved through interfaces that encourage exploration and serendipitous discovery, and through a willingness to foreground the distinctive qualities of AI-generated outputs. The goal is therefore to balance control and convergence with novelty and divergence.
 
 \subsection{Design for Mutual Understanding}
 
-A crucial aspect of mutual understanding in Dialogic Co-Creativity AI is the human and AI being able to model each other, in order to understand their preferences goals, and inner workings. There are multiple ways in which this can be enabled, and indeed the fieald of explainable AI is a large research field with many open questions. 
+In Chapter 3, I argued that a central element for Dialogic Co-Creative AI is mutual understanding, whereby the human and the AI form mental models of one another. Multiple mechanisms can facilitate this process; this section discusses two specific avenues identified through my research: visibility of affordances and personalisation through training.
 
-However, I point to a specific set of mechanisms in which this can be enables illustrated by my own research. A crucial one is providing visibility of systems capabilities. 
+The literature review in Chapter 2 identified how providing visibility of capabilities contributes to system explainability, ultimately enabling more effective human-AI interaction. This emerged as a recurring theme in the Chapter 4 co-writing studies, where participants frequently suggested that system improvements should focus on providing greater visibility of and access to system capabilities. This involves understanding what the system can and cannot achieve and leveraging it appropriately. Specific suggestions included the use of drop-down menus with predefined options, pre-written prompts, and the packaging of specific actions through graphical user interface (GUI) elements.
 
-For exampple, in my Chapter 4 co-writing studies, a recurring theme was users expressing the the need for better visibility of what sthe system could do. They highlighted potential for drop-down menu's with options, pre-written prompts, and triggering of specific actions with GUI elements. Current interfaces with generative systems are converging towards open-ended conversational interactions, however, a crucual limitiation of this may be that this does not provide to the user any information about what the system is capable of doing. Such open-ended interfaces may be at odds with estalished usability principles, which prioritise visibility of affordances \cite{Nielsen1994-df}. 
+An effective way to help users form an accurate mental model of an AI system is therefore to provide clear visibility of the system's generative affordances. This can be achieved through interface design and GUI elements, or by the system communicating its own capabilities and limitations through natural language. For example, rather than presenting a blank text field that implies unlimited possibility, an interface might offer a set of clearly labelled actions (such as ``expand,'' ``summarise,'' or ``suggest alternatives'') that signal what the system is designed to do well.
 
-Another alternative for mostering mutual understanding between user and AI may be by allowing users to personalise and train the generative system their own data. On one hand, this enables the system to implicitely model user preferences, and on the other, it allows the user to understand system behaviour, as the training set is a crucial determinant of it. Such a process was observed in my Chapter 5 case study. Furthermore, such a process of iteratice training enabled us to gradually have more control of the outputs, and understand how inputs, in the form of text prompts, were mapped to these. As the creative team in the Chapter 5 case study noted: "The fact that you can train Stable Diffusion – by limiting or controlling the inputs it draws upon – makes it better [at consistently generating what we intended]" \cite{Drummond2023-av}.
+Current interfaces for generative systems, however, are converging towards open-ended conversational interactions. These can create the impression that ``anything is possible,'' which may lead to user frustration when the system fails to meet expectations. Such interfaces are at odds with the observed and reported needs for clear visibility of affordances and with established design principles regarding visibility \cite{Nielsen1994-df}.
 
+A complementary mechanism for fostering mutual understanding is personalisation: allowing users to train models on their own datasets. This enables the system to model user preferences while simultaneously allowing the user to understand system behaviour, as the training set is a crucial determinant of the output. Such a process was observed in the Chapter 5 case study, where iterative training enabled more precise control over outputs and a clearer understanding of how text prompt inputs were mapped to results. As the creative team noted:
+
+\begin{quote}
+``The fact that you can train Stable Diffusion, by limiting or controlling the inputs it draws upon, makes it better [at consistently generating what we intended]'' \cite{Drummond2023-av}.
+\end{quote}
+
+Through this process, the user develops a more accurate mental model of the system by observing how changes to the training data affect outputs, while the system develops a more accurate model of the user's preferences through the curated dataset.
+
+Two strategies for designing for mutual understanding, therefore, involve making the system's capabilities legible to the user and enabling the system to learn the user's preferences through training and personalisation. 
 
 \subsection{Design for Iteration}
 
+Iteration is a crucial aspect of the creative process, and the iterative formation of mutual understanding and a creative product is central to dialogic co-creativity. A Dialogic Co-Creativity AI therefore needs to support collaboration with the user throughout this iterative process, refining outputs towards a final result. However, current generative systems offer limited support for this.
 
-
-A key component of creative processes is iteration.  As an illustrative example, consider Figure \ref{fig:albo_series}, from the case study in Chapter 5. We were satisfied with one of the initial outputs, shown on the left, but wished to make a minor modification: for the subject to be smiling. Despite a seemingly small change which involved a single word addition to the prompt, the resulting image changed significantly. While the general scene and subject's position were retained, a suit jacket was unexpectedly added, and the overall contrast of the image shifted. 
-
+As an illustrative example, consider Figure \ref{fig:albo_series}, from the case study in Chapter 5. We were satisfied with one of the initial outputs, shown on the left, but wished to make a minor modification: for the subject to be smiling. Despite this seemingly small change, which involved a single word addition to the prompt, the resulting image changed significantly. While the general scene and subject's position were retained, a suit jacket was unexpectedly added, and the overall contrast of the image shifted.
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=1\linewidth]{alboexperiments.png}
-    \caption{Screen-grab from my experiments log from the AFR case study, fixing some parameters while varying others. This example illustrates the difficulty of iterating with generative models. The intention was to change the facial expression of the subject, adding a single word to the prompt while using ControlNets to condition the generation. However, clothing was added, and the brightness and contrast of the image changed as well.}
-    \label{fig:albo_series}
+\centering
+\includegraphics[width=1\linewidth]{alboexperiments.png}
+\caption{Screen-grab from my experiments log from the AFR case study, fixing some parameters while varying others. This example illustrates the difficulty of iterating with generative models. The intention was to change the facial expression of the subject, adding a single word to the prompt while using ControlNets to condition the generation. However, clothing was added, and the brightness and contrast of the image changed as well.}
+\label{fig:albo_series}
 \end{figure}
+This lack of support for the iterative nature of creative processes is often cited by professional creatives as a core limitation of generative AI tools \cite{Palani2024-on}.
+In their "Design Principles for Tools to Support Creative Thinking", Resnick et al. \cite{Resnick2005-fs} emphasise the need for rich history-keeping. Similarly, in their Design Principles for Generative AI Applications, Weisz et al. \cite{Weisz2024-io} propose visualising the user's journey, supporting curation and annotation, and highlighting differences or variations across outputs to facilitate iteration.
 
-Indeed, this lack of support for the iterative nature of creative processes is often cited by professional creatives as a core limitation. It stems partly from generative variability, and the model's inherent capabilities, but it can also be addressed from the perspective of interaction design. In particular, interaction design can help maintain rich histories so that at least practitioners can better form a mental model of how inputs map to outputs. 
-
-In their "Design Principles for Tools to Support Creative Thinking", Resnick et al \cite{Resnick2005-fs} include the need for rich-history keeping. Similarly, in their Design Principles for Generative AI Applications, Weisz et al. \cite{Weisz2024-io} propose guidelines to manage generative variability that can serve as useful strategies to enable more iterative workflows. Specifically: visualising the user's journey, supporting curation and annotation and highlighting differences or variations across outputs.
-
-Emerging communities of practice are already addressing this through the creation of guides to navigate latent spaces, primarily by systematically documenting input-output relationships in controlled experiments \cite{Smith2022-dm} to visualise creative journeys. In my own research, particularly in case studies 5 and 6, I maintained detailed research journals to track how specific prompts related to their respective outputs; Chapter 6 further elaborates on these experiments.
-
-So while there is a clear need for interfaces that help users move through the process in an iterative, journey-keeping manner, interfaces in generative AI applications remain significantly limited in affording this. For example, my journaling practice emerged primarily as a response to the systems' lack of such an interface. In the case of the image generation case study in Chapter 5, the systems I used merely generated galleries of images that make it difficult to track different paths throughout the journey. In the case of my Chapter 6 case studies, I engaged in trial-and-error to understand how different prompts to the language model led to different outputs. Similarly, the interface was limited in affording an iterative and branching exploration.
-
-How could these interfaces look? Consider, for example Lee's experimental interface for language generation \cite{thesephist-2022-xu}, which allows the user to visualise alternative paths based on modifying and weighing attributes in the generated text. 
-
+What might such interfaces look like? Consider Lee's experimental interface for language generation \cite{thesephist-2022-xu}, which allows the user to visualise alternative paths by modifying and weighting attributes in the generated text.
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=1\linewidth]{linuslee.png}
-    \caption{Lee's experimental prototype of an interface that allows user to change and weight attributes to generate variations, from \cite{thesephist-2022-xu}}
-    \label{fig:linusleebranching}
+\centering
+\includegraphics[width=1\linewidth]{linuslee.png}
+\caption{Lee's experimental prototype of an interface that allows user to change and weight attributes to generate variations, from \cite{thesephist-2022-xu}}
+\label{fig:linusleebranching}
 \end{figure}
-
-
-Contrast this with the type of linear and sequential interface afforded by the prevalent mode of interaction with LLM-powered chatbots. These interfaces enable sequential iteration, but it may be difficult to go back and explore a different direction if needed (a recommended principle by Resnick et al \cite{Resnick2005-fs}).  When describing their interactions with ChatGPT to write, participants from the user studies in Chapter 4 provide useful illustrations. One participant expressed:
-
+Contrast this with the linear and sequential interface afforded by the prevalent mode of interaction with LLM-powered chatbots. These interfaces enable sequential iteration, but it can be difficult to revisit and explore a different direction if needed (a principle recommended by Resnick et al. \cite{Resnick2005-fs}). When describing their interactions with ChatGPT for writing, participants from the user studies in Chapter 4 provide useful illustrations. One participant expressed:
 \begin{quote}
 "I've felt frustrated because it's gone in the wrong direction and then requires a lot of input from me to put it on the track that I have in my head."
 \end{quote}
-
-Another simply notes that the process "feels somewhat random and not as iterative", while another elaborated:
-
+Another simply noted that the process "feels somewhat random and not as iterative", while another elaborated:
 \begin{quote}
 "ChatGPT will always rewrite the entire passage to change just one paragraph, and it is harder to work on one text as input as I often need to scroll back up to see it or continually copy and paste it."
 \end{quote}
 
-Beyond branching interfaces that maintain rich histories, an alternative for more iterative co-creation is interfaces that provide a stateful space for collaboration, separate from the conversational space. In such a space, users and AI can collaboratively edit, go back to previous versions. Users can refine outputs from the AI and vice-versa. In the next section, I discuss the advantages and challenges of such an interface, which I developed and explored as part of a prototype tested in Chapter 4. 
+Beyond branching interfaces that maintain rich histories, an alternative approach for more iterative co-creation is interfaces that provide a stateful space for collaboration, separate from the conversational space. In such a space, users and AI can collaboratively edit and return to previous versions, as implemented in Chapter 4. Users can refine outputs from the AI and vice versa, though appropriate version control and visibility of contributions remain important considerations.
 
 \subsection{Design for Context}
 
-In Chapter 3, I discussed how dialogue happens within context, and argued that considering context-awareness was an important characteristic of designing Dialogic Co-Creative Artificial Intelligence. As generative AI systems have become more capable, and pervasive, their ability to be useful for the user largely hinges omn their ability to act within the relevant context. This not only means reading context, but also acting on the world. Generative systems such as language models have gone from isolated predictive systems to the currently growing agentic paradigm, where systems can sense their context and act on tools within that context.  My two installations described in Chapter 6 were an attempt at exploring this paradigm in the context of new media creative production, probing what new creative possibilities were afforded when a language model was able to read its context, in this case in the form of data from the surroudning environment, and act on its context, by controlling a tools such as the generative music engine. 
+In Chapter 3, I discussed how dialogue happens within context and argued that context-awareness is a defining characteristic of Dialogic Co-Creativity. From this follows a key design principle: designing for context.
 
-At the time of the development of these installations, the capabilities of these systems to act within context was limited, or at least was not afforded natively, such that it involved hacking together different approaches to feed context into them and allow them to control tools by asking to output a structured output. Today, many more approaches exist. Tools such as MCP have provided standards for language models to engage with external data sources and control tools. 
+As generative AI systems have become more capable and pervasive, their usefulness increasingly depends on their ability to operate within the relevant context. This means not only reading context but also acting upon it. Generative systems such as language models have evolved from isolated predictive systems to the currently growing agentic paradigm, where systems can sense their surroundings and use tools within that environment. My two installations described in Chapter 6 explored this paradigm in the context of new media creative production, probing what new creative possibilities emerged when a language model could read contextual data from the surrounding environment and act upon it by controlling tools such as the generative music engine.
 
-This has enabled systems to become embedded in users workspaces in a more itegrated manner. It can be argued that tools such as Cursor, which have become one of the most succesful co-creative systems, in the case of coding, largely owe their success to their ability to integrate into the users code base context, allowing users to not context switch, and instead make requests and collaborate in a shared context. Cursor itself has described innovations at the level of context integrating, being able to ingest lagre amounts of code base context efficiently. Others tools such as Claude Code and Claude Cowork offer, as the kye value proposition, integrating into the users local context productively. 
+At the time of developing these installations, the capabilities of these systems to act within context were limited, or at least were not afforded natively. Building them involved "hacking" together different approaches to feed context into the models and allow them to control tools through structured outputs. Today, many more approaches exist. Standards such as the Model Context Protocol (MCP) \cite{Anthropic2025-tg}now allow language models to engage with external data sources and control tools in a more systematic way.
 
-Similarly, designing tools that can engage with wider context is useful because it allows users to connect them with other tools. As shown in existing research, users are largely assuming the role of orchestrators, connecting together multiple tools. Emerging approaches such a node-base workflow interfaces allow users to visually connect different generative models and non-generative tools to build more complex tools. An instance of this was observed in my installations in Chapter 6, where our creative practice was the meta-creative act of connecting multiple tools. 
+These developments have enabled systems to become embedded in users' workspaces in a more integrated manner. Tools such as Cursor \cite{Cursor2024-ow}, which has become one of the most successful co-creative systems for coding, owe much of their success to their ability to integrate into the user's codebase context. This allows users to avoid context switching and instead make requests and collaborate within a shared environment. Cursor's developers have described innovations at the level of context integration, particularly the ability to ingest large amounts of codebase context efficiently. Other tools such as Claude Code and Claude Cowork similarly offer, as their key value proposition, productive integration into the user's local context \cite{\cite{Anthropic2025-lr}}.
 
-When designing a dialogic co-creative AI system, it is important to consider how the system can connect to other tools in the user workflow, how it can connect to their local context, be it files, previous and existing work, as well as larger context, be it in the internet or other sources. 
+Designing tools that can engage with wider context is also valuable because it allows users to connect them with other tools. As existing research has shown, users increasingly assume the role of orchestrators, connecting multiple tools together to accomplish complex tasks \cite{Palani2024-on}. Emerging approaches such as node-based workflow interfaces allow users to visually connect different generative models and non-generative tools to build more sophisticated pipelines. This pattern was evident in my installations in Chapter 6, where our creative practice became the meta-creative act of connecting multiple tools.
 
+When designing a dialogic co-creative AI system, it is therefore important to consider how the system can connect to other tools in the user's workflow, how it can access local context such as files and previous work, and how it can draw on broader context from the internet or other sources.
 
 
 \section{Closing Remarks}
