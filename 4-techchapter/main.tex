@@ -5,13 +5,13 @@
 
 This chapter addresses the first research question of this thesis: 
 \begin{quote}
-    What are the elements that constitute a co-creative dialogue between humans and AI?
+    \textit{What are the elements of dialogic co-creativity?}
 \end{quote}
-To answer this question, I develop a comprehensive framework for Dialogic Co-Creative Artificial Intelligence. This framework consists of two complementary components, developed across two sections in this chapter, that together provide both practical guidance and theoretical grounding for understanding human-AI co-creativity.
+To answer this question, I develop a framework for human-AI dialogic co-creativity. This framework consists of two complementary components: a typology of actions for dialogic co-creativity, and a set of principles for dialogic co-creativity. While the actions describe specific interaction affordances, the principles describe what needs to be present for an interaction to be considered a co-creative dialogue. Both are original contributions presented in this chapter. Additionally, a third component is included as part of this framework: a categorisation of three levels of dialogic co-creativity, useful for understanding the different degrees of dialogic interaction afforded by co-creative systems. This categorisation was developed in a co-authored publication with my supervisor, where I was secondary author, as part of the wider Dialogic Co-Creative Artificial Intelligence research project.
 
 \subsection{Typology of Actions for Dialogic Co-Creative Artificial Intelligence}
 
-The first component presents a typology of actions for Dialogic Co-Creative Artificial Intelligence. These actions are organised into two categories: actions performed \textit{through} the artifact and actions performed \textit{about} the artifact.
+The first component presents a typology of actions for Dialogic Co-Creative Artificial Intelligence. These actions are organised into two categories: actions performed \textit{through} the artefact and actions performed \textit{about} the artefact.
 
 \begin{table}[h]
 \centering
@@ -19,20 +19,38 @@ The first component presents a typology of actions for Dialogic Co-Creative Arti
 \renewcommand{\arraystretch}{1.5}
 \begin{tabular}{|p{0.45\textwidth}|p{0.45\textwidth}|}
 \hline
-\textbf{Actions through the artifact} & \textbf{Actions about the artifact} \\ \hline
-\textbf{Create} \newline Propose an entirely new creation or artifact & \textbf{Set goal} \newline Establish or communicate the overarching creative intention \\ \hline
-\textbf{Extend} \newline Build upon or continue an existing artifact & \textbf{Request} \newline Ask for specific actions or modifications \\ \hline
-\textbf{Branch} \newline Generate multiple alternative extensions or variations & \textbf{Clarify} \newline Resolve ambiguity or uncertainty in requests \\ \hline
-\textbf{Transform} \newline Modify an artifact's fundamental style or characteristics & \textbf{Acknowledge} \newline Confirm mutual understanding between participants \\ \hline
-\textbf{Refine} \newline Enhance specific details or polish elements of an artifact & \\ \hline
+\textbf{Actions through the artefact} & \textbf{Actions about the artefact} \\ \hline
+
+\textbf{Create} \newline Propose an entirely new creation or artefact 
+& \textbf{Set goal} \newline Establish or communicate the overarching creative intention \\ \hline
+
+\textbf{Extend} \newline Build upon or continue an existing artefact 
+& \textbf{Request} \newline Ask for specific actions or modifications \\ \hline
+
+\textbf{Branch} \newline Generate multiple alternative extensions or variations 
+& \textbf{Clarify} \newline Resolve ambiguity or uncertainty in requests \\ \hline
+
+\textbf{Transform} \newline Modify an artefact's fundamental style or characteristics 
+& \textbf{Acknowledge} \newline Confirm mutual understanding between participants \\ \hline
+
+\textbf{Refine} \newline Enhance specific details or polish elements of an artefact 
+& \textbf{Feedback} \newline Provide an assessment on a creative action \\ \hline
+
+& \textbf{Select} \newline Choose an option from multiple possibilities \\ \hline
+
+& \textbf{Justify} \newline Explain a creative decision \\ \hline
+
 \end{tabular}
+\caption{Typology of actions for dialogic co-creativity}
+\label{tab:actions_typology}
 \end{table}
 
-This typology emerged from emerged from empirical observation and analysis presented in a paper at the GenAI and HCI workshop at CHI 2022. 
+
+This typology emerged from emerged from a workshopped interaction and analysis presented in a paper at the GenAI and HCI workshop at CHI 2022. 
 
 \subsection{Principles of Dialogic Co-Creativity}
 
-The second component of the framework identifies six preliminary principles of dialogic co-creativity. While the action typology focuses on specific action affordances, these elements capture the broader design principles for Dialogic Co-Creative AI. I propose these principles need to be present when designing Dialogic Co-Creative AI. 
+The second component of the framework identifies six principles of dialogic co-creativity. While the action typology focuses on specific interaction affordances, these principles capture the broader conditions necessary for dialogic co-creativity to occur. These principles are domain-general, describing what characterises dialogic co-creativity between any agents. In Chapter 7, I build on these to derive design principles specifically for designing Dialogic Co-Creative AI systems.
 
 \begin{table}[h]
 \centering
@@ -152,29 +170,27 @@ Real-time environmental responsiveness
 }
 \end{table}
 
-Lastly, a third component is considered as part of the framework for Dialogic Co-Creative AI: a three level characterisation of dialogue. 
 
+\subsection{Levels of Dialogic Co-Creativity}
+
+Lastly, I include a categorisation of three levels of dialogic co-creativity, shown in Figure \ref{fig:levels_of_dialogue}, which I use to characterise each of the case studies analysed throughout the thesis. This categorisation was developed in a publication with my supervisor, where I was secondary author, as part of a larger Australian Research Council (ARC) funded research project exploring Dialogic Co-Creative AI \cite{Bown2025-tm}.
 \begin{figure}
-    \centering
-    \includegraphics[width=1\linewidth]{levels of dialogue.png}
-    \caption{Levels of Dialogue}
-    \label{fig:placeholder}
+\centering
+\includegraphics[width=1\linewidth]{levels of dialogue.png}
+\caption{Three levels of dialogic co-creativity, from \cite{Bown2024-yx}. (A) A linear request-generation dynamic with no back-and-forth conversational interaction. (B) Human and AI interact via language, but the AI is limited in its ability to model the user and the system affords limited interaction at the artefact level. (C) An idealised interaction scenario where full dialogue takes place, with both participants modelling each other and interacting in both the language and artefact space.}
+\label{fig:levels_of_dialogue}
 \end{figure}
 
 \section{Link to Thesis}
 
-
-This framework was used as the analytical lens used for the remainder of this thesis, providing the conceptual tools to examine the remaining research questions:
+While this framework is a direct response to RQ1, it also serves as the analytical lens for the remainder of this thesis, providing the conceptual tools to examine the remaining research questions:
 
 \begin{itemize}
-    \item R2: How do the presence or absence of the elements of co-creative dialogue influence the roles and agency of participants?
-    \item R3: Which interaction design principles can guide the development of effective and human-centred Dialogic Co-Creative Artificial Intelligence?
+\item \textbf{RQ2:} How do the elements of dialogic co-creativity influence user roles and agency?
+\item \textbf{RQ3:} What principles can guide the design of effective, human-centred Dialogic Co-Creative AI systems?
 \end{itemize}
-
-
 \section{Part 1: A typology of actions for Dialogic Co-Creative Artificial Intelligence}
-
-The following short-paper publication develops an initial typology of actiona. 
+The following short-paper publication develops an initial typology of actions.
 
 \begin{itemize}
     \item \textbf{A Framework for Dialogue-Based Human-AI Creative Collaboration.} Ocampo, Rodolfo, Bown, Oliver, \& Grace, Kazjon. (2022). In \textit{Proceedings of the CHI 2022 Workshop on Generative AI and HCI}. New Orleans, USA.
@@ -182,59 +198,38 @@ The following short-paper publication develops an initial typology of actiona.
 
 \includepdf[pages=-]{4-techchapter/GenCHI-thesis.pdf}
 
-\section{Principles for Dialogic Co-Creative AI}
+\section{Principles for Dialogic Co-Creativity}
 
-Dialogue has been widely discussed in the context of human-computer interaction, mixed-initiative systems and co-creative systems \cite{Allen1999-sr, Yannakakis2014-zs, Deterding2017-wh} as a means to model human-computer interaction, however, it is yet to be formalised as both a theoretical concept and an actionable concept for interaction design. This chapter builds upon that work and on previous work by \cite{Bown2020-oc, Bown2024-yx}. As a unique contribution, in this chapter I distill the elements that comprise dialogic interaction and how each can contribute to more effective human-AI co-creativity, thus providing a theoretical foundation for dialogic co-creativity as an interaction design concept. 
+Dialogue has been widely discussed in the context of human-computer interaction, mixed-initiative systems, and co-creative systems \cite{Allen1999-sr, Yannakakis2014-zs, Deterding2017-wh} as a means to model human-computer interaction. However, it is yet to be formalised as both a theoretical concept and an actionable concept for interaction design. This chapter builds upon that work and on previous work by \cite{Bown2020-oc, Bown2024-yx}. As a unique contribution, I distill the principles that characterise dialogic co-creativity and discuss how each can contribute to more effective human-AI co-creativity, thus providing a theoretical foundation for dialogic co-creativity as an interaction design concept.
 
-Dialogic interactions are based upon communication, iteration, feedback, adaptability, and deeper engagement, while non-dialogic interactions involve simple instruction giving or one-way communication, the sort one might observe commonly in computer-use paradigms such as command-based execution of tasks. For instance, in a dialogic interaction a writer might brainstorm with a language model, draft a story, request feedback on the flow, and iteratively refine the narrative—co-creating a text that neither agent could have produced alone. In contrast, in a non-dialogic interaction, the user may prompt the model in a command-driven way, to write a whole story. In this case, the involvement of the user is limited, which research shows may lead to worse quality, skill loss, and reduced task enjoyment \cite{Abbas2024-sf, Heersmink2024-mk, DellAcqua2023-og}. 
-
-How to enable such dialogic interactions? At first glance, the question may seem trivially answered by chat-based interfaces. However, as I will discuss below, while chat-based interfaces certainly enable aspects of dialogic co-creativity, there are other important elements of dialogue that are not supported by such interface paradigms.
-
-\subsubsection{A note on interaction vs action}: \begin{highlight}Throughout this thesis, I use the terms ``action'' and ``interaction'' almost interchangeably. As a response to reviewer comments, I provide the following nuanced distinction. When I use ``interaction,'' I refer more closely to an exchange between the AI agent and the human, where the AI is aware of and responds to the human's behaviour either through a conversational exchange or through a mutually visible action on a creation.  When I use ``action,'' I refer more closely to operations that act directly on an artefact, which may or may not involve mutual awareness between a human and AI. The reader may note that acting on an artefact through a computer is itself a type of interaction between the computer and the human. However, in the context of this thesis, where I investigate the AI's role as a collaborative agent, it is worth differentiating between operations that involve communication and mutual awareness between an AI agent and a human (interaction), and traditional human-computer operations (action). For example, if I play a note when co-creating a song with an AI agent, and the AI agent is aware of this action and can respond to it, then I usually refer to this as an interaction. By contrast, if I am working with a software DAW where I play a note that no AI agent is immediately aware of, then I refer to this as an action. 
-
-In other words, an interaction is considered a type of action that involves mutual awareness and an implicit or explicit exchange of information between AI agent and human.\end{highlight}
-
-\subsection{Dialogic Co-creativity}
-
-In 2020, \cite{Bown2020-zn} presented a speculative exploration of dialogue in human-computer co-creation, defining it simply as an interaction in which both actors influence each other. More recently, in a co-authored paper with my supervisor \cite{Bown2024-yx}, I introduced a more comprehensive and formal framework for dialogic interaction, distinguishing among three levels: pseudo-dialogue, weak asymmetric dialogue, and full dialogue. This distinction does not form a core contribution of this chapter as I was not the lead author. However, it is referenced here to contextualise the discussion (an original personal contribution) following in the next sections. 
-
-In \textbf{pseudo-dialogue}, the interaction is linear. The user provides an instruction (for example, a prompt) and the computer generates. The user can evaluate the output and adjust the next prompt accordingly. The computer does not form a model of the user based on an iterative back-and-forth, nor there is a conversational interface. The system is simply a generator; it is the user who adjusts their mental model of how the system works based on repeated interaction, and iterates inputs accordingly.  An example of \textbf{pseudo-dialogue} can be found in \textbf{text-to-image systems}. 
-
-By contrast, in \textbf{weak asymmetric dialogue} there is a conversational interaction, but the conversation (language) and creation (artifact) spaces are disjointed, limiting the co-creative potential of the interaction. The user still largely provided instructions for the generative system, who executes actions on the action space. An example of \textbf{weak asymmetric dialogue} can be found in interactions with \textbf{LLM-powered chatbots} moreover, the system does not fully model the user.
-
-Finally, in \textbf{full dialogue}, both the human and the computer actively model each other. They engage in bidirectional communication that is aware not only of the immediate conversation but also of the broader collaborative context. Interaction happens through and about the creation and action and communication spaces are connected. This iterative process continuously refines the creative output while also contributing to a mutual understanding between human and AI. No full dialogic co-creators exist yet. However, an illustrative example is \textbf{Cursor}, a coding co-creative system that models the action space and communication space jointly (language/coding), is able to act in a shared coding environment and has access to the wider context (file system/codebase). 
-
-In the following sections, I expand upon this framing and investigate in more detail what components characterise \textbf{full dialogue }and how they can be enabled through interaction design. 
-
-\begin{figure}
-    \centering
-    \includegraphics[width=1\linewidth]{levels of dialogue.png}
-    \caption{Three levels of dialogic interaction. In weak-asymmetric dialogue, only the user models the AI who produces outputs based on prompts or requests. In pseudo-dialogue, a level of communication takes place but the collaboration and mutual modelling is limited. In full-dialogue, both model each other and act and evaluate the common creation.  Figure from \cite{Bown2024-yx}}
-    \label{fig:enter-label}
-\end{figure}
+The principles are presented as follows, with the derivation for each found in the following sections. 
 
 
     \begin{itemize}
-        \item \begin{highlight}Bidirectional Communication: Two-way communicative or conversational exchanges.\end{highlight}
-        \item \begin{highlight}A Shared Collaborative Space: There is a common collaborative environment separate from instructions or chat interfaces.\end{highlight}
-        \item \begin{highlight}Mutual Influence: Each party's perspectives and goals evolve as a result of the interaction and each agent drives the other to new unexpected directions.\end{highlight}
-        \item \begin{highlight}Mutual Understanding: Each agent actively seeks to understand the other's world-models, goals, perspectives, preferences, etc.\end{highlight}
-        \item \begin{highlight}Iteration: The creative product and the shared meanings evolve iteratively.\end{highlight}
-        \item \begin{highlight}Context-awareness: Actors bring in the relevant context and act within it.\end{highlight}
+        \item \begin{highlight}\textbf{Bidirectional Communication}: Two-way communicative or conversational exchanges.\end{highlight}
+        \item \begin{highlight}\textbf{A Shared Collaborative Space}: There is a common collaborative environment separate from instructions or chat interfaces.\end{highlight}
+        \item \begin{highlight}\textbf{Mutual Influence}: Each party's perspectives and goals evolve as a result of the interaction and each agent drives the other to new unexpected directions.\end{highlight}
+        \item \begin{highlight}\textbf{Mutual Understanding}: Each agent actively seeks to understand the other's world-models, goals, perspectives, preferences, etc.\end{highlight}
+        \item \begin{highlight}\textbf{Iteration}: The creative product and the shared meanings evolve iteratively.\end{highlight}
+        \item \begin{highlight}\textbf{Context-awareness}: Actors bring in the relevant context and act within it.\end{highlight}
     \end{itemize}
+
+
+\textbf{A brief note on interaction vs action:} \begin{highlight}Throughout this thesis, I use the terms 'action' and 'interaction' interchangeably, but it is worth clarifying a nuanced extinction . An \textit{action} refers to an operation that acts directly on an artefact, which may or may not involve mutual awareness between human and AI. An \textit{interaction} refers to an exchange where the AI is aware of and responds to the human's behaviour, either through conversation or through mutually visible actions on a creation. For example, playing a note in a DAW where no AI agent is aware constitutes an action; playing a note while co-creating with an AI agent that can perceive and respond to it constitutes an interaction. In short, an interaction is a type of action that involves mutual awareness and an exchange of information between human and AI.\end{highlight}
+
+
+
 
 
     \begin{figure}
     \centering
     \includegraphics[width=0.75\linewidth]{dialogicelements.png}
-    \caption{Dialogic co-creativity as an interaction design concept is comprised of six essential elements: bidirectional communication, a shared collaborative space, mutual influence, mutual understanding, iteration, and context-awareness}
+    \caption{Dialogic co-creativity as an interaction design concept is comprised of six essential principles: bidirectional communication, a shared collaborative space, mutual influence, mutual understanding, iteration, and context-awareness}
     \label{fig:enter-label}
 \end{figure}
 
 
-In the next section, I elaborate on each element and discuss how each principle can improve human–AI co-creative outcomes, drawing on empirical evidence. By examining real-world examples and research findings, I highlight how dialogic features address frequent shortcomings of generative AI interactions—such as lack of nuanced steering, iterative dynamics and reduced user engagement.
 
-\begin{highlight}As established earlier, dialogic co-creativity involves both interaction \textit{through} the artefact (implicit sense-making emerging from mutually visible actions) and interaction \textit{about} the artefact (explicit communication). These two modes of interaction require different enabling elements: \textit{bidirectional communication} is necessary for interaction about the artefact, enabling agents to explicitly exchange goals, intentions, and feedback. Conversely, a \textit{shared collaborative space} is necessary for interaction through the artefact, providing a common environment where agents can engage in mutually visible actions that facilitate implicit sense-making. Both elements are therefore essential for full dialogic co-creativity.\end{highlight}
 
 \subsubsection{Bidirectional Communication}
 
@@ -363,45 +358,27 @@ Consider a second example: a programmer collaborating with an AI language model 
 
 Several emerging AI tools are advancing toward context-awareness and integration to varying degrees. \href{https://www.cursor.com/}{Cursor}, \href{https://v0.dev/}{v0}, \href{https://replit.com/ai}{Replit's AI agent}, and \href{https://github.com/features/copilot}{GitHub Copilot} integrate directly into coding environments, enabling them to reference relevant files, generate new code, create additional files, and even handle deployments. \href{https://www.canva.com/}{Canva's DreamLab} and \href{https://www.adobe.com/au/products/firefly.html}{Adobe} introduce generative AI within design workspaces, facilitating context-aware functionality. Google's Gemini Workspace similarly seeks to integrate its features into users' workflows across email, documents, and other files.
 
+\section{Levels of Dialogic Co-creativity}
+
+Lastly, I discuss the three levels of dialogic co-creativity with the highest level consisting of an interaction where all of the principles outlined above are present . In 2020, \cite{Bown2020-zn} presented a speculative exploration of dialogue in human-computer co-creation, defining it simply as an interaction in which both actors influence each other. More recently, in a co-authored paper with my supervisor \cite{Bown2024-yx}, I introduced a more comprehensive and formal framework for dialogic interaction, distinguishing among three levels: pseudo-dialogue, weak asymmetric dialogue, and full dialogue. This distinction does not form a core contribution of this chapter as I was not the lead author. However, it is referenced here to contextualise the discussion (an original personal contribution) following in the next sections. 
+
+In \textbf{pseudo-dialogue}, the interaction is linear. The user provides an instruction (for example, a prompt) and the computer generates. The user can evaluate the output and adjust the next prompt accordingly. The computer does not form a model of the user based on an iterative back-and-forth, nor there is a conversational interface. The system is simply a generator; it is the user who adjusts their mental model of how the system works based on repeated interaction, and iterates inputs accordingly.  An example of \textbf{pseudo-dialogue} can be found in \textbf{text-to-image systems}. 
+
+By contrast, in \textbf{weak asymmetric dialogue} there is a conversational interaction, but the conversation (language) and creation (artifact) spaces are disjointed, limiting the co-creative potential of the interaction. The user still largely provided instructions for the generative system, who executes actions on the action space. An example of \textbf{weak asymmetric dialogue} can be found in interactions with \textbf{LLM-powered chatbots} moreover, the system does not fully model the user.
+
+Finally, in \textbf{full dialogue}, both the human and the computer actively model each other. They engage in bidirectional communication that is aware not only of the immediate conversation but also of the broader collaborative context. Interaction happens through and about the creation and action and communication spaces are connected. This iterative process continuously refines the creative output while also contributing to a mutual understanding between human and AI. No full dialogic co-creators exist yet. However, an illustrative example is \textbf{Cursor}, a coding co-creative system that models the action space and communication space jointly (language/coding), is able to act in a shared coding environment and has access to the wider context (file system/codebase). 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{levels of dialogue.png}
+    \caption{Three levels of dialogic interaction. In weak-asymmetric dialogue, only the user models the AI who produces outputs based on prompts or requests. In pseudo-dialogue, a level of communication takes place but the collaboration and mutual modelling is limited. In full-dialogue, both model each other and act and evaluate the common creation.  Figure from \cite{Bown2024-yx}}
+    \label{fig:enter-label}
+\end{figure}
+
 
 \subsection{Conclusion}
 
-By drawing from the theory of dialogue and human-computer interaction, I have constructed a set of elements that characterise dialogic co-creativity as an interaction design concept. Table \ref{tab:dialogic_elements} offers a summary of these dialogic elements and their potential.  My proposal is that these elements can enabling effective co-creativity between humans and AI, ultimately leading to creative outcomes that neither part could produce alone. 
-
-These elements form the basis of my analysis in subsequent chapters. By looking at my practice-based research case studies, user research study and the literature, throughout the rest of my thesis I will examine the impact of these elements and the challenges in implementing them to design effective co-creative systems.  
-
-\begin{table}[htbp]
-\centering
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{|p{6cm}|p{11cm}|}
-\hline
-\textbf{Dialogic Element} & \textbf{Description} \\ \hline
-
-\textbf{Bidirectional Communication} 
-& Two-way communication exchanges are crucial for dialogic interaction in humans and they can contribute to enhanced perceptions of collaboration and greater usability of generative models. \\ \hline
-
-\textbf{\begin{highlight}Shared Collaborative Space\end{highlight}} 
-& \begin{highlight}In creative dialogues, having a common collaborative space is important (shared text editors, DAWs, Canvases). Co-creative AI's can benefit from separating communication from creation and enabling a dedicated space for co-creation where both AI and user can see and edit the creation.\end{highlight} \\ \hline
-
-\textbf{Mutual Influence} 
-& Effective co-creation between people rely on mutually influencing perspectives and goals. Co-creative AI can benefit from actively seeking to productively question, suggest, and move the user into new directions rather than simply following instructions. \\ \hline
-
-\textbf{Mutual Understanding} 
-& Dialogic processes involve aligning internal world models and meanings. Co-creative AI systems can provide more effective interactions by making themselves explainable to the user, and by actively seeking to model and adapt. \\ \hline
-
-\textbf{Iteration} 
-& Dialogue is an iterative process. Co-creative AI systems can provide more effective experiences if they enable users to iterate on outputs, as this is a common requirement and an important aspect of creative processes. \\ \hline
-
-\textbf{Context Awareness} 
-& The capacity to incorporate and respond to the broader context—be it the user's immediate workspace, historical interactions, or sociocultural factors. \\ \hline
-
-\end{tabular}%
-}
-\caption{Summary of Dialogic Interaction Elements for Human–AI Co-Creativity}
-\label{tab:dialogic_elements}
-\end{table}
-
-\textit{\begin{highlight}In dialogic co-creativity, humans and AI engage in an iterative interaction with bidirectional communication in a cycle of mutual influence and understanding, while co-creating in a shared collaborative space and with awareness of the relevant context.\end{highlight} }
+By drawing from the theory of dialogue and human-computer interaction, I have constructed a set of actions and principles that characterise dialogic co-creativity as an interaction design concept. These form the basis of my analysis in subsequent chapters. 
 
 
 
