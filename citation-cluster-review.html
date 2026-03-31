@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Citation Cluster Review — PhD Thesis Revisions</title>
+<style>
+  body { font-family: Georgia, serif; max-width: 900px; margin: 40px auto; padding: 0 20px; background: #fafafa; color: #222; line-height: 1.6; }
+  h1 { border-bottom: 3px solid #333; padding-bottom: 10px; }
+  h2 { color: #444; margin-top: 40px; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+  .cluster { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin: 20px 0; }
+  .cluster h3 { margin-top: 0; color: #1a5276; }
+  .before, .after { padding: 15px; border-radius: 6px; margin: 10px 0; }
+  .before { background: #fde8e8; border-left: 4px solid #c0392b; }
+  .after { background: #e8f8e8; border-left: 4px solid #27ae60; }
+  .label { font-weight: bold; font-size: 0.85em; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+  .before .label { color: #c0392b; }
+  .after .label { color: #27ae60; }
+  code { background: #f0f0f0; padding: 2px 5px; border-radius: 3px; font-size: 0.9em; }
+  .note { background: #fff9e6; border-left: 4px solid #f39c12; padding: 10px 15px; margin: 10px 0; border-radius: 4px; font-style: italic; }
+  .file-ref { color: #666; font-size: 0.85em; }
+  .status { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.8em; font-weight: bold; }
+  .status-split { background: #d5f5e3; color: #1e8449; }
+  .status-minor { background: #fdebd0; color: #b9770e; }
+  .summary { background: #eaf2f8; padding: 15px; border-radius: 8px; margin: 20px 0; }
+  .latex { font-family: 'Courier New', monospace; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<h1>Citation Cluster Review</h1>
+<p>This file shows proposed rewrites for citation clusters with 5+ references. Each cluster is split into thematic subgroups with bridging sentences. <strong>Review each change and approve/reject before applying.</strong></p>
+
+<div class="summary">
+<strong>Summary:</strong> 16 clusters identified across 2 files. All clusters are in the Introduction (Chapter 1) and Literature Review (Chapter 2). Changes preserve the original meaning while splitting monolithic citation blocks into readable thematic groups.
+</div>
+
+<h2>File: 2-intro/main.tex</h2>
+
+<!-- CLUSTER 1 -->
+<div class="cluster">
+<h3>Cluster 1 — Line 43 <span class="status status-split">SPLIT</span></h3>
+<p class="file-ref">Topic: Evolution of LLMs</p>
+
+<div class="before">
+<div class="label">Before</div>
+<span class="latex">...to large language models (LLMs) capable of achieving near, at or past human-level performance on complex tasks \citep{Vaswani2017-pb, Brown2020-js, Thoppilan2022-jf, OpenAI2023-lt, Anthropic2024-tc, DeepSeek-AI2025-ai, Gemini-Team2024-wk}.</span>
+</div>
+
+<div class="after">
+<div class="label">After</div>
+<span class="latex">...to large language models (LLMs) capable of achieving near, at or past human-level performance on complex tasks. This progress was catalysed by the introduction of the transformer architecture \citep{Vaswani2017-pb} and the demonstration that scaling language models enables few-shot learning \citep{Brown2020-js}. Since then, a succession of frontier models have pushed the boundaries of language understanding and generation \citep{Thoppilan2022-jf, OpenAI2023-lt, Anthropic2024-tc, DeepSeek-AI2025-ai, Gemini-Team2024-wk}.</span>
+</div>
+</div>
+
+<!-- CLUSTER 2 -->
+<div class="cluster">
+<h3>Cluster 2 — Line 47 <span class="status status-split">SPLIT</span></h3>
+<p class="file-ref">Topic: Image generation progress</p>
+
+<div class="before">
+<div class="label">Before</div>
+<span class="latex">Neural networks went from producing rudimentary images \citep{Goodfellow2014-jz, Mordvintsev2015-oz} to modern diffusion models capable of generating photorealistic images often indistinguishable from genuine photographs, and to produce images in a variety of existing and novel styles \citep{Colton2021-zv, Ramesh2021-xb, Rombach2021-wf, Ho2020-zj, OpenAI2021-te, Nichol2021-ne, Zhang2023-by}.</span>
+</div>
+
+<div class="after">
+<div class="label">After</div>
+<span class="latex">Neural networks went from producing rudimentary images \citep{Goodfellow2014-jz, Mordvintsev2015-oz} to modern systems capable of generating photorealistic images often indistinguishable from genuine photographs. This was enabled by foundational advances in diffusion models \citep{Ho2020-zj} and text-to-image generation systems \citep{Ramesh2021-xb, OpenAI2021-te, Nichol2021-ne, Colton2021-zv}, as well as architectural innovations in latent diffusion \citep{Rombach2021-wf} and controllable generation \citep{Zhang2023-by}, which together allow images to be produced in a variety of existing and novel styles.</span>
+</div>
+</div>
+
+<!-- CLUSTER 4 -->
+<div class="cluster">
+<h3>Cluster 3 — Line 76 <span class="status status-split">SPLIT</span></h3>
+<p class="file-ref">Topic: Human-AI co-creativity literature</p>
+
+<div class="before">
+<div class="label">Before</div>
+<span class="latex">Since then, across a growing literature, authors argue for the potential of human-AI co-creativity as a scenario that can augment, enhance and support human creativity, mitigating many of the risks posed by this technology while unlocking the beneficial opportunities it provides. \citep{Yannakakis2014-zs,Kantosalo2020-zf,Rezwana2022-gg,Moruzzi2024-cq,Haase2024-yp,Lin2023-zq,Karimi2018-wi,Vinchon2023-gh}.</span>
+</div>
+
+<div class="after">
+<div class="label">After</div>
+<span class="latex">Since then, across a growing literature, authors argue for the potential of human-AI co-creativity as a scenario that can augment, enhance and support human creativity, mitigating many of the risks posed by this technology while unlocking the beneficial opportunities it provides. Foundational work has defined the concept and explored synergies across different levels of collaboration \citep{Yannakakis2014-zs, Haase2024-yp, Vinchon2023-gh}, while several frameworks and ontologies have been proposed to classify and describe co-creative systems \citep{Kantosalo2020-zf, Rezwana2022-gg, Lin2023-zq, Moruzzi2024-cq}, alongside methods for evaluating creativity within them \citep{Karimi2018-wi}.</span>
+</div>
+</div>
+
+<!-- CLUSTER 5 -->
+<div class="cluster">
+<h3>Cluster 4 — Line 110 <span class="status status-split">SPLIT</span></h3>
+<p class="file-ref">Topic: Computational creativity theory</p>
+
+<div class="before">
+<div class="label">Before</div>
+<span class="latex">Since then, many researchers have sought to describe how computers could act creatively and how this creativity can be measured \citep{Boden2003-hk, Boden1998-yn, Colton2012-jc, Bown2012-gg, Moruzzi2020-mw, Wiggins2006-zd, Jordanous2012-kw}.</span>
+</div>
+
+<div class="after">
+<div class="label">After</div>
+<span class="latex">Since then, many researchers have sought to describe how computers could act creatively and how this creativity can be measured. Foundational theoretical work explored the nature of artificial creativity \citep{Boden1998-yn, Boden2003-hk}, leading to formal frameworks for describing and evaluating creative systems \citep{Wiggins2006-zd, Jordanous2012-kw}. Others have investigated creative AI systems and the philosophical implications of machine creativity \citep{Colton2012-jc, Bown2012-gg, Moruzzi2020-mw}.</span>
+</div>
+</div>
+
+<!-- CLUSTER 6 -->
+<div class="cluster">
+<h3>Cluster 5 — Line 135 <span class="status status-split">SPLIT</span></h3>
+<p class="file-ref">Topic: Interaction design shaping co-creative outcomes</p>
+
+<div class="before">
+<div class="label">Before</div>
+<span class="latex">These conflicting findings suggest that outcomes depend heavily on \emph{how} users interact with AI, which can be shaped by interface and interaction design but also personal motivations and context \citep{Lehmann2022-kr, Kantosalo2020-nh,Liapis2016-bv,Lin2023-jd,Karimi2020-cf,Moruzzi2024-cq, Rezwana2022-gg,Abbas2024-sf}.</span>
+</div>
+
+<div class="after">
+<div class="label">After</div>
+<span class="latex">These conflicting findings suggest that outcomes depend heavily on \emph{how} users interact with AI, which can be shaped by interface and interaction design but also personal motivations and context. Interaction frameworks for co-creativity have explored how different design choices affect collaboration dynamics \citep{Kantosalo2020-nh, Rezwana2022-gg, Moruzzi2024-cq}, while empirical work has examined the design space and specific modalities that shape user engagement \citep{Lehmann2022-kr, Liapis2016-bv, Lin2023-jd, Karimi2020-cf, Abbas2024-sf}.</span>
+</div>
+</div>
+
+<h2>File: 3-literature/main.tex</h2>
+
+<!-- CLUSTER 7 -->
+<div class="cluster">
+<h3>Cluster 6 — Line 29 <span class="status status-split">SPLIT</span></h3>
+<p class="file-ref">Topic: Co-creativity literature framing</p>
+
+<div class="before">
+<div class="label">Before</div>
+<span class="latex">Since then, a growing literature frames human-AI co-creativity as a type of interaction that ultimately augments human creativity and can mitigate risks associated with the automation of creative work \citep{Yannakakis2014-zs, Kantosalo2020-zf, Rezwana2022-gg, Moruzzi2024-cq, Haase2024-yp, Lin2023-zq, Karimi2018-wi}.</span>
+</div>
+
+<div class="after">
+<div class="label">After</div>
+<span class="latex">Since then, a growing literature frames human-AI co-creativity as a type of interaction that ultimately augments human creativity and can mitigate risks associated with the automation of creative work. Early work established the conceptual foundations of mixed-initiative co-creativity \citep{Yannakakis2014-zs, Haase2024-yp}, while subsequent frameworks have classified interaction dynamics and design dimensions for co-creative systems \citep{Kantosalo2020-zf, Rezwana2022-gg, Lin2023-zq, Moruzzi2024-cq}, alongside methods for evaluating the creativity of such systems \citep{Karimi2018-wi}.</span>
+</div>
+</div>
+
+<!-- CLUSTER 8 -->
+<div class="cluster">
+<h3>Cluster 7 — Line 41 <span class="status status-split">SPLIT</span></h3>
+<p class="file-ref">Topic: Computational creativity formalisation and creative AI practices</p>
+
+<div class="before">
+<div class="label">Before</div>
+<span class="latex">...developing across a literature that seeks to formalise what it means for a computer to be creative, how this can be implemented in computer programs, how creative behaviour of computers can be measured \citep{Ritchie2007-jy, Colton2008-fh, Colton2011-uy, Maher2012-oj, Jordanous2012-kw}, as well as rich creative practices that employ computers both as tools, and as autonomous and collaborative creative agents \citep{Cohen1995-wt, Colton2015-qr, Perez-y-Perez1999-ma, Cope1992-pq, Reichardt1968-eo}.</span>
+</div>
+
+<div class="after">
+<div class="label">After</div>
+<span class="latex">...developing across a literature that seeks to formalise what it means for a computer to be creative, how this can be implemented in computer programs, and how creative behaviour of computers can be measured. Theoretical work has proposed formal criteria for attributing creativity to programs \citep{Ritchie2007-jy, Jordanous2012-kw}, descriptive models such as FACE and IDEA \citep{Colton2008-fh, Colton2011-uy}, and examinations of creative attribution in computational and collective processes \citep{Maher2012-oj}. Alongside this theoretical work, rich creative practices have employed computers as creative agents, from early computer art \citep{Reichardt1968-eo} and autonomous painting systems \citep{Cohen1995-wt, Colton2015-qr} to computational story generation \citep{Perez-y-Perez1999-ma} and music composition \citep{Cope1992-pq}.</span>
+</div>
+</div>
+
+<!-- CLUSTER 10 -->
+<div class="cluster">
+<h3>Cluster 8 — Line 61 <span class="status status-split">SPLIT</span></h3>
+<p class="file-ref">Topic: HCI design principles</p>
+
+<div class="before">
+<div class="label">Before</div>
+<span class="latex">Numerous fields within HCI have established principles for designing effective human-computer interaction and tools \citep{Nielsen1994-df, Amershi2019-vy, Shneiderman2020-je, Wright2020-nt, Bengler2012-jf, Resnick2005-fs}.</span>
+</div>
+
+<div class="after">
+<div class="label">After</div>
+<span class="latex">Numerous fields within HCI have established principles for designing effective human-computer interaction and tools, from foundational usability heuristics \citep{Nielsen1994-df} to guidelines specifically addressing human-AI interaction \citep{Amershi2019-vy, Shneiderman2020-je, Wright2020-nt}, as well as principles for cooperative systems \citep{Bengler2012-jf} and creativity support tools \citep{Resnick2005-fs}.</span>
+</div>
+</div>
+
+<!-- CLUSTER 11 -->
+<div class="cluster">
+<h3>Cluster 9 — Line 81 <span class="status status-split">SPLIT</span></h3>
+<p class="file-ref">Topic: Metrics for measuring co-creative effectiveness</p>
+
+<div class="before">
+<div class="label">Before</div>
+<span class="latex">Second, observed metrics that assess task completion time, quality, creativity, and quantity of outputs, often rated by crowdsourced evaluators or experts \citep{Kim2021-fh, Kantosalo2019-pz, Rezwana2022-ui, Rezwana2023-gj, Lawton2023-tb}.</span>
+</div>
+
+<div class="after">
+<div class="label">After</div>
+<span class="latex">Second, observed metrics that assess task completion time, quality, creativity, and quantity of outputs, often rated by crowdsourced evaluators or experts. These metrics have been employed across studies evaluating co-creative design and ideation \citep{Kim2021-fh, Kantosalo2019-pz}, user perceptions and interaction design comparisons \citep{Rezwana2022-ui, Lawton2023-tb}, and ethical dimensions of co-creativity \citep{Rezwana2023-gj}.</span>
+</div>
+</div>
+
+<!-- CLUSTER 12 -->
+<div class="cluster">
+<h3>Cluster 10 — Line 95 <span class="status status-split">SPLIT</span></h3>
+<p class="file-ref">Topic: Homogenisation concerns</p>
+
+<div class="before">
+<div class="label">Before</div>
+<span class="latex">...with users commonly reporting concerns with the lack of originality, generic outputs, and clichéd styles \citep{Chakrabarty2024-ov, Chang2023-tv, Clark1998-yi, Ippolito2022-mf, Li2024-yh}.</span>
+</div>
+
+<div class="after">
+<div class="label">After</div>
+<span class="latex">...with users commonly reporting concerns with the lack of originality, generic outputs, and clichéd styles. Professional writers have consistently flagged these limitations \citep{Chakrabarty2024-ov, Ippolito2022-mf}, as have creative practitioners developing expertise with prompt-based tools \citep{Chang2023-tv, Li2024-yh}. These concerns also resonate with broader philosophical arguments about how tools shape creative cognition \citep{Clark1998-yi}.</span>
+</div>
+
+<div class="note">Note: Clark 1998 is "The Extended Mind" — a philosophy paper, not directly about AI homogenisation. You may want to verify this citation is intentional in this context, or move it elsewhere.</div>
+</div>
+
+<!-- CLUSTER 13 -->
+<div class="cluster">
+<h3>Cluster 11 — Line 109 <span class="status status-split">SPLIT</span></h3>
+<p class="file-ref">Topic: Growing interest in dialogic interaction</p>
+
+<div class="before">
+<div class="label">Before</div>
+<span class="latex">In contrast, there is growing interest in designing what can be understood as dialogic interaction sometimes referred explicitly as such, and sometimes describes merely as a back-and-forth process characterised by mutual influence, iterative refinement, and feedback loops \citep{Bown2020-oc, Gomez2023-bp, Wang2021-uy, Zhou2024-vp, Ghajargar2022-af, Feldman2017-ip}.</span>
+</div>
+
+<div class="after">
+<div class="label">After</div>
+<span class="latex">In contrast, there is growing interest in designing what can be understood as dialogic interaction, sometimes referred to explicitly as such, and sometimes described merely as a back-and-forth process characterised by mutual influence, iterative refinement, and feedback loops. Some authors have explored dialogue and mutual understanding as foundations for co-creation \citep{Bown2020-oc, Wang2021-uy}, while others have proposed frameworks for capturing the nonlinear and iterative nature of human-AI collaboration \citep{Gomez2023-bp, Zhou2024-vp}. Experiential accounts of creative practice further illustrate how these reciprocal dynamics play out in writing and other domains \citep{Ghajargar2022-af, Feldman2017-ip}.</span>
+</div>
+</div>
+
+<!-- CLUSTER 14 -->
+<div class="cluster">
+<h3>Cluster 12 — Line 157 <span class="status status-split">SPLIT</span></h3>
+<p class="file-ref">Topic: Explainable AI</p>
+
+<div class="before">
+<div class="label">Before</div>
+<span class="latex">Explainable AI is an active field focused on this issue \citep{Zhu2018-zd, Llano2022-ti, Newn2020-mv, Shneiderman2020-je, Linardatos2020-uq, El-Assady2022-qc, Gomez2023-bp}.</span>
+</div>
+
+<div class="after">
+<div class="label">After</div>
+<span class="latex">Explainable AI is an active field focused on this issue. Within co-creative contexts specifically, frameworks such as XAID have addressed interpretability for designers \citep{Zhu2018-zd}, and arguments have been made for explainability as a prerequisite for deeper creative collaboration \citep{Llano2022-ti}. More broadly, comprehensive reviews of interpretability methods \citep{Linardatos2020-uq} and guidelines for trustworthy AI \citep{Shneiderman2020-je} provide a foundation, while research on communication channels \citep{Newn2020-mv, Gomez2023-bp} and cognitive biases triggered by explanations \citep{El-Assady2022-qc} highlights the complexity of designing effective transparency mechanisms.</span>
+</div>
+</div>
+
+<!-- CLUSTER 15 -->
+<div class="cluster">
+<h3>Cluster 13 — Line 193 <span class="status status-split">SPLIT</span></h3>
+<p class="file-ref">Topic: AI for early-stage ideation</p>
+
+<div class="before">
+<div class="label">Before</div>
+<span class="latex">For instance, many studies find generative AI useful for early-stage ideation and brainstorming, helping users overcome blocks and explore possibilities \citep{Calderwood2020-gg, Clark2018-yf, Wan2023-he, Mirowski2023-oz, Doshi2023-dv}.</span>
+</div>
+
+<div class="after">
+<div class="label">After</div>
+<span class="latex">For instance, many studies find generative AI useful for early-stage ideation and brainstorming, helping users overcome blocks and explore possibilities. Studies with writers have found that AI suggestions can spark new directions and serve as a creative catalyst \citep{Calderwood2020-gg, Clark2018-yf, Mirowski2023-oz}, while AI has also been described as a ``second mind'' during prewriting \citep{Wan2023-he}, though it may reduce the overall diversity of creative output \citep{Doshi2023-dv}.</span>
+</div>
+</div>
+
+<!-- CLUSTER 16 -->
+<div class="cluster">
+<h3>Cluster 14 — Line 235 <span class="status status-split">SPLIT</span></h3>
+<p class="file-ref">Topic: AI scaffolding in creative processes</p>
+
+<div class="before">
+<div class="label">Before</div>
+<span class="latex">Providing a scaffolding throughout a creative process, particularly for novices has been increasingly explored in the literature, with promising outcomes \citep{Yuan2022-kb, Fan2019-qq, Ding2024-ta, Long2019-lw, Louie2020-aq, Ippolito2022-mf, Wadinambiarachchi2024-jn}.</span>
+</div>
+
+<div class="after">
+<div class="label">After</div>
+<span class="latex">Providing scaffolding throughout a creative process, particularly for novices, has been increasingly explored in the literature, with promising outcomes. Writing tools have demonstrated how structured AI assistance can guide users through creative tasks \citep{Yuan2022-kb, Ippolito2022-mf}, while similar approaches have been applied to collaborative drawing \citep{Fan2019-qq} and novice music co-creation \citep{Louie2020-aq}. Research has also examined how GUI design can scaffold generative AI interactions at varying levels of task complexity \citep{Ding2024-ta}, how co-creative AI can be made accessible in public spaces \citep{Long2019-lw}, and the effects of AI-generated stimuli on divergent thinking during ideation \citep{Wadinambiarachchi2024-jn}.</span>
+</div>
+</div>
+
+<h2>Summary of Changes</h2>
+<table style="width:100%; border-collapse: collapse; margin-top: 20px;">
+<tr style="background: #eee;"><th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Cluster</th><th style="padding: 8px; text-align: left; border: 1px solid #ddd;">File</th><th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Line</th><th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Citations</th><th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Action</th></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd;">1</td><td style="padding: 8px; border: 1px solid #ddd;">2-intro/main.tex</td><td style="padding: 8px; border: 1px solid #ddd;">43</td><td style="padding: 8px; border: 1px solid #ddd;">7</td><td style="padding: 8px; border: 1px solid #ddd;">Split into architecture + frontier models</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd;">2</td><td style="padding: 8px; border: 1px solid #ddd;">2-intro/main.tex</td><td style="padding: 8px; border: 1px solid #ddd;">47</td><td style="padding: 8px; border: 1px solid #ddd;">7</td><td style="padding: 8px; border: 1px solid #ddd;">Split into diffusion foundations + text-to-image + control</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd;">3</td><td style="padding: 8px; border: 1px solid #ddd;">2-intro/main.tex</td><td style="padding: 8px; border: 1px solid #ddd;">76</td><td style="padding: 8px; border: 1px solid #ddd;">8</td><td style="padding: 8px; border: 1px solid #ddd;">Split into definitions + frameworks + evaluation</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd;">4</td><td style="padding: 8px; border: 1px solid #ddd;">2-intro/main.tex</td><td style="padding: 8px; border: 1px solid #ddd;">110</td><td style="padding: 8px; border: 1px solid #ddd;">7</td><td style="padding: 8px; border: 1px solid #ddd;">Split into theory + frameworks + systems</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd;">5</td><td style="padding: 8px; border: 1px solid #ddd;">2-intro/main.tex</td><td style="padding: 8px; border: 1px solid #ddd;">135</td><td style="padding: 8px; border: 1px solid #ddd;">8</td><td style="padding: 8px; border: 1px solid #ddd;">Split into frameworks + empirical design work</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd;">6</td><td style="padding: 8px; border: 1px solid #ddd;">3-literature/main.tex</td><td style="padding: 8px; border: 1px solid #ddd;">29</td><td style="padding: 8px; border: 1px solid #ddd;">7</td><td style="padding: 8px; border: 1px solid #ddd;">Split into foundations + frameworks + evaluation</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd;">7</td><td style="padding: 8px; border: 1px solid #ddd;">3-literature/main.tex</td><td style="padding: 8px; border: 1px solid #ddd;">41</td><td style="padding: 8px; border: 1px solid #ddd;">5+5</td><td style="padding: 8px; border: 1px solid #ddd;">Split both clusters into thematic subgroups</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd;">8</td><td style="padding: 8px; border: 1px solid #ddd;">3-literature/main.tex</td><td style="padding: 8px; border: 1px solid #ddd;">61</td><td style="padding: 8px; border: 1px solid #ddd;">6</td><td style="padding: 8px; border: 1px solid #ddd;">Split into usability + human-AI + cooperative/creative</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd;">9</td><td style="padding: 8px; border: 1px solid #ddd;">3-literature/main.tex</td><td style="padding: 8px; border: 1px solid #ddd;">81</td><td style="padding: 8px; border: 1px solid #ddd;">5</td><td style="padding: 8px; border: 1px solid #ddd;">Split into design/ideation + perceptions + ethics</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd;">10</td><td style="padding: 8px; border: 1px solid #ddd;">3-literature/main.tex</td><td style="padding: 8px; border: 1px solid #ddd;">95</td><td style="padding: 8px; border: 1px solid #ddd;">5</td><td style="padding: 8px; border: 1px solid #ddd;">Split into writers + practitioners + philosophy</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd;">11</td><td style="padding: 8px; border: 1px solid #ddd;">3-literature/main.tex</td><td style="padding: 8px; border: 1px solid #ddd;">109</td><td style="padding: 8px; border: 1px solid #ddd;">6</td><td style="padding: 8px; border: 1px solid #ddd;">Split into dialogue + frameworks + experiential</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd;">12</td><td style="padding: 8px; border: 1px solid #ddd;">3-literature/main.tex</td><td style="padding: 8px; border: 1px solid #ddd;">157</td><td style="padding: 8px; border: 1px solid #ddd;">7</td><td style="padding: 8px; border: 1px solid #ddd;">Split into creative XAI + general XAI + biases</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd;">13</td><td style="padding: 8px; border: 1px solid #ddd;">3-literature/main.tex</td><td style="padding: 8px; border: 1px solid #ddd;">193</td><td style="padding: 8px; border: 1px solid #ddd;">5</td><td style="padding: 8px; border: 1px solid #ddd;">Split into writer studies + prewriting + diversity</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd;">14</td><td style="padding: 8px; border: 1px solid #ddd;">3-literature/main.tex</td><td style="padding: 8px; border: 1px solid #ddd;">235</td><td style="padding: 8px; border: 1px solid #ddd;">7</td><td style="padding: 8px; border: 1px solid #ddd;">Split into writing + visual/music + design/public</td></tr>
+</table>
+
+</body>
+</html>
